@@ -47,7 +47,7 @@ jobs:
         uses: github-actions-x/commit@v2.6
         with:
           github-token: ${{ secrets.G_T }}
-          commit-message: "Add new runs"
+          commit-message: "Refresh README"
           files: README.md
           rebase: 'true'
           name: yihong0618 
