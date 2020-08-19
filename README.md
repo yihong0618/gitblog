@@ -2,11 +2,11 @@
 My personal blog
 
 ## 最近更新
+- [心情不是很好的。](https://github.com/yihong0618/gitblog/issues/176)--2020-08-19
 - [跑步网站做完了，昨天跑了20km, 下一个做什么呢？](https://github.com/yihong0618/gitblog/issues/175)--2020-08-17
 - [自律，悔恨，逝去的日子，成长](https://github.com/yihong0618/gitblog/issues/174)--2020-08-12
 - [番茄工作法，焦虑，咖啡，喘不上气，生活](https://github.com/yihong0618/gitblog/issues/173)--2020-08-10
 - [迷茫，又一次重新学日语](https://github.com/yihong0618/gitblog/issues/172)--2020-08-04
-- [2020年七月总结八月展望](https://github.com/yihong0618/gitblog/issues/171)--2020-08-01
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -61,6 +61,7 @@ My personal blog
 - [王兴的饭否](https://github.com/yihong0618/gitblog/issues/3)--2019-07-20
 - [今天看到的一些话](https://github.com/yihong0618/gitblog/issues/2)--2019-07-19
 ## 工作
+- [心情不是很好的。](https://github.com/yihong0618/gitblog/issues/176)--2020-08-19
 - [最近在家，状态很不好。](https://github.com/yihong0618/gitblog/issues/165)--2020-06-09
 - [认真工作](https://github.com/yihong0618/gitblog/issues/161)--2020-05-29
 - [想要工资有些提升](https://github.com/yihong0618/gitblog/issues/155)--2020-05-12
