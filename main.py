@@ -8,6 +8,12 @@ My personal blog
 
 """
 
+ME_GITHUB_NAME = "yihong0618"
+
+
+def isMe(issue):
+    return  issue.user.login == ME_GITHUB_NAME 
+
 def format_time(time):
     return str(time)[:10]
 
@@ -59,7 +65,8 @@ def add_md_recent(repo, md):
     with open(md, "a+", encoding="utf-8") as md:
         md.write("## 最近更新\n")
         for issue in new_five_issues:
-            add_issue_info(issue, md)
+            if isMe(issue):
+                add_issue_info(issue, md)
 
 
 def add_md_header(md):
@@ -79,7 +86,8 @@ def add_md_label(repo, md):
             for issue in issues:
                 if not issue:
                     continue
-                add_issue_info(issue, md)
+                if isMe(issue):
+                    add_issue_info(issue, md)
 
 
 def main(token):
