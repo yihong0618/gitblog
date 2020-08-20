@@ -9,6 +9,7 @@ My personal blog
 """
 
 ME_GITHUB_NAME = "yihong0618"
+TOP_ISSUES_LIST = [177, 102, 111]
 
 
 def isMe(issue):
@@ -20,6 +21,8 @@ def format_time(time):
 def login(token):
     return Github(token)
 
+def login(user, password):
+    return Github(user, password)
 
 def get_repo(user: Github, repo: str):
     return user.get_repo(repo)
@@ -27,6 +30,11 @@ def get_repo(user: Github, repo: str):
 
 def get_repo_issues(repo):
     return repo.get_issues()
+
+
+# get the issues top from hard codd issues list
+def get_top_issues(repo):
+    return [repo.get_issue(number=i) for i in TOP_ISSUES_LIST]
 
 
 def get_repo_labels(repo):
@@ -51,13 +59,23 @@ def get_issue_info(issue: Issue):
     last_comments_time = get_comments_last_time(issue)
     if last_comments_time:
         last_issue_time = max(last_issue_time, last_comments_time)
-    # issue_updated_at = max([issue_last].extend(get_comments_last_time(issue)))
     print(issue_title, issue_url, last_issue_time, issue.get_labels()[0])
 
 
 def add_issue_info(issue, md):
     time = format_time(issue.created_at)
     md.write(f"- [{issue.title}]({issue.html_url})--{time}\n")
+
+
+def add_md_top(repo, md):
+    if not TOP_ISSUES_LIST:
+        return
+    top_issues = get_top_issues(repo)
+    with open(md, "a+", encoding="utf-8") as md:
+        md.write("## 置顶文章\n")
+        for issue in top_issues:
+            if isMe(issue):
+                add_issue_info(issue, md)
 
 
 def add_md_recent(repo, md):
@@ -94,6 +112,7 @@ def main(token):
     user = login(token)
     repo = get_repo(user, "yihong0618/gitblog")
     add_md_header("README.md")
+    add_md_top(repo, "README.md")
     add_md_recent(repo, "README.md")
     add_md_label(repo, "README.md")
 
