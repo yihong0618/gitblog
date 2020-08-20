@@ -4,7 +4,7 @@ from github.Issue import Issue
 import argparse
 
 MD_HEAD = """## Gitblog
-My personal blog
+My personal blog using issues and GitHub Action
 
 """
 
@@ -32,7 +32,7 @@ def get_repo_issues(repo):
     return repo.get_issues()
 
 
-# get the issues top from hard codd issues list
+# get the issues top from hard code issues list
 def get_top_issues(repo):
     return [repo.get_issue(number=i) for i in TOP_ISSUES_LIST]
 
