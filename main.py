@@ -15,14 +15,14 @@ TOP_ISSUES_LIST = [177, 102, 111]
 def isMe(issue):
     return  issue.user.login == ME_GITHUB_NAME 
 
+
 def format_time(time):
     return str(time)[:10]
+
 
 def login(token):
     return Github(token)
 
-def login(user, password):
-    return Github(user, password)
 
 def get_repo(user: Github, repo: str):
     return user.get_repo(repo)
