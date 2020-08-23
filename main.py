@@ -9,7 +9,7 @@ My personal blog using issues and GitHub Action
 """
 
 ME_GITHUB_NAME = "yihong0618"
-TOP_ISSUES_LIST = [177, 102, 111]
+TOP_ISSUES_LIST = [178, 177, 102, 111]
 
 
 def isMe(issue):
