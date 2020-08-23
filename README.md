@@ -2,6 +2,7 @@
 My personal blog using issues and GitHub Action
 
 ## 置顶文章
+- [一些跑步心得，以及如何做一个个人跑步页面](https://github.com/yihong0618/gitblog/issues/178)--2020-08-23
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
