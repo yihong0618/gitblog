@@ -41,7 +41,7 @@ jobs:
       - name: Generate new md
         run: |
           source venv/bin/activate
-          python main.py ${{ secrets.G_T }}
+          python main.py ${{ secrets.G_T }} ${{ github.repository }}
         
       - name: Push README
         uses: github-actions-x/commit@v2.6
