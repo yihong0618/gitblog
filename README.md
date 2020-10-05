@@ -6,11 +6,11 @@ My personal blog using issues and GitHub Action
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [2020年9月总结10月计划](https://github.com/yihong0618/gitblog/issues/190)--2020-10-05
 - [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
 - [感冒了，真是难受](https://github.com/yihong0618/gitblog/issues/188)--2020-09-21
 - [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
 - [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
-- [普通人和天才之间的巨大鸿沟](https://github.com/yihong0618/gitblog/issues/185)--2020-09-08
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -25,13 +25,14 @@ My personal blog using issues and GitHub Action
 </details>
 
 ## 2020
+- [2020年9月总结10月计划](https://github.com/yihong0618/gitblog/issues/190)--2020-10-05
 - [2020年八月总结九月月展望](https://github.com/yihong0618/gitblog/issues/182)--2020-08-31
 - [跑步网站做完了，昨天跑了20km, 下一个做什么呢？](https://github.com/yihong0618/gitblog/issues/175)--2020-08-17
 - [番茄工作法，焦虑，咖啡，喘不上气，生活](https://github.com/yihong0618/gitblog/issues/173)--2020-08-10
 - [2020年七月总结八月展望](https://github.com/yihong0618/gitblog/issues/171)--2020-08-01
-- [新的计划，新的开始，戒掉社交网络](https://github.com/yihong0618/gitblog/issues/160)--2020-05-29
 <details><summary>显示更多</summary>
 
+- [新的计划，新的开始，戒掉社交网络](https://github.com/yihong0618/gitblog/issues/160)--2020-05-29
 - [新的计划，新的开始，学日语](https://github.com/yihong0618/gitblog/issues/159)--2020-05-29
 - [新的计划，新的开始，再一次减肥。](https://github.com/yihong0618/gitblog/issues/154)--2020-05-09
 - [2020四月总结五月计划](https://github.com/yihong0618/gitblog/issues/152)--2020-05-03
