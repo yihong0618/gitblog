@@ -1,5 +1,5 @@
 ## Gitblog
-My personal blog using issues and GitHub Action
+My personal blog using issues and GitHub Actions
 ## 置顶文章
 - [程序员跑步指南](https://github.com/yihong0618/gitblog/issues/178)--2020-08-23
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
