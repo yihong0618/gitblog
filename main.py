@@ -4,7 +4,7 @@ from github.Issue import Issue
 import argparse
 
 MD_HEAD = """## Gitblog
-My personal blog using issues and GitHub Action
+My personal blog using issues and GitHub Actions
 """
 
 ANCHOR_NUMBER = 5
