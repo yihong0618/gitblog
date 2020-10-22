@@ -1,6 +1,7 @@
 ## Gitblog
 My personal blog using issues and GitHub Actions
 ## 置顶文章
+- [如何获取keep跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
 - [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
 - [程序员跑步指南](https://github.com/yihong0618/gitblog/issues/178)--2020-08-23
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
@@ -136,13 +137,14 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 技术文章
+- [如何获取keep跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
 - [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
 - [程序员跑步指南](https://github.com/yihong0618/gitblog/issues/178)--2020-08-23
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [机器学习存档](https://github.com/yihong0618/gitblog/issues/158)--2020-05-21
-- [异步存档](https://github.com/yihong0618/gitblog/issues/104)--2020-01-22
 <details><summary>显示更多</summary>
 
+- [异步存档](https://github.com/yihong0618/gitblog/issues/104)--2020-01-22
 - [这几天的一些心得](https://github.com/yihong0618/gitblog/issues/90)--2019-12-15
 - [算法存档](https://github.com/yihong0618/gitblog/issues/88)--2019-12-11
 - [Git 存档](https://github.com/yihong0618/gitblog/issues/86)--2019-12-04
