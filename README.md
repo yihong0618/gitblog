@@ -1,16 +1,17 @@
 ## Gitblog
 My personal blog using issues and GitHub Actions
 ## 置顶文章
+- [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
 - [程序员跑步指南](https://github.com/yihong0618/gitblog/issues/178)--2020-08-23
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [如何获取keep跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
 - [2020年9月总结10月计划](https://github.com/yihong0618/gitblog/issues/190)--2020-10-05
 - [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
 - [感冒了，真是难受](https://github.com/yihong0618/gitblog/issues/188)--2020-09-21
 - [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
-- [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -63,6 +64,7 @@ My personal blog using issues and GitHub Actions
 ## kb
 - [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
 - [Python存档](https://github.com/yihong0618/gitblog/issues/43)--2019-09-30
+- [Linux存档](https://github.com/yihong0618/gitblog/issues/8)--2019-07-26
 ## 一些计划
 - [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
 - [月跑 250 km计划](https://github.com/yihong0618/gitblog/issues/184)--2020-09-01
