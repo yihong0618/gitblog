@@ -12,7 +12,6 @@ My personal blog using issues and GitHub Actions
 - [2020年9月总结10月计划](https://github.com/yihong0618/gitblog/issues/190)--2020-10-05
 - [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
 - [感冒了，真是难受](https://github.com/yihong0618/gitblog/issues/188)--2020-09-21
-- [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
