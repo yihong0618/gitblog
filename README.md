@@ -8,11 +8,11 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [2020年10月总结11月计划 ](https://github.com/yihong0618/gitblog/issues/194)--2020-11-04
 - [写在 0x20 岁之前](https://github.com/yihong0618/gitblog/issues/193)--2020-10-26
 - [如何获取keep跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
 - [2020年9月总结10月计划](https://github.com/yihong0618/gitblog/issues/190)--2020-10-05
 - [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
-- [感冒了，真是难受](https://github.com/yihong0618/gitblog/issues/188)--2020-09-21
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
