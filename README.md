@@ -27,13 +27,14 @@ My personal blog using issues and GitHub Actions
 </details>
 
 ## 2020
+- [2020年10月总结11月计划 ](https://github.com/yihong0618/gitblog/issues/194)--2020-11-04
 - [写在 0x20 岁之前](https://github.com/yihong0618/gitblog/issues/193)--2020-10-26
 - [2020年9月总结10月计划](https://github.com/yihong0618/gitblog/issues/190)--2020-10-05
 - [2020年八月总结九月月展望](https://github.com/yihong0618/gitblog/issues/182)--2020-08-31
 - [跑步网站做完了，昨天跑了20km, 下一个做什么呢？](https://github.com/yihong0618/gitblog/issues/175)--2020-08-17
-- [番茄工作法，焦虑，咖啡，喘不上气，生活](https://github.com/yihong0618/gitblog/issues/173)--2020-08-10
 <details><summary>显示更多</summary>
 
+- [番茄工作法，焦虑，咖啡，喘不上气，生活](https://github.com/yihong0618/gitblog/issues/173)--2020-08-10
 - [2020年七月总结八月展望](https://github.com/yihong0618/gitblog/issues/171)--2020-08-01
 - [新的计划，新的开始，戒掉社交网络](https://github.com/yihong0618/gitblog/issues/160)--2020-05-29
 - [新的计划，新的开始，学日语](https://github.com/yihong0618/gitblog/issues/159)--2020-05-29
