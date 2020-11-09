@@ -9,6 +9,10 @@ on:
     paths:
       - main.py
 
+env:
+  GITHUB_NAME: yihong0618
+  GITHUB_EMAIL: zouzou0208@gmail.com
+
 jobs:
   sync:
     name: Generate README
@@ -50,5 +54,5 @@ jobs:
           commit-message: "Refresh README"
           files: README.md
           rebase: 'true'
-          name: yihong0618 
-          email: zouzou0208@gmail.com
+          name: ${{ env.GITHUB_NAME }}
+          email: ${{ env.GITHUB_EMAIL }}
