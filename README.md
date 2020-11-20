@@ -1,6 +1,7 @@
 ## Gitblog
 My personal blog using issues and GitHub Actions
 ## 置顶文章
+- [推荐一些我一直关注的觉得不错的，和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
 - [如何获取keep跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
 - [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
 - [程序员跑步指南](https://github.com/yihong0618/gitblog/issues/178)--2020-08-23
@@ -8,11 +9,11 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [推荐一些我一直关注的觉得不错的，和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
 - [2020年10月总结11月计划 ](https://github.com/yihong0618/gitblog/issues/194)--2020-11-04
 - [写在 0x20 岁之前](https://github.com/yihong0618/gitblog/issues/193)--2020-10-26
 - [如何获取keep跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
 - [2020年9月总结10月计划](https://github.com/yihong0618/gitblog/issues/190)--2020-10-05
-- [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -85,13 +86,14 @@ My personal blog using issues and GitHub Actions
 </details>
 
 ## 一些记录
+- [推荐一些我一直关注的觉得不错的，和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
 - [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
 - [做减法](https://github.com/yihong0618/gitblog/issues/148)--2020-04-16
 - [少说，多做，](https://github.com/yihong0618/gitblog/issues/112)--2020-02-13
 - [刷完了《东京男子图鉴》](https://github.com/yihong0618/gitblog/issues/107)--2020-01-28
-- [蛋疼](https://github.com/yihong0618/gitblog/issues/55)--2019-10-04
 <details><summary>显示更多</summary>
 
+- [蛋疼](https://github.com/yihong0618/gitblog/issues/55)--2019-10-04
 - [编程的一些心得](https://github.com/yihong0618/gitblog/issues/53)--2019-10-04
 - [一些心得](https://github.com/yihong0618/gitblog/issues/37)--2019-09-22
 - [王兴的饭否](https://github.com/yihong0618/gitblog/issues/3)--2019-07-20
