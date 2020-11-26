@@ -70,3 +70,7 @@ Split bash string by newline characters
 ```shell
 IFS=$'\r\n' read -rd '' -a y <<<"$x"
 ```
+
+---
+
+不用这个了，发现了更好的。
