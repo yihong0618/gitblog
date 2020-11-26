@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-import os
-from github import Github
-from github.Issue import Issue
 import argparse
+import os
+
+from github import Github
 
 MD_HEAD = """## Gitblog
 My personal blog using issues and GitHub Actions
@@ -147,8 +147,14 @@ def add_md_label(repo, md, me):
 
 def get_to_generate_issues(repo, dir_name, issue_number=None):
     md_files = os.listdir(dir_name)
-    generated_issues_numbers = [int(i.split("_")[0]) for i in md_files if i.split("_")[0].isdigit()]
-    to_generate_issues = [i for i in list(repo.get_issues()) if int(i.number) not in generated_issues_numbers]
+    generated_issues_numbers = [
+        int(i.split("_")[0]) for i in md_files if i.split("_")[0].isdigit()
+    ]
+    to_generate_issues = [
+        i
+        for i in list(repo.get_issues())
+        if int(i.number) not in generated_issues_numbers
+    ]
     if issue_number:
         to_generate_issues.append(repo.get_issue(int(issue_number)))
     print(to_generate_issues)
@@ -171,7 +177,9 @@ def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
 
 
 def save_issue(issue, me, dir_name=BACKUP_DIR):
-    md_name = os.path.join(dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md")
+    md_name = os.path.join(
+        dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md"
+    )
     with open(md_name, "w") as f:
         f.write(f"# [{issue.title}]({issue.html_url})\n\n")
         f.write(issue.body)
@@ -190,5 +198,4 @@ if __name__ == "__main__":
     parser.add_argument("repo_name", help="repo_name")
     parser.add_argument("issue_number", help="issue_number", default=None)
     options = parser.parse_args()
-    print(options.issue_number)
     main(options.github_token, options.repo_name, options.issue_number)
