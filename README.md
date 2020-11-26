@@ -65,8 +65,6 @@ My personal blog using issues and GitHub Actions
 - [2020就这么来了](https://github.com/yihong0618/gitblog/issues/98)--2020-01-01
 </details>
 
-## kb
-- [Linux存档](https://github.com/yihong0618/gitblog/issues/8)--2019-07-26
 ## 一些计划
 - [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
 - [月跑 250 km计划](https://github.com/yihong0618/gitblog/issues/184)--2020-09-01
