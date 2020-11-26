@@ -3,6 +3,8 @@ name: Generate GitBlog README
 on:
   issues:
     types: [opened, edited]
+  issue_comment:
+    types: [created, edited]
   push:
     branches:
       - master
@@ -45,14 +47,14 @@ jobs:
       - name: Generate new md
         run: |
           source venv/bin/activate
-          python main.py ${{ secrets.G_T }} ${{ github.repository }}
+          python main.py ${{ secrets.G_T }} ${{ github.repository }} ${{ github.event.issue.number }}
         
       - name: Push README
         uses: github-actions-x/commit@v2.6
         with:
           github-token: ${{ secrets.G_T }}
-          commit-message: "Refresh README"
-          files: README.md
+          commit-message: "Refresh README AND BACK UP"
+          files: README.md BACKUP/
           rebase: 'true'
           name: ${{ env.GITHUB_NAME }}
           email: ${{ env.GITHUB_EMAIL }}
