@@ -170,9 +170,10 @@ def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
         func(repo, "README.md", me)
 
     to_generate_issues = get_to_generate_issues(repo, dir_name, issue_number)
+
+    # save md files to backup folder
     for issue in to_generate_issues:
         save_issue(issue, me, dir_name)
-    # issues = repo.get_issues(to_generate_issues_numbers)
 
 
 def save_issue(issue, me, dir_name=BACKUP_DIR):
