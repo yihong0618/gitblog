@@ -257,3 +257,8 @@ netsh interface portproxy add v4tov4 listenport=4000 listenaddress=0.0.0.0 conne
 https://docs.microsoft.com/en-us/windows/wsl/compare-versions
 
 https://www.sitepoint.com/wsl2/
+
+---
+
+fucking wsl2
+https://github.com/microsoft/WSL/issues/5068
