@@ -1,6 +1,7 @@
 ## Gitblog
 My personal blog using issues and GitHub Actions
 ## 置顶文章
+- [如何获取悦跑圈数据](https://github.com/yihong0618/gitblog/issues/197)--2020-12-18
 - [推荐一些我一直关注的觉得不错的，和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
 - [如何获取keep跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
 - [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
@@ -9,11 +10,11 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [如何获取悦跑圈数据](https://github.com/yihong0618/gitblog/issues/197)--2020-12-18
 - [生的对立面](https://github.com/yihong0618/gitblog/issues/196)--2020-12-10
 - [推荐一些我一直关注的觉得不错的，和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
 - [2020年10月总结11月计划 ](https://github.com/yihong0618/gitblog/issues/194)--2020-11-04
 - [写在 0x20 岁之前](https://github.com/yihong0618/gitblog/issues/193)--2020-10-26
-- [如何获取keep跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -133,6 +134,7 @@ My personal blog using issues and GitHub Actions
 </details>
 
 ## 开发笔记
+- [如何获取悦跑圈数据](https://github.com/yihong0618/gitblog/issues/197)--2020-12-18
 - [vscode-gcores开发笔记3](https://github.com/yihong0618/gitblog/issues/115)--2020-02-18
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
