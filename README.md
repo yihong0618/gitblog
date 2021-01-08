@@ -11,11 +11,11 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [新年碎碎念](https://github.com/yihong0618/gitblog/issues/201)--2021-01-08
 - [2021 开始。](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
 - [记住这一刻](https://github.com/yihong0618/gitblog/issues/199)--2020-12-29
 - [巧妙利用 iOS 的快捷指令（捷径）配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
 - [如何获取悦跑圈数据](https://github.com/yihong0618/gitblog/issues/197)--2020-12-18
-- [生的对立面](https://github.com/yihong0618/gitblog/issues/196)--2020-12-10
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -171,13 +171,14 @@ My personal blog using issues and GitHub Actions
 </details>
 
 ## 日记
+- [新年碎碎念](https://github.com/yihong0618/gitblog/issues/201)--2021-01-08
 - [生的对立面](https://github.com/yihong0618/gitblog/issues/196)--2020-12-10
 - [感冒了，真是难受](https://github.com/yihong0618/gitblog/issues/188)--2020-09-21
 - [要怎样才能过好一生？](https://github.com/yihong0618/gitblog/issues/166)--2020-06-14
 - [还有一个小时31岁了](https://github.com/yihong0618/gitblog/issues/133)--2020-03-14
-- [又是新的一天，一动没动写了4个小时代码](https://github.com/yihong0618/gitblog/issues/103)--2020-01-19
 <details><summary>显示更多</summary>
 
+- [又是新的一天，一动没动写了4个小时代码](https://github.com/yihong0618/gitblog/issues/103)--2020-01-19
 - [累了，想休息一天](https://github.com/yihong0618/gitblog/issues/96)--2019-12-28
 - [圣诞节](https://github.com/yihong0618/gitblog/issues/95)--2019-12-25
 - [12月差不多结束了。](https://github.com/yihong0618/gitblog/issues/94)--2019-12-22
