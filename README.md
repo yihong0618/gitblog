@@ -11,11 +11,11 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
 - [新年碎碎念](https://github.com/yihong0618/gitblog/issues/201)--2021-01-08
 - [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
 - [记住这一刻](https://github.com/yihong0618/gitblog/issues/199)--2020-12-29
 - [巧妙利用 iOS 的快捷指令（捷径）配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
-- [如何获取悦跑圈数据](https://github.com/yihong0618/gitblog/issues/197)--2020-12-18
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -68,6 +68,7 @@ My personal blog using issues and GitHub Actions
 </details>
 
 ## 2021
+- [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
 - [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
 ## 一些计划
 - [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
