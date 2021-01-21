@@ -30,9 +30,9 @@ My personal blog using issues and GitHub Actions
 </details>
 
 ## 2020
-- [2020年10月总结11月计划 ](https://github.com/yihong0618/gitblog/issues/194)--2020-11-04
+- [2020 年 10 月总结 11 月计划 ](https://github.com/yihong0618/gitblog/issues/194)--2020-11-04
 - [写在 0x20 岁之前](https://github.com/yihong0618/gitblog/issues/193)--2020-10-26
-- [2020年9月总结10月计划](https://github.com/yihong0618/gitblog/issues/190)--2020-10-05
+- [2020 年 9 月总结 10 月计划](https://github.com/yihong0618/gitblog/issues/190)--2020-10-05
 - [2020年八月总结九月月展望](https://github.com/yihong0618/gitblog/issues/182)--2020-08-31
 - [跑步网站做完了，昨天跑了20km, 下一个做什么呢？](https://github.com/yihong0618/gitblog/issues/175)--2020-08-17
 <details><summary>显示更多</summary>
