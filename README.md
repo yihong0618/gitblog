@@ -1,7 +1,7 @@
 ## Gitblog
 My personal blog using issues and GitHub Actions
 ## 置顶文章
-- [巧妙利用 iOS 的快捷指令（捷径）配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
+- [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
 - [如何获取悦跑圈数据](https://github.com/yihong0618/gitblog/issues/197)--2020-12-18
 - [推荐一些我一直关注的觉得不错的，和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
 - [如何获取keep跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
@@ -15,7 +15,7 @@ My personal blog using issues and GitHub Actions
 - [新年碎碎念](https://github.com/yihong0618/gitblog/issues/201)--2021-01-08
 - [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
 - [记住这一刻](https://github.com/yihong0618/gitblog/issues/199)--2020-12-29
-- [巧妙利用 iOS 的快捷指令（捷径）配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
+- [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -138,7 +138,7 @@ My personal blog using issues and GitHub Actions
 </details>
 
 ## 开发笔记
-- [巧妙利用 iOS 的快捷指令（捷径）配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
+- [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
 - [如何获取悦跑圈数据](https://github.com/yihong0618/gitblog/issues/197)--2020-12-18
 - [vscode-gcores开发笔记3](https://github.com/yihong0618/gitblog/issues/115)--2020-02-18
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
