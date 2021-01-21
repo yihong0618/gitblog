@@ -61,7 +61,7 @@ My personal blog using issues and GitHub Actions
 - [不刷，冷静下来。](https://github.com/yihong0618/gitblog/issues/114)--2020-02-17
 - [看到一张图，说点什么。](https://github.com/yihong0618/gitblog/issues/110)--2020-02-08
 - [焦虑](https://github.com/yihong0618/gitblog/issues/109)--2020-02-03
-- [2020年1月总结，二月展望就一个，这个操蛋的肺炎快点过去](https://github.com/yihong0618/gitblog/issues/108)--2020-02-01
+- [2020 年 1 月总结 2 月展望就一个，这个操蛋的肺炎快点过去](https://github.com/yihong0618/gitblog/issues/108)--2020-02-01
 - [过年好](https://github.com/yihong0618/gitblog/issues/105)--2020-01-24
 - [第100篇，又到了0点](https://github.com/yihong0618/gitblog/issues/100)--2020-01-12
 - [2020就这么来了](https://github.com/yihong0618/gitblog/issues/98)--2020-01-01
