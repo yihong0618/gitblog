@@ -3,7 +3,7 @@ My personal blog using issues and GitHub Actions
 ## 置顶文章
 - [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
 - [如何获取悦跑圈数据](https://github.com/yihong0618/gitblog/issues/197)--2020-12-18
-- [推荐一些我一直关注的觉得不错的，和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
+- [推荐一些我一直关注的觉得不错的和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
 - [如何获取keep跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
 - [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
 - [程序员跑步指南](https://github.com/yihong0618/gitblog/issues/178)--2020-08-23
@@ -87,7 +87,7 @@ My personal blog using issues and GitHub Actions
 </details>
 
 ## 一些记录
-- [推荐一些我一直关注的觉得不错的，和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
+- [推荐一些我一直关注的觉得不错的和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
 - [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
 - [做减法](https://github.com/yihong0618/gitblog/issues/148)--2020-04-16
 - [少说，多做，](https://github.com/yihong0618/gitblog/issues/112)--2020-02-13
