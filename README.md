@@ -11,11 +11,11 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [生存守则](https://github.com/yihong0618/gitblog/issues/204)--2021-01-27
 - [沮丧](https://github.com/yihong0618/gitblog/issues/203)--2021-01-25
 - [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
 - [新年碎碎念](https://github.com/yihong0618/gitblog/issues/201)--2021-01-08
 - [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
-- [记住这一刻](https://github.com/yihong0618/gitblog/issues/199)--2020-12-29
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -68,6 +68,7 @@ My personal blog using issues and GitHub Actions
 </details>
 
 ## 2021
+- [生存守则](https://github.com/yihong0618/gitblog/issues/204)--2021-01-27
 - [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
 - [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
 ## 一些计划
@@ -102,13 +103,14 @@ My personal blog using issues and GitHub Actions
 </details>
 
 ## 工作
+- [沮丧](https://github.com/yihong0618/gitblog/issues/203)--2021-01-25
 - [心情不是很好的。](https://github.com/yihong0618/gitblog/issues/176)--2020-08-19
 - [最近在家，状态很不好。](https://github.com/yihong0618/gitblog/issues/165)--2020-06-09
 - [认真工作](https://github.com/yihong0618/gitblog/issues/161)--2020-05-29
 - [想要工资有些提升](https://github.com/yihong0618/gitblog/issues/155)--2020-05-12
-- [终于上班了，开心](https://github.com/yihong0618/gitblog/issues/153)--2020-05-06
 <details><summary>显示更多</summary>
 
+- [终于上班了，开心](https://github.com/yihong0618/gitblog/issues/153)--2020-05-06
 - [第一次团建](https://github.com/yihong0618/gitblog/issues/150)--2020-04-25
 - [复工第一天](https://github.com/yihong0618/gitblog/issues/128)--2020-03-04
 - [凡事有交代 件件有着落 事事有回音](https://github.com/yihong0618/gitblog/issues/118)--2020-02-20
