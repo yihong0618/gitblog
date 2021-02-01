@@ -45,7 +45,7 @@ class Solution:
 
 ### 探索
 
-那么我们就可以好奇下，LeetCode 都导入了哪些默认的包呢，而且是 import * ?
+那么我们就可以好奇下，LeetCode 都导入了哪些默认的包呢。有哪些是 import * 呢 ?
 
 直接 print globals() 发现是 copyright, 至于为啥是这个 copyright, 好奇的同学可以查一下，挺有趣的。
 ![image](https://user-images.githubusercontent.com/15976103/106419165-d23abe00-6492-11eb-8f4d-4355f250fc65.png)
