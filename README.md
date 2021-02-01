@@ -1,7 +1,7 @@
 ## Gitblog
 My personal blog using issues and GitHub Actions
 ## 置顶文章
-- [LeetCode 的 Python 程序是如何运行的。](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
+- [LeetCode 的 Python 程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
 - [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
 - [如何获取悦跑圈数据](https://github.com/yihong0618/gitblog/issues/197)--2020-12-18
 - [推荐一些我一直关注的觉得不错的和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
@@ -12,7 +12,7 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
-- [LeetCode 的 Python 程序是如何运行的。](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
+- [LeetCode 的 Python 程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
 - [生存守则](https://github.com/yihong0618/gitblog/issues/204)--2021-01-27
 - [沮丧](https://github.com/yihong0618/gitblog/issues/203)--2021-01-25
 - [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
@@ -147,7 +147,7 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 技术文章
-- [LeetCode 的 Python 程序是如何运行的。](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
+- [LeetCode 的 Python 程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
 - [如何获取keep跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
 - [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
 - [程序员跑步指南](https://github.com/yihong0618/gitblog/issues/178)--2020-08-23
