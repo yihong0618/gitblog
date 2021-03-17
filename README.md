@@ -253,8 +253,8 @@ My personal blog using issues and GitHub Actions
 - [《快乐的Linux命令行》读书笔记](https://github.com/yihong0618/gitblog/issues/23)--2019-08-12
 - [MySQL是怎样跑起来的读书笔记](https://github.com/yihong0618/gitblog/issues/13)--2019-08-01
 ## TODO
-TODO list from [学习生活上的计划](https://github.com/yihong0618/gitblog/issues/181)--3 jobs to do--0 jobs done
-- [ ] 背标日初级下的单词
+TODO list from [学习生活上的计划](https://github.com/yihong0618/gitblog/issues/181)--2 jobs to do--1 jobs done
+- [x] 背标日初级下的单词
 - [ ] 月跑量突破250 km
 - [ ] 瘦到130斤
 
