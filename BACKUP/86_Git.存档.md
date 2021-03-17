@@ -33,3 +33,31 @@ https://www.jianshu.com/p/085552205f19
 ---
 
 add .gitkeep to empty folder
+
+---
+
+```
+query GetUsers {
+  search(query: "location:China", first: 100, type: USER) {
+    userCount
+    pageInfo {
+      endCursor
+      hasNextPage
+    }
+    edges {
+      node {
+        ... on User {
+          email
+          login
+          location
+          url
+          followers {
+            totalCount
+          }
+        }
+      }
+    }
+  }
+}
+
+```
