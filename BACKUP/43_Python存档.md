@@ -61,3 +61,7 @@ python3 setup.py sdist	# 会将项目打包到当前目录下面并生成相应�
 
 上传
 twine upload dist/*		# 其实就是上传的dist目录下的zip包
+
+---
+
+python -c "import site; print(site.getsitepackages())"
