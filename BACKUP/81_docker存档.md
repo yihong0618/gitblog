@@ -38,3 +38,21 @@ docker container update --restart=always $(docker inspect -f "{{print .Config.Ho
 
 https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-an-existing-docker-container 
 给已存在的container 增加一个端口映射
+
+---
+
+傻逼 docker ！！！！
+
+如何解决这个傻逼错误 https://github.com/docker/for-win/issues/4884
+
+试验了一个小时：
+
+如果用 wsl 的话，这里面大多数解决方案都是错的。
+正确的：
+
+1. 找到 window host 文件
+2.  host registry-1.docker.io | awk '{print $4 "\t" $1}' 
+3. 步骤 2 output 放在 host 里
+4. 重启
+5. 如果不行 8.8.8.8 也加上
+6. 再不行，卸载 docker 再重装
