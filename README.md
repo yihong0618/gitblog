@@ -1,6 +1,7 @@
 ## Gitblog
 My personal blog using issues and GitHub Actions
 ## 置顶文章
+- [准备今年年底或明年初换工作](https://github.com/yihong0618/gitblog/issues/210)--2021-06-17
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
 - [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
 - [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
@@ -13,11 +14,11 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [准备今年年底或明年初换工作](https://github.com/yihong0618/gitblog/issues/210)--2021-06-17
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
 - [逃离](https://github.com/yihong0618/gitblog/issues/208)--2021-05-12
 - [近况](https://github.com/yihong0618/gitblog/issues/207)--2021-03-25
 - [年过完了](https://github.com/yihong0618/gitblog/issues/206)--2021-02-22
-- [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -105,13 +106,14 @@ My personal blog using issues and GitHub Actions
 </details>
 
 ## 工作
+- [准备今年年底或明年初换工作](https://github.com/yihong0618/gitblog/issues/210)--2021-06-17
 - [沮丧](https://github.com/yihong0618/gitblog/issues/203)--2021-01-25
 - [心情不是很好的。](https://github.com/yihong0618/gitblog/issues/176)--2020-08-19
 - [最近在家，状态很不好。](https://github.com/yihong0618/gitblog/issues/165)--2020-06-09
 - [认真工作](https://github.com/yihong0618/gitblog/issues/161)--2020-05-29
-- [想要工资有些提升](https://github.com/yihong0618/gitblog/issues/155)--2020-05-12
 <details><summary>显示更多</summary>
 
+- [想要工资有些提升](https://github.com/yihong0618/gitblog/issues/155)--2020-05-12
 - [终于上班了，开心](https://github.com/yihong0618/gitblog/issues/153)--2020-05-06
 - [第一次团建](https://github.com/yihong0618/gitblog/issues/150)--2020-04-25
 - [复工第一天](https://github.com/yihong0618/gitblog/issues/128)--2020-03-04
