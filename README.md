@@ -13,11 +13,11 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores 开发笔记 2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [程序员结扎指南](https://github.com/yihong0618/gitblog/issues/213)--2021-06-28
 - [从 Rich 作者的一个问题说起](https://github.com/yihong0618/gitblog/issues/212)--2021-06-21
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
 - [逃离](https://github.com/yihong0618/gitblog/issues/208)--2021-05-12
 - [近况](https://github.com/yihong0618/gitblog/issues/207)--2021-03-25
-- [年过完了](https://github.com/yihong0618/gitblog/issues/206)--2021-02-22
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -148,13 +148,14 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores 开发笔记 2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 技术文章
+- [程序员结扎指南](https://github.com/yihong0618/gitblog/issues/213)--2021-06-28
 - [从 Rich 作者的一个问题说起](https://github.com/yihong0618/gitblog/issues/212)--2021-06-21
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
 - [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
 - [如何获取 keep 跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
-- [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
 <details><summary>显示更多</summary>
 
+- [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
 - [程序员跑步指南](https://github.com/yihong0618/gitblog/issues/178)--2020-08-23
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [机器学习存档](https://github.com/yihong0618/gitblog/issues/158)--2020-05-21
