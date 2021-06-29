@@ -259,12 +259,13 @@ My personal blog using issues and GitHub Actions
 - [《快乐的Linux命令行》读书笔记](https://github.com/yihong0618/gitblog/issues/23)--2019-08-12
 - [MySQL是怎样跑起来的读书笔记](https://github.com/yihong0618/gitblog/issues/13)--2019-08-01
 ## TODO
-TODO list from [学习生活上的计划](https://github.com/yihong0618/gitblog/issues/181)--2 jobs to do--1 jobs done
+TODO list from [学习生活上的计划](https://github.com/yihong0618/gitblog/issues/181)--3 jobs to do--1 jobs done
 - [x] 背标日初级下的单词
 - [ ] 月跑量突破250 km
 - [ ] 瘦到130斤
+- [ ] 年底考个日语 3 级
 
-TODO list from [程序上新的计划](https://github.com/yihong0618/gitblog/issues/180)--1 jobs to do--8 jobs done
+TODO list from [程序上新的计划](https://github.com/yihong0618/gitblog/issues/180)--2 jobs to do--8 jobs done
 - [x] 完善 gitblog 的 action 让用户更少更改
 - [x] 给 gitblog 这个增加todo list 功能(这个就是测试）
 - [x] 给 running page 增加排序
@@ -274,4 +275,5 @@ TODO list from [程序上新的计划](https://github.com/yihong0618/gitblog/iss
 - [x] 把 running page 变得更通用(自动生成的js可以用gpx生成)
 - [x] 搞定 gcores 日历
 - [ ] 继续给大连咖啡做贡献
+- [ ] 学点底层
 
