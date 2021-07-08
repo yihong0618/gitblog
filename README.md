@@ -13,11 +13,11 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores 开发笔记 2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [张小龙的饭否](https://github.com/yihong0618/gitblog/issues/215)--2021-07-08
 - [一件小事](https://github.com/yihong0618/gitblog/issues/214)--2021-07-05
 - [从 Rich 作者的一个问题说起](https://github.com/yihong0618/gitblog/issues/212)--2021-06-21
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
 - [逃离](https://github.com/yihong0618/gitblog/issues/208)--2021-05-12
-- [近况](https://github.com/yihong0618/gitblog/issues/207)--2021-03-25
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -90,13 +90,14 @@ My personal blog using issues and GitHub Actions
 </details>
 
 ## 一些记录
+- [张小龙的饭否](https://github.com/yihong0618/gitblog/issues/215)--2021-07-08
 - [推荐一些我一直关注的觉得不错的和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
 - [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
 - [做减法](https://github.com/yihong0618/gitblog/issues/148)--2020-04-16
 - [少说，多做，](https://github.com/yihong0618/gitblog/issues/112)--2020-02-13
-- [刷完了《东京男子图鉴》](https://github.com/yihong0618/gitblog/issues/107)--2020-01-28
 <details><summary>显示更多</summary>
 
+- [刷完了《东京男子图鉴》](https://github.com/yihong0618/gitblog/issues/107)--2020-01-28
 - [蛋疼](https://github.com/yihong0618/gitblog/issues/55)--2019-10-04
 - [编程的一些心得](https://github.com/yihong0618/gitblog/issues/53)--2019-10-04
 - [一些心得](https://github.com/yihong0618/gitblog/issues/37)--2019-09-22
