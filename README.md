@@ -1,5 +1,13 @@
 ## Gitblog
 My personal blog using issues and GitHub Actions
+## 友情链接
+| Name | Link | Desc | 
+ | ---- | ---- | ---- |
+| 兔子鮮笙 | https://tuzi.moe | 19 岁的天才少年 |
+| FriendsA | http://blog.duanfei.org/ | 跑步的朋友 |
+| daya0576 | https://changchen.me/ | 喜欢 python 的大牙 |
+| kenlai | https://kenlai.me/ | 网络前辈 |
+| Frost Ming | https://frostming.com/ | 醉后不知天在水，满船清梦压星河 |
 ## 置顶文章
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
 - [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
@@ -73,8 +81,6 @@ My personal blog using issues and GitHub Actions
 - [2020就这么来了](https://github.com/yihong0618/gitblog/issues/98)--2020-01-01
 </details>
 
-## Friends
-- [友情链接](https://github.com/yihong0618/gitblog/issues/217)--2021-08-16
 ## 一些计划
 - [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
 - [月跑 250 km计划](https://github.com/yihong0618/gitblog/issues/184)--2020-09-01
