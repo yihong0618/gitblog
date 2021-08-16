@@ -9,6 +9,7 @@ My personal blog using issues and GitHub Actions
 | kenlai | https://kenlai.me/ | 网络前辈 |
 | Frost Ming | https://frostming.com/ | 醉后不知天在水，满船清梦压星河 |
 | ChrAlpha | https://ichr.me/ | 你唯有拼尽全力，才能显得毫不费力 |
+| 古思为 | https://siwei.io/ | I build things with magic and scale the magic to help people. |
 ## 置顶文章
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
 - [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
