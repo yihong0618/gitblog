@@ -13,11 +13,100 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores 开发笔记 2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [友情链接](https://github.com/yihong0618/gitblog/issues/217)--2021-08-16
 - [朋友圈](https://github.com/yihong0618/gitblog/issues/216)--2021-08-03
 - [张小龙的饭否](https://github.com/yihong0618/gitblog/issues/215)--2021-07-08
 - [一件小事](https://github.com/yihong0618/gitblog/issues/214)--2021-07-05
 - [从 Rich 作者的一个问题说起](https://github.com/yihong0618/gitblog/issues/212)--2021-06-21
-- [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
+## 2021
+- [生存守则](https://github.com/yihong0618/gitblog/issues/204)--2021-01-27
+- [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
+- [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
+## 2019
+- [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
+- [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
+- [最近的工作，生活，学习，以及其它](https://github.com/yihong0618/gitblog/issues/82)--2019-11-22
+- [2019年10月总结11月计划](https://github.com/yihong0618/gitblog/issues/72)--2019-11-01
+- [2019年剩下的不多了](https://github.com/yihong0618/gitblog/issues/49)--2019-10-04
+<details><summary>显示更多</summary>
+
+- [2019九月总结及十月计划](https://github.com/yihong0618/gitblog/issues/44)--2019-10-02
+- [九月计划及八月总结](https://github.com/yihong0618/gitblog/issues/29)--2019-09-01
+- [七月总结和八月计划](https://github.com/yihong0618/gitblog/issues/14)--2019-08-01
+</details>
+
+## 2020
+- [2020 年 10 月总结 11 月计划 ](https://github.com/yihong0618/gitblog/issues/194)--2020-11-04
+- [写在 0x20 岁之前](https://github.com/yihong0618/gitblog/issues/193)--2020-10-26
+- [2020 年 9 月总结 10 月计划](https://github.com/yihong0618/gitblog/issues/190)--2020-10-05
+- [2020年八月总结九月月展望](https://github.com/yihong0618/gitblog/issues/182)--2020-08-31
+- [跑步网站做完了，昨天跑了20km, 下一个做什么呢？](https://github.com/yihong0618/gitblog/issues/175)--2020-08-17
+<details><summary>显示更多</summary>
+
+- [番茄工作法，焦虑，咖啡，喘不上气，生活](https://github.com/yihong0618/gitblog/issues/173)--2020-08-10
+- [2020年七月总结八月展望](https://github.com/yihong0618/gitblog/issues/171)--2020-08-01
+- [新的计划，新的开始，戒掉社交网络](https://github.com/yihong0618/gitblog/issues/160)--2020-05-29
+- [新的计划，新的开始，学日语](https://github.com/yihong0618/gitblog/issues/159)--2020-05-29
+- [新的计划，新的开始，再一次减肥。](https://github.com/yihong0618/gitblog/issues/154)--2020-05-09
+- [2020四月总结五月计划](https://github.com/yihong0618/gitblog/issues/152)--2020-05-03
+- [四月过去了，五月来了](https://github.com/yihong0618/gitblog/issues/151)--2020-05-01
+- [下周一开始减肥，轮回](https://github.com/yihong0618/gitblog/issues/149)--2020-04-18
+- [一口气看完一本书的感觉好爽](https://github.com/yihong0618/gitblog/issues/146)--2020-04-04
+- [3月总结及4月展望](https://github.com/yihong0618/gitblog/issues/145)--2020-04-01
+- [新的一周，新的一个月](https://github.com/yihong0618/gitblog/issues/144)--2020-03-30
+- [删了微博](https://github.com/yihong0618/gitblog/issues/142)--2020-03-21
+- [日语学习](https://github.com/yihong0618/gitblog/issues/141)--2020-03-20
+- [来了。](https://github.com/yihong0618/gitblog/issues/140)--2020-03-18
+- [迁移测试](https://github.com/yihong0618/gitblog/issues/139)--2020-03-17
+- [美股熔断了](https://github.com/yihong0618/gitblog/issues/135)--2020-03-16
+- [挺没劲的](https://github.com/yihong0618/gitblog/issues/131)--2020-03-10
+- [快31岁了，又胖了](https://github.com/yihong0618/gitblog/issues/130)--2020-03-09
+- [二月总结及三月展望](https://github.com/yihong0618/gitblog/issues/127)--2020-03-02
+- [新的开始](https://github.com/yihong0618/gitblog/issues/123)--2020-02-24
+- [不能再这样下去了](https://github.com/yihong0618/gitblog/issues/121)--2020-02-22
+- [不刷，冷静下来。](https://github.com/yihong0618/gitblog/issues/114)--2020-02-17
+- [看到一张图，说点什么。](https://github.com/yihong0618/gitblog/issues/110)--2020-02-08
+- [焦虑](https://github.com/yihong0618/gitblog/issues/109)--2020-02-03
+- [2020 年 1 月总结 2 月展望就一个，这个操蛋的肺炎快点过去](https://github.com/yihong0618/gitblog/issues/108)--2020-02-01
+- [过年好](https://github.com/yihong0618/gitblog/issues/105)--2020-01-24
+- [第100篇，又到了0点](https://github.com/yihong0618/gitblog/issues/100)--2020-01-12
+- [2020就这么来了](https://github.com/yihong0618/gitblog/issues/98)--2020-01-01
+</details>
+
+## Friends
+- [友情链接](https://github.com/yihong0618/gitblog/issues/217)--2021-08-16
+## 一些计划
+- [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
+- [月跑 250 km计划](https://github.com/yihong0618/gitblog/issues/184)--2020-09-01
+- [自律，悔恨，逝去的日子，成长](https://github.com/yihong0618/gitblog/issues/174)--2020-08-12
+- [近期程序上的安排](https://github.com/yihong0618/gitblog/issues/168)--2020-07-06
+- [把事情做完，做一件事，爬也要爬完](https://github.com/yihong0618/gitblog/issues/167)--2020-06-23
+<details><summary>显示更多</summary>
+
+- [跑步数据找到同步方法了](https://github.com/yihong0618/gitblog/issues/164)--2020-06-06
+- [从今天起](https://github.com/yihong0618/gitblog/issues/126)--2020-03-01
+- [是时候开一个新坑了，跑步数据展示？](https://github.com/yihong0618/gitblog/issues/116)--2020-02-19
+- [10月程序上的计划](https://github.com/yihong0618/gitblog/issues/59)--2019-10-07
+- [点子合集](https://github.com/yihong0618/gitblog/issues/51)--2019-10-04
+- [搞定收藏夹](https://github.com/yihong0618/gitblog/issues/5)--2019-07-22
+</details>
+
+## 一些记录
+- [张小龙的饭否](https://github.com/yihong0618/gitblog/issues/215)--2021-07-08
+- [推荐一些我一直关注的觉得不错的和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
+- [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
+- [做减法](https://github.com/yihong0618/gitblog/issues/148)--2020-04-16
+- [少说，多做，](https://github.com/yihong0618/gitblog/issues/112)--2020-02-13
+<details><summary>显示更多</summary>
+
+- [刷完了《东京男子图鉴》](https://github.com/yihong0618/gitblog/issues/107)--2020-01-28
+- [蛋疼](https://github.com/yihong0618/gitblog/issues/55)--2019-10-04
+- [编程的一些心得](https://github.com/yihong0618/gitblog/issues/53)--2019-10-04
+- [一些心得](https://github.com/yihong0618/gitblog/issues/37)--2019-09-22
+- [王兴的饭否](https://github.com/yihong0618/gitblog/issues/3)--2019-07-20
+- [今天看到的一些话](https://github.com/yihong0618/gitblog/issues/2)--2019-07-19
+</details>
+
 ## 工作
 - [沮丧](https://github.com/yihong0618/gitblog/issues/203)--2021-01-25
 - [心情不是很好的。](https://github.com/yihong0618/gitblog/issues/176)--2020-08-19
@@ -53,6 +142,43 @@ My personal blog using issues and GitHub Actions
 - [Do my best and fuck off](https://github.com/yihong0618/gitblog/issues/17)--2019-08-06
 - [跳槽](https://github.com/yihong0618/gitblog/issues/12)--2019-07-31
 - [说说工作](https://github.com/yihong0618/gitblog/issues/7)--2019-07-25
+</details>
+
+## 开发笔记
+- [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
+- [如何获取悦跑圈数据](https://github.com/yihong0618/gitblog/issues/197)--2020-12-18
+- [vscode-gcores开发笔记3](https://github.com/yihong0618/gitblog/issues/115)--2020-02-18
+- [vscode-gcores 开发笔记 2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
+- [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
+## 技术文章
+- [从 Rich 作者的一个问题说起](https://github.com/yihong0618/gitblog/issues/212)--2021-06-21
+- [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
+- [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
+- [如何获取 keep 跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
+- [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
+<details><summary>显示更多</summary>
+
+- [程序员跑步指南](https://github.com/yihong0618/gitblog/issues/178)--2020-08-23
+- [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
+- [机器学习存档](https://github.com/yihong0618/gitblog/issues/158)--2020-05-21
+- [异步存档](https://github.com/yihong0618/gitblog/issues/104)--2020-01-22
+- [这几天的一些心得](https://github.com/yihong0618/gitblog/issues/90)--2019-12-15
+- [算法存档](https://github.com/yihong0618/gitblog/issues/88)--2019-12-11
+- [Git 存档](https://github.com/yihong0618/gitblog/issues/86)--2019-12-04
+- [docker存档](https://github.com/yihong0618/gitblog/issues/81)--2019-11-20
+- [前端存档](https://github.com/yihong0618/gitblog/issues/80)--2019-11-19
+- [psql 存档](https://github.com/yihong0618/gitblog/issues/63)--2019-10-11
+- [利用github issues加上github webhook写博客自动化](https://github.com/yihong0618/gitblog/issues/45)--2019-10-02
+- [Python存档](https://github.com/yihong0618/gitblog/issues/43)--2019-09-30
+- [工具小技巧](https://github.com/yihong0618/gitblog/issues/36)--2019-09-20
+- [CSS存档](https://github.com/yihong0618/gitblog/issues/21)--2019-08-09
+- [MongoDB存档](https://github.com/yihong0618/gitblog/issues/20)--2019-08-09
+- [JS存档](https://github.com/yihong0618/gitblog/issues/18)--2019-08-07
+- [ES存档](https://github.com/yihong0618/gitblog/issues/15)--2019-08-02
+- [正则表达式](https://github.com/yihong0618/gitblog/issues/11)--2019-07-31
+- [踩坑小记](https://github.com/yihong0618/gitblog/issues/10)--2019-07-28
+- [MySQL存档](https://github.com/yihong0618/gitblog/issues/9)--2019-07-27
+- [Linux存档](https://github.com/yihong0618/gitblog/issues/8)--2019-07-26
 </details>
 
 ## 日记
@@ -100,93 +226,6 @@ My personal blog using issues and GitHub Actions
 - [Github更持久些](https://github.com/yihong0618/gitblog/issues/1)--2019-07-18
 </details>
 
-## 一些记录
-- [张小龙的饭否](https://github.com/yihong0618/gitblog/issues/215)--2021-07-08
-- [推荐一些我一直关注的觉得不错的和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
-- [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
-- [做减法](https://github.com/yihong0618/gitblog/issues/148)--2020-04-16
-- [少说，多做，](https://github.com/yihong0618/gitblog/issues/112)--2020-02-13
-<details><summary>显示更多</summary>
-
-- [刷完了《东京男子图鉴》](https://github.com/yihong0618/gitblog/issues/107)--2020-01-28
-- [蛋疼](https://github.com/yihong0618/gitblog/issues/55)--2019-10-04
-- [编程的一些心得](https://github.com/yihong0618/gitblog/issues/53)--2019-10-04
-- [一些心得](https://github.com/yihong0618/gitblog/issues/37)--2019-09-22
-- [王兴的饭否](https://github.com/yihong0618/gitblog/issues/3)--2019-07-20
-- [今天看到的一些话](https://github.com/yihong0618/gitblog/issues/2)--2019-07-19
-</details>
-
-## 一些计划
-- [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
-- [月跑 250 km计划](https://github.com/yihong0618/gitblog/issues/184)--2020-09-01
-- [自律，悔恨，逝去的日子，成长](https://github.com/yihong0618/gitblog/issues/174)--2020-08-12
-- [近期程序上的安排](https://github.com/yihong0618/gitblog/issues/168)--2020-07-06
-- [把事情做完，做一件事，爬也要爬完](https://github.com/yihong0618/gitblog/issues/167)--2020-06-23
-<details><summary>显示更多</summary>
-
-- [跑步数据找到同步方法了](https://github.com/yihong0618/gitblog/issues/164)--2020-06-06
-- [从今天起](https://github.com/yihong0618/gitblog/issues/126)--2020-03-01
-- [是时候开一个新坑了，跑步数据展示？](https://github.com/yihong0618/gitblog/issues/116)--2020-02-19
-- [10月程序上的计划](https://github.com/yihong0618/gitblog/issues/59)--2019-10-07
-- [点子合集](https://github.com/yihong0618/gitblog/issues/51)--2019-10-04
-- [搞定收藏夹](https://github.com/yihong0618/gitblog/issues/5)--2019-07-22
-</details>
-
-## 技术文章
-- [从 Rich 作者的一个问题说起](https://github.com/yihong0618/gitblog/issues/212)--2021-06-21
-- [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
-- [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
-- [如何获取 keep 跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
-- [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
-<details><summary>显示更多</summary>
-
-- [程序员跑步指南](https://github.com/yihong0618/gitblog/issues/178)--2020-08-23
-- [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
-- [机器学习存档](https://github.com/yihong0618/gitblog/issues/158)--2020-05-21
-- [异步存档](https://github.com/yihong0618/gitblog/issues/104)--2020-01-22
-- [这几天的一些心得](https://github.com/yihong0618/gitblog/issues/90)--2019-12-15
-- [算法存档](https://github.com/yihong0618/gitblog/issues/88)--2019-12-11
-- [Git 存档](https://github.com/yihong0618/gitblog/issues/86)--2019-12-04
-- [docker存档](https://github.com/yihong0618/gitblog/issues/81)--2019-11-20
-- [前端存档](https://github.com/yihong0618/gitblog/issues/80)--2019-11-19
-- [psql 存档](https://github.com/yihong0618/gitblog/issues/63)--2019-10-11
-- [利用github issues加上github webhook写博客自动化](https://github.com/yihong0618/gitblog/issues/45)--2019-10-02
-- [Python存档](https://github.com/yihong0618/gitblog/issues/43)--2019-09-30
-- [工具小技巧](https://github.com/yihong0618/gitblog/issues/36)--2019-09-20
-- [CSS存档](https://github.com/yihong0618/gitblog/issues/21)--2019-08-09
-- [MongoDB存档](https://github.com/yihong0618/gitblog/issues/20)--2019-08-09
-- [JS存档](https://github.com/yihong0618/gitblog/issues/18)--2019-08-07
-- [ES存档](https://github.com/yihong0618/gitblog/issues/15)--2019-08-02
-- [正则表达式](https://github.com/yihong0618/gitblog/issues/11)--2019-07-31
-- [踩坑小记](https://github.com/yihong0618/gitblog/issues/10)--2019-07-28
-- [MySQL存档](https://github.com/yihong0618/gitblog/issues/9)--2019-07-27
-- [Linux存档](https://github.com/yihong0618/gitblog/issues/8)--2019-07-26
-</details>
-
-## 精进计划
-- [修炼内功，最近在刷《SICP》](https://github.com/yihong0618/gitblog/issues/163)--2020-06-04
-- [人和人之家的差距太大了](https://github.com/yihong0618/gitblog/issues/147)--2020-04-13
-- [我不服输](https://github.com/yihong0618/gitblog/issues/79)--2019-11-16
-- [一定要摆脱撞大运编程](https://github.com/yihong0618/gitblog/issues/78)--2019-11-15
-- [又要开始了](https://github.com/yihong0618/gitblog/issues/76)--2019-11-11
-## 读书笔记
-- [《Vim实用技巧》读书笔记](https://github.com/yihong0618/gitblog/issues/74)--2019-11-05
-- [计算机组成要素读书笔记](https://github.com/yihong0618/gitblog/issues/52)--2019-10-04
-- [《快乐的Linux命令行》读书笔记](https://github.com/yihong0618/gitblog/issues/23)--2019-08-12
-- [MySQL是怎样跑起来的读书笔记](https://github.com/yihong0618/gitblog/issues/13)--2019-08-01
-## 2019
-- [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
-- [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
-- [最近的工作，生活，学习，以及其它](https://github.com/yihong0618/gitblog/issues/82)--2019-11-22
-- [2019年10月总结11月计划](https://github.com/yihong0618/gitblog/issues/72)--2019-11-01
-- [2019年剩下的不多了](https://github.com/yihong0618/gitblog/issues/49)--2019-10-04
-<details><summary>显示更多</summary>
-
-- [2019九月总结及十月计划](https://github.com/yihong0618/gitblog/issues/44)--2019-10-02
-- [九月计划及八月总结](https://github.com/yihong0618/gitblog/issues/29)--2019-09-01
-- [七月总结和八月计划](https://github.com/yihong0618/gitblog/issues/14)--2019-08-01
-</details>
-
 ## 生活
 - [一件小事](https://github.com/yihong0618/gitblog/issues/214)--2021-07-05
 - [逃离](https://github.com/yihong0618/gitblog/issues/208)--2021-05-12
@@ -212,54 +251,17 @@ My personal blog using issues and GitHub Actions
 - [明天小十一就2岁了](https://github.com/yihong0618/gitblog/issues/75)--2019-11-09
 </details>
 
-## 2020
-- [2020 年 10 月总结 11 月计划 ](https://github.com/yihong0618/gitblog/issues/194)--2020-11-04
-- [写在 0x20 岁之前](https://github.com/yihong0618/gitblog/issues/193)--2020-10-26
-- [2020 年 9 月总结 10 月计划](https://github.com/yihong0618/gitblog/issues/190)--2020-10-05
-- [2020年八月总结九月月展望](https://github.com/yihong0618/gitblog/issues/182)--2020-08-31
-- [跑步网站做完了，昨天跑了20km, 下一个做什么呢？](https://github.com/yihong0618/gitblog/issues/175)--2020-08-17
-<details><summary>显示更多</summary>
-
-- [番茄工作法，焦虑，咖啡，喘不上气，生活](https://github.com/yihong0618/gitblog/issues/173)--2020-08-10
-- [2020年七月总结八月展望](https://github.com/yihong0618/gitblog/issues/171)--2020-08-01
-- [新的计划，新的开始，戒掉社交网络](https://github.com/yihong0618/gitblog/issues/160)--2020-05-29
-- [新的计划，新的开始，学日语](https://github.com/yihong0618/gitblog/issues/159)--2020-05-29
-- [新的计划，新的开始，再一次减肥。](https://github.com/yihong0618/gitblog/issues/154)--2020-05-09
-- [2020四月总结五月计划](https://github.com/yihong0618/gitblog/issues/152)--2020-05-03
-- [四月过去了，五月来了](https://github.com/yihong0618/gitblog/issues/151)--2020-05-01
-- [下周一开始减肥，轮回](https://github.com/yihong0618/gitblog/issues/149)--2020-04-18
-- [一口气看完一本书的感觉好爽](https://github.com/yihong0618/gitblog/issues/146)--2020-04-04
-- [3月总结及4月展望](https://github.com/yihong0618/gitblog/issues/145)--2020-04-01
-- [新的一周，新的一个月](https://github.com/yihong0618/gitblog/issues/144)--2020-03-30
-- [删了微博](https://github.com/yihong0618/gitblog/issues/142)--2020-03-21
-- [日语学习](https://github.com/yihong0618/gitblog/issues/141)--2020-03-20
-- [来了。](https://github.com/yihong0618/gitblog/issues/140)--2020-03-18
-- [迁移测试](https://github.com/yihong0618/gitblog/issues/139)--2020-03-17
-- [美股熔断了](https://github.com/yihong0618/gitblog/issues/135)--2020-03-16
-- [挺没劲的](https://github.com/yihong0618/gitblog/issues/131)--2020-03-10
-- [快31岁了，又胖了](https://github.com/yihong0618/gitblog/issues/130)--2020-03-09
-- [二月总结及三月展望](https://github.com/yihong0618/gitblog/issues/127)--2020-03-02
-- [新的开始](https://github.com/yihong0618/gitblog/issues/123)--2020-02-24
-- [不能再这样下去了](https://github.com/yihong0618/gitblog/issues/121)--2020-02-22
-- [不刷，冷静下来。](https://github.com/yihong0618/gitblog/issues/114)--2020-02-17
-- [看到一张图，说点什么。](https://github.com/yihong0618/gitblog/issues/110)--2020-02-08
-- [焦虑](https://github.com/yihong0618/gitblog/issues/109)--2020-02-03
-- [2020 年 1 月总结 2 月展望就一个，这个操蛋的肺炎快点过去](https://github.com/yihong0618/gitblog/issues/108)--2020-02-01
-- [过年好](https://github.com/yihong0618/gitblog/issues/105)--2020-01-24
-- [第100篇，又到了0点](https://github.com/yihong0618/gitblog/issues/100)--2020-01-12
-- [2020就这么来了](https://github.com/yihong0618/gitblog/issues/98)--2020-01-01
-</details>
-
-## 开发笔记
-- [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
-- [如何获取悦跑圈数据](https://github.com/yihong0618/gitblog/issues/197)--2020-12-18
-- [vscode-gcores开发笔记3](https://github.com/yihong0618/gitblog/issues/115)--2020-02-18
-- [vscode-gcores 开发笔记 2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
-- [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
-## 2021
-- [生存守则](https://github.com/yihong0618/gitblog/issues/204)--2021-01-27
-- [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
-- [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
+## 精进计划
+- [修炼内功，最近在刷《SICP》](https://github.com/yihong0618/gitblog/issues/163)--2020-06-04
+- [人和人之家的差距太大了](https://github.com/yihong0618/gitblog/issues/147)--2020-04-13
+- [我不服输](https://github.com/yihong0618/gitblog/issues/79)--2019-11-16
+- [一定要摆脱撞大运编程](https://github.com/yihong0618/gitblog/issues/78)--2019-11-15
+- [又要开始了](https://github.com/yihong0618/gitblog/issues/76)--2019-11-11
+## 读书笔记
+- [《Vim实用技巧》读书笔记](https://github.com/yihong0618/gitblog/issues/74)--2019-11-05
+- [计算机组成要素读书笔记](https://github.com/yihong0618/gitblog/issues/52)--2019-10-04
+- [《快乐的Linux命令行》读书笔记](https://github.com/yihong0618/gitblog/issues/23)--2019-08-12
+- [MySQL是怎样跑起来的读书笔记](https://github.com/yihong0618/gitblog/issues/13)--2019-08-01
 ## TODO
 TODO list from [学习生活上的计划](https://github.com/yihong0618/gitblog/issues/181)--3 jobs to do--1 jobs done
 - [x] 背标日初级下的单词
