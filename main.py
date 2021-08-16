@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import argparse
 import os
+import re
 
 from github import Github
 
@@ -12,6 +13,16 @@ BACKUP_DIR = "BACKUP"
 ANCHOR_NUMBER = 5
 TOP_ISSUES_LABELS = ["Top"]
 TODO_ISSUES_LABELS = ["TODO"]
+FRIENDS_LABELS = ["Friends"]
+IGNORE_LABELS = FRIENDS_LABELS + TOP_ISSUES_LABELS + TODO_ISSUES_LABELS
+
+FRIENDS_TABLE_HEAD = "| Name | Link | Desc | \n | ---- | ---- | ---- |\n"
+FRIENDS_TABLE_TEMPLATE = "| {name} | {link} | {desc} |\n"
+FRIENTS_INFO_DICT = {
+    "名字": "",
+    "链接": "",
+    "描述": "",
+}
 
 
 def get_me(user):
@@ -20,6 +31,33 @@ def get_me(user):
 
 def isMe(issue, me):
     return issue.user.login == me
+
+
+def is_hearted_by_me(comment, me):
+    reactions = list(comment.get_reactions())
+    for r in reactions:
+        if r.content == "heart" and r.user.login == me:
+            return True
+    return False
+
+
+def _make_friend_table_string(s):
+    info_dict = FRIENTS_INFO_DICT.copy()
+    try:
+        string_list = s.splitlines()
+        # drop empty line
+        string_list = [l for l in string_list if l and not l.isspace()]
+        for l in string_list:
+            string_info_list = re.split("：", l)
+            if len(string_info_list) < 2:
+                continue
+            info_dict[string_info_list[0]] = string_info_list[1]
+        return FRIENDS_TABLE_TEMPLATE.format(
+            name=info_dict["名字"], link=info_dict["链接"], desc=info_dict["描述"]
+        )
+    except Exception as e:
+        print(str(e))
+        return
 
 
 def format_time(time):
@@ -95,6 +133,22 @@ def add_md_top(repo, md, me):
                 add_issue_info(issue, md)
 
 
+def add_md_firends(repo, md, me):
+    s = FRIENDS_TABLE_HEAD
+    friends_issues = list(repo.get_issues(labels=FRIENDS_LABELS))
+    for issue in friends_issues:
+        for comment in issue.get_comments():
+            if is_hearted_by_me(comment, me):
+                try:
+                    s += _make_friend_table_string(comment.body)
+                except Exception as e:
+                    print(str(e))
+                    pass
+    with open(md, "a+", encoding="utf-8") as md:
+        md.write("## 友情链接\n")
+        md.write(s)
+
+
 def add_md_recent(repo, md, me):
     new_five_issues = repo.get_issues()[:5]
     with open(md, "a+", encoding="utf-8") as md:
@@ -119,11 +173,7 @@ def add_md_label(repo, md, me):
         for label in labels:
 
             # we don't need add top label again
-            if label.name in TOP_ISSUES_LABELS:
-                continue
-
-            # we don't need add todo label again
-            if label.name in TODO_ISSUES_LABELS:
+            if label.name in IGNORE_LABELS:
                 continue
 
             issues = get_issues_from_label(repo, label)
@@ -166,7 +216,7 @@ def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
     repo = get_repo(user, repo_name)
     add_md_header("README.md")
     # add to readme one by one, change order here
-    for func in [add_md_top, add_md_recent, add_md_label, add_md_todo]:
+    for func in [add_md_firends, add_md_top, add_md_recent, add_md_label, add_md_todo]:
         func(repo, "README.md", me)
 
     to_generate_issues = get_to_generate_issues(repo, dir_name, issue_number)
@@ -196,6 +246,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("github_token", help="github_token")
     parser.add_argument("repo_name", help="repo_name")
-    parser.add_argument("--issue_number", help="issue_number", default=None, required=False)
+    parser.add_argument(
+        "--issue_number", help="issue_number", default=None, required=False
+    )
     options = parser.parse_args()
     main(options.github_token, options.repo_name, options.issue_number)
