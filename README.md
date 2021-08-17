@@ -11,6 +11,7 @@ My personal blog using issues and GitHub Actions
 | ChrAlpha | https://ichr.me/ | 你唯有拼尽全力，才能显得毫不费力 |
 | 古思为 | https://siwei.io/ | I build things with magic and scale the magic to help people. |
 | 二愣的闲谈杂鱼 | https://godruoyi.com | 生活总是这样，不能让人处处都满意，但我们还要热情地生活下去。 |
+| 彭宏豪的个人博客 | https://penghh.fun | 我的 Hexo 博客，分享一些软件或电脑的使用技巧 |
 ## 置顶文章
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
 - [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
