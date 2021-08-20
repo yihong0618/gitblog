@@ -15,6 +15,7 @@ My personal blog using issues and GitHub Actions
 | Yu Jinyan | https://blog.yujinyan.me/ | Web, JVM, Android. Kotlin enthusiast. |
 | Leeyom's Blog | https://blog.leeyom.top | 用于记录一些幼稚的想法和脑残的瞬间~ |
 | chaomai's blog | https://chaomai.github.io/ | A repository for the things I’ve learnt, built, and wasted time on. |
+| linw1995's blog | https://linw1995.com/ | 三分热度三分收获 |
 ## 置顶文章
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
 - [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
