@@ -3,7 +3,7 @@ My personal blog using issues and GitHub Actions
 ## 友情链接
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
-| 兔子鮮笙 | https://tuzi.moe | 19 岁的天才少年 |
+| 兔子鮮笙 | https://tuzi.moe | 20 岁的天才少年 |
 | FriendsA | https://blog.duanfei.org/ | 跑步的朋友 |
 | daya0576 | https://changchen.me/ | 喜欢 python 的大牙 |
 | kenlai | https://kenlai.me/ | 网络前辈 |
@@ -34,10 +34,6 @@ My personal blog using issues and GitHub Actions
 - [朋友圈](https://github.com/yihong0618/gitblog/issues/216)--2021-08-03
 - [张小龙的饭否](https://github.com/yihong0618/gitblog/issues/215)--2021-07-08
 - [一件小事](https://github.com/yihong0618/gitblog/issues/214)--2021-07-05
-## 2021
-- [生存守则](https://github.com/yihong0618/gitblog/issues/204)--2021-01-27
-- [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
-- [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -89,6 +85,10 @@ My personal blog using issues and GitHub Actions
 - [2020就这么来了](https://github.com/yihong0618/gitblog/issues/98)--2020-01-01
 </details>
 
+## 2021
+- [生存守则](https://github.com/yihong0618/gitblog/issues/204)--2021-01-27
+- [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
+- [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
 ## 一些计划
 - [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
 - [月跑 250 km计划](https://github.com/yihong0618/gitblog/issues/184)--2020-09-01
