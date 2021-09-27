@@ -29,11 +29,11 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores 开发笔记 2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--2021-09-27
 - [一点思考](https://github.com/yihong0618/gitblog/issues/218)--2021-08-19
 - [友情链接](https://github.com/yihong0618/gitblog/issues/217)--2021-08-16
 - [朋友圈](https://github.com/yihong0618/gitblog/issues/216)--2021-08-03
 - [张小龙的饭否](https://github.com/yihong0618/gitblog/issues/215)--2021-07-08
-- [一件小事](https://github.com/yihong0618/gitblog/issues/214)--2021-07-05
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -278,6 +278,15 @@ My personal blog using issues and GitHub Actions
 - [《快乐的Linux命令行》读书笔记](https://github.com/yihong0618/gitblog/issues/23)--2019-08-12
 - [MySQL是怎样跑起来的读书笔记](https://github.com/yihong0618/gitblog/issues/13)--2019-08-01
 ## TODO
+TODO list from [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--7 jobs to do--0 jobs done
+- [ ] running_page 一周年总结
+- [ ] 机核文章
+- [ ] django shell 的运行原理
+- [ ] 推荐两个 YouTube 程序员
+- [ ] 我跑步听的播客
+- [ ] 该离开了
+- [ ] 选择
+
 TODO list from [学习生活上的计划](https://github.com/yihong0618/gitblog/issues/181)--3 jobs to do--1 jobs done
 - [x] 背标日初级下的单词
 - [ ] 月跑量突破250 km
