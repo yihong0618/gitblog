@@ -17,6 +17,7 @@ My personal blog using issues and GitHub Actions
 | chaomai's blog | https://chaomai.github.io/ | A repository for the things I’ve learnt, built, and wasted time on. |
 | linw1995's blog | https://linw1995.com/ | 三分热度三分收获 |
 ## 置顶文章
+- [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
 - [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
 - [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
@@ -29,11 +30,11 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores 开发笔记 2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
 - [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--2021-09-27
 - [一点思考](https://github.com/yihong0618/gitblog/issues/218)--2021-08-19
 - [友情链接](https://github.com/yihong0618/gitblog/issues/217)--2021-08-16
 - [朋友圈](https://github.com/yihong0618/gitblog/issues/216)--2021-08-03
-- [张小龙的饭否](https://github.com/yihong0618/gitblog/issues/215)--2021-07-08
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -159,11 +160,16 @@ My personal blog using issues and GitHub Actions
 </details>
 
 ## 开发笔记
+- [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
 - [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
 - [如何获取悦跑圈数据](https://github.com/yihong0618/gitblog/issues/197)--2020-12-18
 - [vscode-gcores开发笔记3](https://github.com/yihong0618/gitblog/issues/115)--2020-02-18
 - [vscode-gcores 开发笔记 2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
+<details><summary>显示更多</summary>
+
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
+</details>
+
 ## 技术文章
 - [从 Rich 作者的一个问题说起](https://github.com/yihong0618/gitblog/issues/212)--2021-06-21
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
