@@ -83,3 +83,10 @@
 所有贡献者和使用这个项目的人，希望大家一直跑下去，这个项目也一直 running 下去，也是 running_page 的意义
 
 ![image](https://user-images.githubusercontent.com/15976103/134856985-6dc150fa-d703-4e3c-b1b5-c910aa46cfa0.png)
+
+
+---
+
+@phh95 https://github.com/yihong0618/running_page/issues/108
+
+可以去 running_page repo 提问
