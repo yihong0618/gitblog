@@ -58,3 +58,28 @@
 | [MFYDev](https://github.com/MFYDev)             | https://mfydev.run                         | Garmin-cn |
 | [Jim Gao](https://github.com/tianheg)             | https://run.yidajiabei.xyz/ | Keep |
 | [Eished](https://github.com/eished)             | https://run.iknow.fun                      | Keep      |
+
+## 回忆
+
+当然这一年经历了不少有意思的事儿。
+
+- 因为做这个项目认识了一些自己曾经想都不敢想能有交集的牛人，看到财务自由的人的朋友圈感觉很有趣
+- 收到了阿迪达斯的 DCMA....竟然还不是发给我的，是发给其中一个 fork, 我紧急下架了所有的 runtastic 相关的代码，有些遗憾，但没办法
+- 其实我是很怕给国人丢人的，特别重视协议，即使很多是 mit 协议因为一些原因我也都会发邮件去询问下，认识了几个朋友的同时，也感叹好多欧洲人好 nice, 很多回复都是 free to do anything, 并且还有说其实是没协议的因为 mit 自由才选的 mit.
+- 收到了一些感谢邮件，其中还成了一个同学的毕设项目
+- 当然也有一些奇怪的人。。。相信每个开源作者都会遇到吧
+- 有几个个朋友想捐款或者打赏捐赠项目，我拒绝了，还在后来加上了句--谢谢就够了。真不是我清高，而是这个项目和帮助我那些人比，和我 sponsor 那些人比真的不值一提，能帮到大家一句感谢我已经非常开心啦
+- 因为这个项目回馈了很多项目 python-garmin strava-lib 等等等。
+
+![image](https://user-images.githubusercontent.com/15976103/134856301-4c86e764-3b53-4758-84e5-c455a617a6c3.png)
+
+## 感谢
+- 感谢 @laike9m 的鼓励，@geekplux 的帮助和代码优化
+- 感谢 @shaonianche 你帮忙的文档帮助到了我和大家
+- Thank you very much for @flopp Without your encouragement and such a great project I would not be able to continue to participate in open source
+
+## 特别感谢
+
+所以贡献者和使用这个项目的人，希望大家一直跑下去，这个项目也一直 running 下去，也是 running_page 的意义
+
+![image](https://user-images.githubusercontent.com/15976103/134856985-6dc150fa-d703-4e3c-b1b5-c910aa46cfa0.png)
