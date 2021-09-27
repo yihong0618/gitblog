@@ -27,7 +27,7 @@
 ## 循环
 
 - 因为自己是被鼓励到参与到开源的，我想更多人加入这个项目，无论是初学者还是大牛，后来就想到，只要做出跑步主页的人都可以 share 自己的主页，我就鼓励大家提 pr, 其中有不少人是人生第一个 pr, 也慢慢懂了怎么加入开源。就像跑步的接力棒一样传下去。开心的是现在 share 的人一个屏幕已经放不下了。
-- 前阵子看到 @antfu 的 [关于 Yak Shaving](https://antfu.me/posts/about-yak-shaving-zh) 的文章，深以为然。因为想把跑步部分抽出来做了 running_page, 因为 running_page 里的热力图比较受欢迎我又把其中的逻辑抽出来做的通用做了 [GitHubPoster](https://github.com/yihong0618/GitHubPoster) 回馈机核又做了 [gcores_calendar](https://github.com/yihong0618/gcores_calendar)，想到了可以减少 corntab 的消耗去研究配合[捷径自动化](https://github.com/yihong0618/gitblog/issues/198), 因此做了 [iBeats]() 等项目。。。也算是 yak shaving 了。 
+- 前阵子看到 @antfu 的 [关于 Yak Shaving](https://antfu.me/posts/about-yak-shaving-zh) 的文章，深以为然。因为想把跑步部分抽出来做了 running_page, 因为 running_page 里的热力图比较受欢迎我又把其中的逻辑抽出来做的通用做了 [GitHubPoster](https://github.com/yihong0618/GitHubPoster) 回馈机核又做了 [gcores_calendar](https://github.com/yihong0618/gcores_calendar)，想到了可以减少 crontab 的消耗去研究配合[捷径自动化](https://github.com/yihong0618/gitblog/issues/198), 因此做了 [iBeats](https://github.com/yihong0618/iBeats) 等项目。。。也算是 yak shaving 了。 
 
 
 [Runner's Page Show](https://github.com/yihong0618/running_page/issues/12)
