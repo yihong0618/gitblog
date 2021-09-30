@@ -90,3 +90,11 @@
 @phh95 https://github.com/yihong0618/running_page/issues/108
 
 可以去 running_page repo 提问
+
+---
+
+> > 群主太棒了！！
+> 
+> yihong 老师建了微信群吗？想进😂
+
+没有微信群，有 telegram 群。 https://t.me/running_page
