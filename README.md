@@ -30,11 +30,11 @@ My personal blog using issues and GitHub Actions
 - [vscode-gcores 开发笔记 2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [有趣与无趣](https://github.com/yihong0618/gitblog/issues/221)--2021-10-13
 - [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
 - [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--2021-09-27
 - [一点思考](https://github.com/yihong0618/gitblog/issues/218)--2021-08-19
 - [友情链接](https://github.com/yihong0618/gitblog/issues/217)--2021-08-16
-- [朋友圈](https://github.com/yihong0618/gitblog/issues/216)--2021-08-03
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -202,13 +202,14 @@ My personal blog using issues and GitHub Actions
 </details>
 
 ## 日记
+- [有趣与无趣](https://github.com/yihong0618/gitblog/issues/221)--2021-10-13
 - [一点思考](https://github.com/yihong0618/gitblog/issues/218)--2021-08-19
 - [朋友圈](https://github.com/yihong0618/gitblog/issues/216)--2021-08-03
 - [新年碎碎念](https://github.com/yihong0618/gitblog/issues/201)--2021-01-08
 - [生的对立面](https://github.com/yihong0618/gitblog/issues/196)--2020-12-10
-- [感冒了，真是难受](https://github.com/yihong0618/gitblog/issues/188)--2020-09-21
 <details><summary>显示更多</summary>
 
+- [感冒了，真是难受](https://github.com/yihong0618/gitblog/issues/188)--2020-09-21
 - [要怎样才能过好一生？](https://github.com/yihong0618/gitblog/issues/166)--2020-06-14
 - [还有一个小时31岁了](https://github.com/yihong0618/gitblog/issues/133)--2020-03-14
 - [又是新的一天，一动没动写了4个小时代码](https://github.com/yihong0618/gitblog/issues/103)--2020-01-19
