@@ -17,6 +17,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | chaomai's blog | https://chaomai.github.io/ | A repository for the things I’ve learnt, built, and wasted time on. |
 | linw1995's blog | https://linw1995.com/ | 三分热度三分收获 |
 ## 置顶文章
+- [参加了《开源面对面》和《ByteTalk》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
 - [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
 - [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
@@ -30,11 +31,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [vscode-gcores 开发笔记 2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [参加了《开源面对面》和《ByteTalk》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
 - [有趣与无趣](https://github.com/yihong0618/gitblog/issues/221)--2021-10-13
 - [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
 - [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--2021-09-27
 - [一点思考](https://github.com/yihong0618/gitblog/issues/218)--2021-08-19
-- [友情链接](https://github.com/yihong0618/gitblog/issues/217)--2021-08-16
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -107,13 +108,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 一些记录
+- [参加了《开源面对面》和《ByteTalk》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
 - [张小龙的饭否](https://github.com/yihong0618/gitblog/issues/215)--2021-07-08
 - [推荐一些我一直关注的觉得不错的和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
 - [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
 - [做减法](https://github.com/yihong0618/gitblog/issues/148)--2020-04-16
-- [少说，多做，](https://github.com/yihong0618/gitblog/issues/112)--2020-02-13
 <details><summary>显示更多</summary>
 
+- [少说，多做，](https://github.com/yihong0618/gitblog/issues/112)--2020-02-13
 - [刷完了《东京男子图鉴》](https://github.com/yihong0618/gitblog/issues/107)--2020-01-28
 - [蛋疼](https://github.com/yihong0618/gitblog/issues/55)--2019-10-04
 - [编程的一些心得](https://github.com/yihong0618/gitblog/issues/53)--2019-10-04
