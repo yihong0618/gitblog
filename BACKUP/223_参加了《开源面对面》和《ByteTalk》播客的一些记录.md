@@ -3,7 +3,7 @@
 前一段时间一口气一周之内参加了两个播客的录制，做了曾经都没想过的事儿，也算是一个挑战吧，记录一下。
 
 链接：
-- [ByteTalk](https://files.bytetalk.fm/file/bytetalk/episode-5.mp3)
+- [ByteTalk](https://www.xiaoyuzhoufm.com/episode/619c9a7515e2f7df2eca996e)
 - [开源面对面](https://www.youtube.com/watch?v=yBmS03iiVco)
 
 ---
