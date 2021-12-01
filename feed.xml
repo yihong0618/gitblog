@@ -72,16 +72,29 @@
 <h2>目前的一些数字</h2>
 <p>截止今天 2021-09-27</p>
 <p><img src="https://user-images.githubusercontent.com/15976103/134852549-41b414d5-2bc3-4480-b7fc-9ee9a0689e35.png" alt="image" /></p>
-<p>| Stars |  Fork  |  Issues | Contributors |
-|  ----  |  ----   |  ----     |     -----          |
-|   1391  |      278     |       99     |     30        |</p>
-<h2>诞生</h2>
+<table>
+<thead>
+<tr>
+<th>Stars</th>
+<th>Fork</th>
+<th>Issues</th>
+<th>Contributors</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1391</td>
+<td>278</td>
+<td>99</td>
+<td>30</td>
+</tr>
+</tbody></table><h2>诞生</h2>
 <ul>
 <li>我用 Runtastic 记录自己跑步 8 年多，后来 Runtastic 被大陆商店下架，我认识到了个人数据的重要性，把数据尝试导出，后来发现了 nike 也是通过一些手段能导出的，就想着自动化导出，备份自己的数据</li>
 <li>发现了有人把自己的跑步数据 share 到自己博客上，发现非常漂亮，我参考着他的代码和设计，一边做一边学习 React, 最后把自己的数据也可视化上去了</li>
 <li>最开始这只是个个人的网页，分享之后不断有人也想搭一个，我又基本都会回答，慢慢的觉得为了效率需要把他变成一个通用些的程序了，在 @geekplux 的鼓励下，就把他从中抽出来了，做的易用和通用了一些，就开源了</li>
 <li>开源后在 twitter 上宣传，在 twitter 上认识了一些朋友的同时也有更多人加入进来</li>
-<li>后来看到了 @laike9m 在 v2ex 上宣传他的项目，我也决定试试，没想到取得了大家的认可，项目的 stars 数慢慢增多，也越来越多的人用这个项目，当然后来一边做的同时一边学习逆向，搞定了其他的一些跑步软件，还写了一些心得。-- https://github.com/yihong0618/gitblog/issues/191  https://github.com/yihong0618/gitblog/issues/197 等等</li>
+<li>后来看到了 @laike9m 在 v2ex 上宣传他的项目，我也决定试试，没想到取得了大家的认可，项目的 stars 数慢慢增多，也越来越多的人用这个项目，当然后来一边做的同时一边学习逆向，搞定了其他的一些跑步软件，还写了一些心得。-- <a href="https://github.com/yihong0618/gitblog/issues/191">https://github.com/yihong0618/gitblog/issues/191</a>  <a href="https://github.com/yihong0618/gitblog/issues/197">https://github.com/yihong0618/gitblog/issues/197</a> 等等</li>
 <li>再后来就是被阮一峰老师宣传，项目更多的 stars forks, 认识更多朋友，更多人参与进来，形成了良性的循环，也知道了因为这个项目一些人爱上了跑步，真的开心</li>
 </ul>
 <h2>循环</h2>
@@ -90,33 +103,136 @@
 <li>前阵子看到 @antfu 的 <a href="https://antfu.me/posts/about-yak-shaving-zh">关于 Yak Shaving</a> 的文章，深以为然。因为想把跑步部分抽出来做了 running_page, 因为 running_page 里的热力图比较受欢迎我又把其中的逻辑抽出来做的通用做了 <a href="https://github.com/yihong0618/GitHubPoster">GitHubPoster</a> 回馈机核又做了 <a href="https://github.com/yihong0618/gcores_calendar">gcores_calendar</a>，想到了可以减少 crontab 的消耗去研究配合<a href="https://github.com/yihong0618/gitblog/issues/198">捷径自动化</a>, 因此做了 <a href="https://github.com/yihong0618/iBeats">iBeats</a> 等项目。。。也算是 yak shaving 了。 </li>
 </ul>
 <p><a href="https://github.com/yihong0618/running_page/issues/12">Runner's Page Show</a></p>
-<p>| Runner                                          | page                                       | App       |
-| ----------------------------------------------- | ------------------------------------------ | --------- |
-| <a href="https://github.com/shaonianche">shaonianche</a>   | https://run.duangfei.org                   | Nike      |
-| <a href="https://github.com/yihong0618">yihong0618</a>     | https://yihong.run/running                 | Nike      |
-| <a href="https://github.com/superleeyom">superleeyom</a>   | https://running.leeyom.top                 | Nike      |
-| <a href="https://github.com/geekplux">geekplux</a>         | https://activities.geekplux.com            | Nike      |
-| <a href="https://github.com/guanlan">guanlan</a>           | https://grun.vercel.app                    | Strava    |
-| <a href="https://github.com/tuzimoe">tuzimoe</a>           | https://run.tuzi.moe                       | Nike      |
-| <a href="https://github.com/ben-29">ben_29</a>             | https://running.ben29.xyz                  | Strava    |
-| <a href="https://github.com/kcllf">kcllf</a>               | https://running-tau.vercel.app             | Garmin-cn |
-| <a href="https://github.com/MQ-0707">mq</a>                | https://running-iota.vercel.app            | Keep      |
-| <a href="https://github.com/zhaohongxuan">zhaohongxuan</a> | https://running-page-psi.vercel.app        | Keep      |
-| <a href="https://github.com/yvetterowe">yvetterowe</a>     | https://run.haoluo.io                      | Strava    |
-| <a href="https://github.com/KaiOrange">love-exercise</a>   | https://run.kai666666.top                  | Keep      |
-| <a href="https://github.com/zstone12">zstone12</a>         | https://running-page.zstone12.vercel.app   | Keep      |
-| <a href="https://github.com/Lax">Lax</a>                   | https://lax.github.io/running              | Keep      |
-| <a href="https://github.com/lusuzi">lusuzi</a>             | https://running.lusuzi.vercel.app          | Nike      |
-| <a href="https://github.com/wh1994">wh1994</a>             | https://run4life.fun                       | Garmin    |
-| <a href="https://github.com/YiHui-Liu">liuyihui</a>        | https://run.foolishfox.cn                  | Keep      |
-| <a href="https://github.com/hi-franksun">FrankSun</a>      | https://hi-franksun.github.io/running_page | Nike      |
-| <a href="https://github.com/AhianZhang">AhianZhang</a>     | https://running.ahianzhang.com             | Keep      |
-| <a href="https://github.com/L1cardo">L1cardo</a>           | https://run.licardo.cn                     | Nike      |
-| <a href="https://github.com/luckylele666">luckylele666</a> | https://0000928.xyz                        | Strava    |
-| <a href="https://github.com/MFYDev">MFYDev</a>             | https://mfydev.run                         | Garmin-cn |
-| <a href="https://github.com/tianheg">Jim Gao</a>             | https://run.yidajiabei.xyz/ | Keep |
-| <a href="https://github.com/eished">Eished</a>             | https://run.iknow.fun                      | Keep      |</p>
-<h2>回忆</h2>
+<table>
+<thead>
+<tr>
+<th>Runner</th>
+<th>page</th>
+<th>App</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/shaonianche">shaonianche</a></td>
+<td><a href="https://run.duangfei.org">https://run.duangfei.org</a></td>
+<td>Nike</td>
+</tr>
+<tr>
+<td><a href="https://github.com/yihong0618">yihong0618</a></td>
+<td><a href="https://yihong.run/running">https://yihong.run/running</a></td>
+<td>Nike</td>
+</tr>
+<tr>
+<td><a href="https://github.com/superleeyom">superleeyom</a></td>
+<td><a href="https://running.leeyom.top">https://running.leeyom.top</a></td>
+<td>Nike</td>
+</tr>
+<tr>
+<td><a href="https://github.com/geekplux">geekplux</a></td>
+<td><a href="https://activities.geekplux.com">https://activities.geekplux.com</a></td>
+<td>Nike</td>
+</tr>
+<tr>
+<td><a href="https://github.com/guanlan">guanlan</a></td>
+<td><a href="https://grun.vercel.app">https://grun.vercel.app</a></td>
+<td>Strava</td>
+</tr>
+<tr>
+<td><a href="https://github.com/tuzimoe">tuzimoe</a></td>
+<td><a href="https://run.tuzi.moe">https://run.tuzi.moe</a></td>
+<td>Nike</td>
+</tr>
+<tr>
+<td><a href="https://github.com/ben-29">ben_29</a></td>
+<td><a href="https://running.ben29.xyz">https://running.ben29.xyz</a></td>
+<td>Strava</td>
+</tr>
+<tr>
+<td><a href="https://github.com/kcllf">kcllf</a></td>
+<td><a href="https://running-tau.vercel.app">https://running-tau.vercel.app</a></td>
+<td>Garmin-cn</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MQ-0707">mq</a></td>
+<td><a href="https://running-iota.vercel.app">https://running-iota.vercel.app</a></td>
+<td>Keep</td>
+</tr>
+<tr>
+<td><a href="https://github.com/zhaohongxuan">zhaohongxuan</a></td>
+<td><a href="https://running-page-psi.vercel.app">https://running-page-psi.vercel.app</a></td>
+<td>Keep</td>
+</tr>
+<tr>
+<td><a href="https://github.com/yvetterowe">yvetterowe</a></td>
+<td><a href="https://run.haoluo.io">https://run.haoluo.io</a></td>
+<td>Strava</td>
+</tr>
+<tr>
+<td><a href="https://github.com/KaiOrange">love-exercise</a></td>
+<td><a href="https://run.kai666666.top">https://run.kai666666.top</a></td>
+<td>Keep</td>
+</tr>
+<tr>
+<td><a href="https://github.com/zstone12">zstone12</a></td>
+<td><a href="https://running-page.zstone12.vercel.app">https://running-page.zstone12.vercel.app</a></td>
+<td>Keep</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Lax">Lax</a></td>
+<td><a href="https://lax.github.io/running">https://lax.github.io/running</a></td>
+<td>Keep</td>
+</tr>
+<tr>
+<td><a href="https://github.com/lusuzi">lusuzi</a></td>
+<td><a href="https://running.lusuzi.vercel.app">https://running.lusuzi.vercel.app</a></td>
+<td>Nike</td>
+</tr>
+<tr>
+<td><a href="https://github.com/wh1994">wh1994</a></td>
+<td><a href="https://run4life.fun">https://run4life.fun</a></td>
+<td>Garmin</td>
+</tr>
+<tr>
+<td><a href="https://github.com/YiHui-Liu">liuyihui</a></td>
+<td><a href="https://run.foolishfox.cn">https://run.foolishfox.cn</a></td>
+<td>Keep</td>
+</tr>
+<tr>
+<td><a href="https://github.com/hi-franksun">FrankSun</a></td>
+<td><a href="https://hi-franksun.github.io/running_page">https://hi-franksun.github.io/running_page</a></td>
+<td>Nike</td>
+</tr>
+<tr>
+<td><a href="https://github.com/AhianZhang">AhianZhang</a></td>
+<td><a href="https://running.ahianzhang.com">https://running.ahianzhang.com</a></td>
+<td>Keep</td>
+</tr>
+<tr>
+<td><a href="https://github.com/L1cardo">L1cardo</a></td>
+<td><a href="https://run.licardo.cn">https://run.licardo.cn</a></td>
+<td>Nike</td>
+</tr>
+<tr>
+<td><a href="https://github.com/luckylele666">luckylele666</a></td>
+<td><a href="https://0000928.xyz">https://0000928.xyz</a></td>
+<td>Strava</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MFYDev">MFYDev</a></td>
+<td><a href="https://mfydev.run">https://mfydev.run</a></td>
+<td>Garmin-cn</td>
+</tr>
+<tr>
+<td><a href="https://github.com/tianheg">Jim Gao</a></td>
+<td><a href="https://run.yidajiabei.xyz/">https://run.yidajiabei.xyz/</a></td>
+<td>Keep</td>
+</tr>
+<tr>
+<td><a href="https://github.com/eished">Eished</a></td>
+<td><a href="https://run.iknow.fun">https://run.iknow.fun</a></td>
+<td>Keep</td>
+</tr>
+</tbody></table><h2>回忆</h2>
 <p>当然这一年经历了不少有意思的事儿。</p>
 <ul>
 <li>因为做这个项目认识了一些自己曾经想都不敢想能有交集的牛人，看到财务自由的人的朋友圈感觉很有趣</li>
@@ -167,7 +283,7 @@
 链接：xxxxxx
 描述：xxxxxx</p>
 <ul>
-<li>[x] added all</li>
+<li><input checked="" disabled="" type="checkbox"> added all</li>
 </ul>
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/217" rel="alternate"/><category term="Friends"/><published>2021-08-16T06:31:20+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/216</id><title>朋友圈</title><updated>2021-12-01T08:14:47.212003+00:00</updated><content type="html"><![CDATA[<p>在熟人或墙内的圈子，越来越沉默了，有些事儿不想说，有些事儿不敢说。
 加上前一阵子，注销了微博，几乎退掉了所有群。</p>
@@ -888,51 +1004,51 @@ if __name__ == &#x27;__main__&#x27;:
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/203" rel="alternate"/><category term="工作"/><published>2021-01-25T10:18:28+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/202</id><title>今年的三个小目标</title><updated>2021-12-01T08:14:47.293998+00:00</updated><content type="html"><![CDATA[<p>写下来，慢慢做，能做到更好，做不到也不用自责。</p>
 <h1>关于个人成长</h1>
 <ul>
-<li>[ ] 编程方面, 今年是 Go 精进 Go, 继续深入底层，APUE，CSAPP 这两本，有额外的精力再来 SICP  和魔法</li>
-<li>[ ] 把去年的剩的计划完成</li>
-<li>[x] 完成一个酝酿挺久的新玩具</li>
+<li><input disabled="" type="checkbox"> 编程方面, 今年是 Go 精进 Go, 继续深入底层，APUE，CSAPP 这两本，有额外的精力再来 SICP  和魔法</li>
+<li><input disabled="" type="checkbox"> 把去年的剩的计划完成</li>
+<li><input checked="" disabled="" type="checkbox"> 完成一个酝酿挺久的新玩具</li>
 </ul>
 <h1>关于身体</h1>
 <ul>
-<li>[x] 慢慢的少喝酒</li>
-<li>[x] 慢慢的保持体重</li>
-<li>[x] 俯卧撑仰卧起坐继续，不再年轻啦</li>
+<li><input checked="" disabled="" type="checkbox"> 慢慢的少喝酒</li>
+<li><input checked="" disabled="" type="checkbox"> 慢慢的保持体重</li>
+<li><input checked="" disabled="" type="checkbox"> 俯卧撑仰卧起坐继续，不再年轻啦</li>
 </ul>
 <h1>关于家庭</h1>
 <ul>
-<li>[x] 少生气，生气前深呼吸，只是自己无能而已</li>
-<li>[x] 多收拾屋子</li>
-<li>[x] 厨艺练起来</li>
+<li><input checked="" disabled="" type="checkbox"> 少生气，生气前深呼吸，只是自己无能而已</li>
+<li><input checked="" disabled="" type="checkbox"> 多收拾屋子</li>
+<li><input checked="" disabled="" type="checkbox"> 厨艺练起来</li>
 </ul>
 <h1>关于工作</h1>
 <ul>
-<li>[ ] 尽量少拖延</li>
-<li>[x] 更 nice 一点，没必要跟同事生气，多分享</li>
-<li>[x] 不考虑跳槽的事情，今年</li>
+<li><input disabled="" type="checkbox"> 尽量少拖延</li>
+<li><input checked="" disabled="" type="checkbox"> 更 nice 一点，没必要跟同事生气，多分享</li>
+<li><input checked="" disabled="" type="checkbox"> 不考虑跳槽的事情，今年</li>
 </ul>
 <h1>关于社交网络</h1>
 <ul>
-<li>[x] 慢慢的不上 B 站了，微博也几乎不上了。今年需要减少刷推和水群的时间</li>
-<li>[x] 多输出自己的博客</li>
-<li>[x] 不要 judge 别人，错了就是错了，要 say sorry</li>
+<li><input checked="" disabled="" type="checkbox"> 慢慢的不上 B 站了，微博也几乎不上了。今年需要减少刷推和水群的时间</li>
+<li><input checked="" disabled="" type="checkbox"> 多输出自己的博客</li>
+<li><input checked="" disabled="" type="checkbox"> 不要 judge 别人，错了就是错了，要 say sorry</li>
 </ul>
 <h1>关于跑步</h1>
 <ul>
-<li>[ ] 争取进 400, 如果有机会的话</li>
-<li>[ ] 争取到 2000km</li>
-<li>[x] 争取进 5min（不用刻意追求速度，有这个能力就好）</li>
+<li><input disabled="" type="checkbox"> 争取进 400, 如果有机会的话</li>
+<li><input disabled="" type="checkbox"> 争取到 2000km</li>
+<li><input checked="" disabled="" type="checkbox"> 争取进 5min（不用刻意追求速度，有这个能力就好）</li>
 </ul>
 <h1>关于其他</h1>
 <ul>
-<li>[x] 多给父母打电话</li>
-<li>[ ] 多让媳妇儿子开心</li>
-<li>[x] 多给以前的好友打电话或者微信交流，别再留<a href="https://github.com/yihong0618/gitblog/issues/196">遗憾</a>了</li>
+<li><input checked="" disabled="" type="checkbox"> 多给父母打电话</li>
+<li><input disabled="" type="checkbox"> 多让媳妇儿子开心</li>
+<li><input checked="" disabled="" type="checkbox"> 多给以前的好友打电话或者微信交流，别再留<a href="https://github.com/yihong0618/gitblog/issues/196">遗憾</a>了</li>
 </ul>
 <h1>关于这个关于</h1>
 <ul>
-<li>[ ] 没必要都完成，但有计划对我来说总别没计划强</li>
-<li>[ ] 失败，坚持不下来都无所谓，捡起来就好</li>
-<li>[ ] 认清自己的能力，和再怎么努力都是普通人的事实，享受普通人能达到的快乐</li>
+<li><input disabled="" type="checkbox"> 没必要都完成，但有计划对我来说总别没计划强</li>
+<li><input disabled="" type="checkbox"> 失败，坚持不下来都无所谓，捡起来就好</li>
+<li><input disabled="" type="checkbox"> 认清自己的能力，和再怎么努力都是普通人的事实，享受普通人能达到的快乐</li>
 </ul>
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/202" rel="alternate"/><category term="2021"/><published>2021-01-14T02:03:54+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/201</id><title>新年碎碎念</title><updated>2021-12-01T08:14:47.308408+00:00</updated><content type="html"><![CDATA[<p>想到什么写什么。好久没这样了。</p>
 <ul>
@@ -1337,23 +1453,23 @@ if __name__ == &#x27;__main__&#x27;:
 </ul>
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/182" rel="alternate"/><category term="2020"/><published>2020-08-31T02:28:04+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/181</id><title>学习生活上的计划</title><updated>2021-12-01T08:14:47.717890+00:00</updated><content type="html"><![CDATA[<p>今年学习生活上的计划</p>
 <ul>
-<li>[x] 背标日初级下的单词</li>
-<li>[ ] 月跑量突破250 km</li>
-<li>[ ] 瘦到130斤</li>
-<li>[ ] 年底考个日语 3 级</li>
+<li><input checked="" disabled="" type="checkbox"> 背标日初级下的单词</li>
+<li><input disabled="" type="checkbox"> 月跑量突破250 km</li>
+<li><input disabled="" type="checkbox"> 瘦到130斤</li>
+<li><input disabled="" type="checkbox"> 年底考个日语 3 级</li>
 </ul>
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/181" rel="alternate"/><category term="TODO"/><published>2020-08-29T11:34:52+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/180</id><title>程序上新的计划</title><updated>2021-12-01T08:14:47.720484+00:00</updated><content type="html"><![CDATA[<p>需要列个list了</p>
 <ul>
-<li>[x] 完善 gitblog 的 action 让用户更少更改</li>
-<li>[x] 给 gitblog 这个增加todo list 功能(这个就是测试）</li>
-<li>[x] 给 running page 增加排序</li>
-<li>[x] 完善 runtastic 增加一个参数</li>
-<li>[x] 尝试搞定 vscode-leetcode 的cn第三方登陆</li>
-<li>[x] 研究自动截图发邮件功能（工作上）</li>
-<li>[ ] 继续给大连咖啡做贡献</li>
-<li>[x] 把 running page 变得更通用(自动生成的js可以用gpx生成)</li>
-<li>[x] 搞定 gcores 日历</li>
-<li>[ ] 学点底层</li>
+<li><input checked="" disabled="" type="checkbox"> 完善 gitblog 的 action 让用户更少更改</li>
+<li><input checked="" disabled="" type="checkbox"> 给 gitblog 这个增加todo list 功能(这个就是测试）</li>
+<li><input checked="" disabled="" type="checkbox"> 给 running page 增加排序</li>
+<li><input checked="" disabled="" type="checkbox"> 完善 runtastic 增加一个参数</li>
+<li><input checked="" disabled="" type="checkbox"> 尝试搞定 vscode-leetcode 的cn第三方登陆</li>
+<li><input checked="" disabled="" type="checkbox"> 研究自动截图发邮件功能（工作上）</li>
+<li><input disabled="" type="checkbox"> 继续给大连咖啡做贡献</li>
+<li><input checked="" disabled="" type="checkbox"> 把 running page 变得更通用(自动生成的js可以用gpx生成)</li>
+<li><input checked="" disabled="" type="checkbox"> 搞定 gcores 日历</li>
+<li><input disabled="" type="checkbox"> 学点底层</li>
 </ul>
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/180" rel="alternate"/><category term="TODO"/><published>2020-08-28T07:19:51+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/179</id><title>眼见何事，情系何处，身在何方，心思何人</title><updated>2021-12-01T08:14:47.726696+00:00</updated><content type="html"><![CDATA[<p>突然想到了好多年以前推特的中文文案，写的真好。看的出是想在大陆有些作为的，可是好多事儿往往事与愿违。推特被封禁10年了吧，这十年也发生了太多的变化。
 <img src="https://user-images.githubusercontent.com/15976103/91243176-eb20a400-e77b-11ea-9a41-6c0d42b357af.png" alt="image" /></p>
@@ -1415,14 +1531,41 @@ if __name__ == &#x27;__main__&#x27;:
 <li><a href="https://github.com/thomaschampagne/elevate">elevate</a> -- Browser extension for strava</li>
 </ul>
 <h3>跑步软件总结</h3>
-<p>| 软件名称| 优点 | 缺点 |
-| ------- | ------- | ------- |
-| strava | 支持运动种类多，开放api, 数据粒度很细，用户群较大，中国区支持，数据导出相对容易 | 很多功能需要订阅会员，运动手表支持一般 |
-| Nike Run Club | 完全免费，手表支持很好，数据稳定，UI非常漂亮，中国区支持大部分功能 | 数据统计做的相对一般，数据导出相对麻烦 |
-| Runtastic | 社区数据做的都很好，界面漂亮，手表支持很好，运动总类多 | 国区下架，数据导出导入相对麻烦 |
-| garmin | 数据精准度高，支持数据导入导出 | 国区和其它用的两套账号管理会带来麻烦 |
-| 咕咚，悦跑圈，keep... | 国内软件目前没下架风险 | 不支持数据导出，做了一大堆无用的社交功能 |</p>
-<blockquote>
+<table>
+<thead>
+<tr>
+<th>软件名称</th>
+<th>优点</th>
+<th>缺点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>strava</td>
+<td>支持运动种类多，开放api, 数据粒度很细，用户群较大，中国区支持，数据导出相对容易</td>
+<td>很多功能需要订阅会员，运动手表支持一般</td>
+</tr>
+<tr>
+<td>Nike Run Club</td>
+<td>完全免费，手表支持很好，数据稳定，UI非常漂亮，中国区支持大部分功能</td>
+<td>数据统计做的相对一般，数据导出相对麻烦</td>
+</tr>
+<tr>
+<td>Runtastic</td>
+<td>社区数据做的都很好，界面漂亮，手表支持很好，运动总类多</td>
+<td>国区下架，数据导出导入相对麻烦</td>
+</tr>
+<tr>
+<td>garmin</td>
+<td>数据精准度高，支持数据导入导出</td>
+<td>国区和其它用的两套账号管理会带来麻烦</td>
+</tr>
+<tr>
+<td>咕咚，悦跑圈，keep...</td>
+<td>国内软件目前没下架风险</td>
+<td>不支持数据导出，做了一大堆无用的社交功能</td>
+</tr>
+</tbody></table><blockquote>
 <p>我的选择: 我用了 8 年多的 Runtastic 后来国区下架，在其它区下载有gps偏移的问题，转到了<code>Nike Run Club</code>, 但我会备份一份数据上传到strava, 因为 strava 开放 api 比较方便 DIY 我个人页面用的也是 strava 的数据。在国区，我比较推荐<code>Nike Run Club</code></p>
 </blockquote>
 <h3>还需要知道一些小知识</h3>
@@ -1730,10 +1873,10 @@ fuck fuck fuck，傻逼gfw，傻逼愚民政策</p>
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/142" rel="alternate"/><category term="2020"/><published>2020-03-21T15:05:57+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/141</id><title>日语学习</title><updated>2021-12-01T08:14:48.108559+00:00</updated><content type="html"><![CDATA[<p>发现了一个播客，<a href="https://riyu.io/">日语</a></p>
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/141" rel="alternate"/><category term="2020"/><published>2020-03-20T06:22:59+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/140</id><title>来了。</title><updated>2021-12-01T08:14:48.109066+00:00</updated><content type="html"><![CDATA[<h2>31岁的list</h2>
 <ul>
-<li>[ ] 程序上的list</li>
-<li>[ ] ccna ccne ccnp</li>
-<li>[ ] 日语二级</li>
-<li>[ ] 英语精进</li>
+<li><input disabled="" type="checkbox"> 程序上的list</li>
+<li><input disabled="" type="checkbox"> ccna ccne ccnp</li>
+<li><input disabled="" type="checkbox"> 日语二级</li>
+<li><input disabled="" type="checkbox"> 英语精进</li>
 </ul>
 <hr />
 <p>如果只需要完成1个就给自己60分，全完成是100分
@@ -2428,15 +2571,15 @@ push不知道为什么push不上去
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/46" rel="alternate"/><category term="日记"/><published>2019-10-03T13:26:06+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/45</id><title>利用github issues加上github webhook写博客自动化</title><updated>2021-12-01T08:14:49.064830+00:00</updated><content type="html"><![CDATA[<p>webhook搞明白了，部署在阿里云上</p>
 <h3>剩下的工作</h3>
 <ul>
-<li>[x] 添加label</li>
-<li>[x] 编写自动生成第一次readme的脚本</li>
-<li>[ ] 编写更新的脚本</li>
-<li>[ ]  编写创建的脚本</li>
+<li><input checked="" disabled="" type="checkbox"> 添加label</li>
+<li><input checked="" disabled="" type="checkbox"> 编写自动生成第一次readme的脚本</li>
+<li><input disabled="" type="checkbox"> 编写更新的脚本</li>
+<li><input disabled="" type="checkbox">  编写创建的脚本</li>
 </ul>
 <h3>将来可能要做的工作</h3>
 <ul>
-<li>[ ] 独立域名</li>
-<li>[ ] 开源</li>
+<li><input disabled="" type="checkbox"> 独立域名</li>
+<li><input disabled="" type="checkbox"> 开源</li>
 </ul>
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/45" rel="alternate"/><category term="技术文章"/><published>2019-10-02T06:26:12+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/44</id><title>2019九月总结及十月计划</title><updated>2021-12-01T08:14:49.068105+00:00</updated><content type="html"><![CDATA[<ol>
 <li>九月最大的改变就是换工作吧，虽然不知道未来怎么样，但是知道现在</li>
@@ -2560,12 +2703,12 @@ Press Home twice to jump to the start of every line</p>
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/36" rel="alternate"/><category term="技术文章"/><published>2019-09-20T02:43:28+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/35</id><title>剩下的日子和要交接的工作</title><updated>2021-12-01T08:14:49.110468+00:00</updated><content type="html"><![CDATA[<h2>剩下的日子也不多了</h2>
 <p>整理下自己需要做点什么吧，对这里倒是一点留恋没有，每天抽出时间学一学下一家公司要做的事儿吧。其余的是工作</p>
 <ul>
-<li>[x] 完成python那个项目的修改</li>
-<li>[x] 帮助东哥完成python的部署</li>
-<li>[x] 二维码项目改代码上传svn，交接金老师</li>
-<li>[x] node问题回复</li>
-<li>[x] 其它问题</li>
-<li>[x] 小范的自动化脚本</li>
+<li><input checked="" disabled="" type="checkbox"> 完成python那个项目的修改</li>
+<li><input checked="" disabled="" type="checkbox"> 帮助东哥完成python的部署</li>
+<li><input checked="" disabled="" type="checkbox"> 二维码项目改代码上传svn，交接金老师</li>
+<li><input checked="" disabled="" type="checkbox"> node问题回复</li>
+<li><input checked="" disabled="" type="checkbox"> 其它问题</li>
+<li><input checked="" disabled="" type="checkbox"> 小范的自动化脚本</li>
 </ul>
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/35" rel="alternate"/><category term="工作"/><published>2019-09-19T03:31:24+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/34</id><title>冒泡的声音</title><updated>2021-12-01T08:14:49.114261+00:00</updated><content type="html"><![CDATA[<h2>空调不知道为什么一直都有冒泡的声音</h2>
 <h2>很烦
@@ -2666,9 +2809,9 @@ Press Home twice to jump to the start of every line</p>
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/24" rel="alternate"/><category term="工作"/><published>2019-08-19T00:09:24+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/23</id><title>《快乐的Linux命令行》读书笔记</title><updated>2021-12-01T08:14:49.408537+00:00</updated><content type="html"><![CDATA[<p>新坑 2019.08.12开始
 地址：<a href="http://billie66.github.io/TLCL/book/">快乐的Linux命令行</a></p>
 <ul>
-<li>[ ] 读完</li>
-<li>[ ] 顺便记录一些英语单词</li>
-<li>[ ] 编写一些脚本程序 </li>
+<li><input disabled="" type="checkbox"> 读完</li>
+<li><input disabled="" type="checkbox"> 顺便记录一些英语单词</li>
+<li><input disabled="" type="checkbox"> 编写一些脚本程序 </li>
 </ul>
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/23" rel="alternate"/><category term="读书笔记"/><published>2019-08-12T08:05:09+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/22</id><title>雨中奔跑</title><updated>2021-12-01T08:14:49.410850+00:00</updated><content type="html"><![CDATA[<p>今天犹豫了好几次
 最终还是决定在雨中把今天的运动环完成
@@ -2910,38 +3053,133 @@ I mean it.</p>
 <h3>元字符</h3>
 </li>
 </ol>
-<p>|元字符|描述|
-|:----:|----|
-|.|句号匹配任意单个字符除了换行符.|
-|[ ]|字符种类. 匹配方括号内的任意字符.|
-|[^ ]|否定的字符种类. 匹配除了方括号里的任意字符|
-|<em>|匹配&gt;=0个重复的在</em>号之前的字符.|
-|+|匹配&gt;=1个重复的+号前的字符.
-|?|标记?之前的字符为可选.|
-|{n,m}|匹配num个大括号之前的字符 (n &lt;= num &lt;= m).|
-|(xyz)|字符集, 匹配与 xyz 完全相等的字符串.|
-|||或运算符,匹配符号前或后的字符.|
-|\|转义字符,用于匹配一些保留的字符 <code>[ ] ( ) { } . * + ? ^ $ \ |</code>|
-|^|从开始行开始匹配.|
-|$|从末端开始匹配.|
-2. ### 简写字符集
-|简写|描述|
-|:----:|----|
-|.|除换行符外的所有字符|
-|\w|匹配所有字母数字, 等同于 <code>[a-zA-Z0-9_]</code>|
-|\W|匹配所有非字母数字, 即符号, 等同于: <code>[^\w]</code>|
-|\d|匹配数字: <code>[0-9]</code>|
-|\D|匹配非数字: <code>[^\d]</code>|
-|\s|匹配所有空格字符, 等同于: <code>[\t\n\f\r\p{Z}]</code>|
-|\S|匹配所有非空格字符: <code>[^\s]</code>|
-|\f|匹配一个换页符|
-|\n|匹配一个换行符|
-|\r|匹配一个回车符|
-|\t|匹配一个制表符|
-|\v|匹配一个垂直制表符|
-|\p|匹配 CR/LF (等同于 <code>\r\n</code>)，用来匹配 DOS 行终止符|
-3. ### 横向模糊匹配与纵向模糊匹配
-横向(/g代表全文搜索):</p>
+<table>
+<thead>
+<tr>
+<th align="center">元字符</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">.</td>
+<td>句号匹配任意单个字符除了换行符.</td>
+</tr>
+<tr>
+<td align="center">[ ]</td>
+<td>字符种类. 匹配方括号内的任意字符.</td>
+</tr>
+<tr>
+<td align="center">[^ ]</td>
+<td>否定的字符种类. 匹配除了方括号里的任意字符</td>
+</tr>
+<tr>
+<td align="center">*</td>
+<td>匹配&gt;=0个重复的在*号之前的字符.</td>
+</tr>
+<tr>
+<td align="center">+</td>
+<td>匹配&gt;=1个重复的+号前的字符.</td>
+</tr>
+<tr>
+<td align="center">?</td>
+<td>标记?之前的字符为可选.</td>
+</tr>
+<tr>
+<td align="center">{n,m}</td>
+<td>匹配num个大括号之前的字符 (n &lt;= num &lt;= m).</td>
+</tr>
+<tr>
+<td align="center">(xyz)</td>
+<td>字符集, 匹配与 xyz 完全相等的字符串.</td>
+</tr>
+<tr>
+<td align="center">|</td>
+<td>或运算符,匹配符号前或后的字符.</td>
+</tr>
+<tr>
+<td align="center">\</td>
+<td>转义字符,用于匹配一些保留的字符 <code>[ ] ( ) { } . * + ? ^ $ \ |</code></td>
+</tr>
+<tr>
+<td align="center">^</td>
+<td>从开始行开始匹配.</td>
+</tr>
+<tr>
+<td align="center">$</td>
+<td>从末端开始匹配.</td>
+</tr>
+</tbody></table><ol start="2">
+<li>
+<h3>简写字符集</h3>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th align="center">简写</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">.</td>
+<td>除换行符外的所有字符</td>
+</tr>
+<tr>
+<td align="center">\w</td>
+<td>匹配所有字母数字, 等同于 <code>[a-zA-Z0-9_]</code></td>
+</tr>
+<tr>
+<td align="center">\W</td>
+<td>匹配所有非字母数字, 即符号, 等同于: <code>[^\w]</code></td>
+</tr>
+<tr>
+<td align="center">\d</td>
+<td>匹配数字: <code>[0-9]</code></td>
+</tr>
+<tr>
+<td align="center">\D</td>
+<td>匹配非数字: <code>[^\d]</code></td>
+</tr>
+<tr>
+<td align="center">\s</td>
+<td>匹配所有空格字符, 等同于: <code>[\t\n\f\r\p{Z}]</code></td>
+</tr>
+<tr>
+<td align="center">\S</td>
+<td>匹配所有非空格字符: <code>[^\s]</code></td>
+</tr>
+<tr>
+<td align="center">\f</td>
+<td>匹配一个换页符</td>
+</tr>
+<tr>
+<td align="center">\n</td>
+<td>匹配一个换行符</td>
+</tr>
+<tr>
+<td align="center">\r</td>
+<td>匹配一个回车符</td>
+</tr>
+<tr>
+<td align="center">\t</td>
+<td>匹配一个制表符</td>
+</tr>
+<tr>
+<td align="center">\v</td>
+<td>匹配一个垂直制表符</td>
+</tr>
+<tr>
+<td align="center">\p</td>
+<td>匹配 CR/LF (等同于 <code>\r\n</code>)，用来匹配 DOS 行终止符</td>
+</tr>
+</tbody></table><ol start="3">
+<li>
+<h3>横向模糊匹配与纵向模糊匹配</h3>
+</li>
+</ol>
+<p>横向(/g代表全文搜索):</p>
 <pre><code class="language-javascript">var regex = /ab{2,5}c/g;
 var string = &quot;abc abbc abbbc abbbbc abbbbbc abbbbbbc&quot;;
 console.log( string.match(regex) ); 
@@ -3092,32 +3330,32 @@ ls file_* | xargs -i {} mv {} temp/
 ]]></content><link href="https://github.com/yihong0618/gitblog/issues/6" rel="alternate"/><category term="日记"/><published>2019-07-24T01:12:44+00:00</published></entry><entry><id>https://github.com/yihong0618/gitblog/issues/5</id><title>搞定收藏夹</title><updated>2021-12-01T08:14:49.507485+00:00</updated><content type="html"><![CDATA[<h2>在技术学习上，发现自己收藏了太多的东西，买了太多的书没有读，是时候整理一下然后把事情一个一个的搞定。</h2>
 <h3>读书</h3>
 <ul>
-<li>[x] <a href="https://juejin.im/book/5bffcbc9f265da614b11b731">《MySQL是怎样运行的》</a></li>
-<li>[x] <a href="https://pymotw.com/3/index.html">《Python3标准库》</a></li>
-<li>[x] <a href="http://eloquentjavascript.net/">《eloquentjavascript》</a></li>
-<li>[ ] <a href="https://livebook.manning.com/#%21/book/grokking-deep-learning/table-of-contents/">《grokking-deep-learning》</a></li>
-<li>[ ] <a href="https://legacy.gitbook.com/book/tiancaiamao/go-internals/details">《深入解析Go》</a></li>
-<li>[x] <a href="http://javascript.info/">《The Modern JavaScript Tutorial》</a></li>
-<li>[ ] 《计算机系统要素》</li>
-<li>[ ] <a href="https://studygolang.gitbook.io/learn-go-with-tests/">《Learn Go with tests》</a></li>
-<li>[ ] 《深入理解计算机系统》</li>
-<li>[ ] <a href="https://juejin.im/book/5af56a3c518825426642e004">《深入理解 RPC : 基于 Python 自建分布式高并发 RPC 服务》</a></li>
-<li>[ ] <a href="https://juejin.im/book/5afc2e5f6fb9a07a9b362527">《Redis 深度历险：核心原理与应用实践》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://juejin.im/book/5bffcbc9f265da614b11b731">《MySQL是怎样运行的》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://pymotw.com/3/index.html">《Python3标准库》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="http://eloquentjavascript.net/">《eloquentjavascript》</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://livebook.manning.com/#%21/book/grokking-deep-learning/table-of-contents/">《grokking-deep-learning》</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://legacy.gitbook.com/book/tiancaiamao/go-internals/details">《深入解析Go》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="http://javascript.info/">《The Modern JavaScript Tutorial》</a></li>
+<li><input disabled="" type="checkbox"> 《计算机系统要素》</li>
+<li><input disabled="" type="checkbox"> <a href="https://studygolang.gitbook.io/learn-go-with-tests/">《Learn Go with tests》</a></li>
+<li><input disabled="" type="checkbox"> 《深入理解计算机系统》</li>
+<li><input disabled="" type="checkbox"> <a href="https://juejin.im/book/5af56a3c518825426642e004">《深入理解 RPC : 基于 Python 自建分布式高并发 RPC 服务》</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://juejin.im/book/5afc2e5f6fb9a07a9b362527">《Redis 深度历险：核心原理与应用实践》</a></li>
 </ul>
 <h3>动手</h3>
 <ul>
-<li>[x] <a href="https://github.com/gwuhaolin/blog/issues/12">你也能写个ss</a></li>
-<li>[ ] <a href="https://dmmeteo.github.io/freetestdriven/">Microservices with Docker, Flask, and React</a></li>
-<li>[ ] <a href="https://hsiaosiyuan0.gitbook.io/icj/">使用 JavaScript 来实现解释器和编译器</a></li>
-<li>[x] <a href="http://aosabook.org/en/500L/a-python-interpreter-written-in-python.html">A Python Interpreter Written in Python</a></li>
-<li>[ ] <a href="https://juejin.im/post/5ce66801e51d455d850d3a4a">感受lambda之美</a></li>
-<li>[ ] <a href="https://juejin.im/post/5d229bfc5188252d707f3ac6">深入浅出Vue响应式原理</a></li>
-<li>[ ] <a href="https://ruslanspivak.com/lsbasi-part1/">Let's Build A Simple Interpreter. Part</a></li>
-<li>[ ] <a href="https://github.com/YvetteLau/Blog/issues/6">嗨，你真的懂this吗？</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://github.com/gwuhaolin/blog/issues/12">你也能写个ss</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://dmmeteo.github.io/freetestdriven/">Microservices with Docker, Flask, and React</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://hsiaosiyuan0.gitbook.io/icj/">使用 JavaScript 来实现解释器和编译器</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="http://aosabook.org/en/500L/a-python-interpreter-written-in-python.html">A Python Interpreter Written in Python</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://juejin.im/post/5ce66801e51d455d850d3a4a">感受lambda之美</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://juejin.im/post/5d229bfc5188252d707f3ac6">深入浅出Vue响应式原理</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://ruslanspivak.com/lsbasi-part1/">Let's Build A Simple Interpreter. Part</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/YvetteLau/Blog/issues/6">嗨，你真的懂this吗？</a></li>
 </ul>
 <h3>视频课程</h3>
 <ul>
-<li>[x] <a href="https://github.com/EugeneLiu/translationCSAPP">CSAPP 视频课程</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://github.com/EugeneLiu/translationCSAPP">CSAPP 视频课程</a></li>
 </ul>
 <h3>算法</h3>
 <ul>
