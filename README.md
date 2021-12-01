@@ -36,6 +36,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [有趣与无趣](https://github.com/yihong0618/gitblog/issues/221)--2021-10-13
 - [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
 - [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--2021-09-27
+- [一点思考](https://github.com/yihong0618/gitblog/issues/218)--2021-08-19
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
