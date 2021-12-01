@@ -168,7 +168,7 @@ def add_md_recent(repo, md, me):
 
 def add_md_header(md, repo_name):
     with open(md, "w", encoding="utf-8") as md:
-        md.write(MD_HEAD.format(repo=repo_name))
+        md.write(MD_HEAD.format(repo_name=repo_name))
 
 
 def add_md_label(repo, md, me):
