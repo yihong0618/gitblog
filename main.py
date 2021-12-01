@@ -3,10 +3,14 @@ import argparse
 import os
 import re
 
+import marko
 from github import Github
+from feedgen.feed import FeedGenerator
+from lxml.etree import CDATA
 
 MD_HEAD = """## Gitblog
 My personal blog using issues and GitHub Actions (随意转载，无需署名)
+[RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
 """
 
 BACKUP_DIR = "BACKUP"
@@ -162,9 +166,9 @@ def add_md_recent(repo, md, me):
             return
 
 
-def add_md_header(md):
+def add_md_header(md, repo_name):
     with open(md, "w", encoding="utf-8") as md:
-        md.write(MD_HEAD)
+        md.write(MD_HEAD.format(repo=repo_name))
 
 
 def add_md_label(repo, md, me):
@@ -210,15 +214,42 @@ def get_to_generate_issues(repo, dir_name, issue_number=None):
     return to_generate_issues
 
 
+def generate_rss_feed(repo, filename):
+    generator = FeedGenerator()
+    generator.id(repo.html_url)
+    generator.title(f"RSS feed of {repo.owner.login}'s {repo.name}")
+    generator.author(
+        {"name": os.getenv("GITHUB_NAME"), "email": os.getenv("GITHUB_EMAIL")}
+    )
+    generator.link(href=repo.html_url)
+    generator.link(
+        href=f"https://raw.githubusercontent.com/{repo.full_name}/master/{filename}",
+        rel="self",
+    )
+    for issue in repo.get_issues():
+        if not issue.body:
+            continue
+        item = generator.add_entry(order="append")
+        item.id(issue.html_url)
+        item.link(href=issue.html_url)
+        item.title(issue.title)
+        item.published(issue.created_at.strftime("%Y-%m-%dT%H:%M:%SZ"))
+        for label in issue.labels:
+            item.category({"term": label.name})
+        item.content(CDATA(marko.convert(issue.body)), type="html")
+    generator.atom_file(filename)
+
+
 def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
     user = login(token)
     me = get_me(user)
     repo = get_repo(user, repo_name)
-    add_md_header("README.md")
     # add to readme one by one, change order here
+    add_md_header("README.md", repo_name)
     for func in [add_md_firends, add_md_top, add_md_recent, add_md_label, add_md_todo]:
         func(repo, "README.md", me)
 
+    generate_rss_feed(repo, "feed.xml")
     to_generate_issues = get_to_generate_issues(repo, dir_name, issue_number)
 
     # save md files to backup folder
