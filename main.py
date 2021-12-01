@@ -22,7 +22,7 @@ IGNORE_LABELS = FRIENDS_LABELS + TOP_ISSUES_LABELS + TODO_ISSUES_LABELS
 
 FRIENDS_TABLE_HEAD = "| Name | Link | Desc | \n | ---- | ---- | ---- |\n"
 FRIENDS_TABLE_TEMPLATE = "| {name} | {link} | {desc} |\n"
-FRIENTS_INFO_DICT = {
+FRIENDS_INFO_DICT = {
     "名字": "",
     "链接": "",
     "描述": "",
@@ -33,7 +33,7 @@ def get_me(user):
     return user.get_user().login
 
 
-def isMe(issue, me):
+def is_me(issue, me):
     return issue.user.login == me
 
 
@@ -46,7 +46,7 @@ def is_hearted_by_me(comment, me):
 
 
 def _make_friend_table_string(s):
-    info_dict = FRIENTS_INFO_DICT.copy()
+    info_dict = FRIENDS_INFO_DICT.copy()
     try:
         string_list = s.splitlines()
         # drop empty line
@@ -117,7 +117,7 @@ def add_md_todo(repo, md, me):
     with open(md, "a+", encoding="utf-8") as md:
         md.write("## TODO\n")
         for issue in todo_issues:
-            if isMe(issue, me):
+            if is_me(issue, me):
                 todo_title, todo_list = parse_TODO(issue)
                 md.write("TODO list from " + todo_title + "\n")
                 for t in todo_list:
@@ -133,7 +133,7 @@ def add_md_top(repo, md, me):
     with open(md, "a+", encoding="utf-8") as md:
         md.write("## 置顶文章\n")
         for issue in top_issues:
-            if isMe(issue, me):
+            if is_me(issue, me):
                 add_issue_info(issue, md)
 
 
@@ -153,15 +153,18 @@ def add_md_firends(repo, md, me):
         md.write(s)
 
 
-def add_md_recent(repo, md, me):
-    new_five_issues = repo.get_issues()[:5]
+def add_md_recent(repo, md, me, limit=5):
+    count = 0
     with open(md, "a+", encoding="utf-8") as md:
         # one the issue that only one issue and delete (pyGitHub raise an exception)
         try:
             md.write("## 最近更新\n")
-            for issue in new_five_issues:
-                if isMe(issue, me):
+            for issue in repo.get_issues():
+                if is_me(issue, me):
                     add_issue_info(issue, md)
+                    count += 1
+                    if count >= limit:
+                        break
         except:
             return
 
@@ -188,7 +191,7 @@ def add_md_label(repo, md, me):
             for issue in issues:
                 if not issue:
                     continue
-                if isMe(issue, me):
+                if is_me(issue, me):
                     if i == ANCHOR_NUMBER:
                         md.write("<details><summary>显示更多</summary>\n")
                         md.write("\n")
@@ -227,7 +230,7 @@ def generate_rss_feed(repo, filename, me):
         rel="self",
     )
     for issue in repo.get_issues():
-        if not issue.body or not isMe(issue, me) or issue.pull_request:
+        if not issue.body or not is_me(issue, me) or issue.pull_request:
             continue
         item = generator.add_entry(order="append")
         item.id(issue.html_url)
@@ -266,7 +269,7 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
         f.write(issue.body)
         if issue.comments:
             for c in issue.get_comments():
-                if isMe(c, me):
+                if is_me(c, me):
                     f.write("\n\n---\n\n")
                     f.write(c.body)
 
