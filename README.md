@@ -32,11 +32,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [vscode-gcores 开发笔记 2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [经历了人生体验最棒的一次面试](https://github.com/yihong0618/gitblog/issues/228)--2021-12-06
 - [参加了《开源面对面》和《ByteTalk》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
 - [有趣与无趣](https://github.com/yihong0618/gitblog/issues/221)--2021-10-13
 - [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
 - [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--2021-09-27
-- [一点思考](https://github.com/yihong0618/gitblog/issues/218)--2021-08-19
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -126,13 +126,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 工作
+- [经历了人生体验最棒的一次面试](https://github.com/yihong0618/gitblog/issues/228)--2021-12-06
 - [沮丧](https://github.com/yihong0618/gitblog/issues/203)--2021-01-25
 - [心情不是很好的。](https://github.com/yihong0618/gitblog/issues/176)--2020-08-19
 - [最近在家，状态很不好。](https://github.com/yihong0618/gitblog/issues/165)--2020-06-09
 - [认真工作](https://github.com/yihong0618/gitblog/issues/161)--2020-05-29
-- [想要工资有些提升](https://github.com/yihong0618/gitblog/issues/155)--2020-05-12
 <details><summary>显示更多</summary>
 
+- [想要工资有些提升](https://github.com/yihong0618/gitblog/issues/155)--2020-05-12
 - [终于上班了，开心](https://github.com/yihong0618/gitblog/issues/153)--2020-05-06
 - [第一次团建](https://github.com/yihong0618/gitblog/issues/150)--2020-04-25
 - [复工第一天](https://github.com/yihong0618/gitblog/issues/128)--2020-03-04
