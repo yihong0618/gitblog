@@ -17,6 +17,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Leeyom's Blog | https://blog.leeyom.top | 用于记录一些幼稚的想法和脑残的瞬间~ |
 | chaomai's blog | https://chaomai.github.io/ | A repository for the things I’ve learnt, built, and wasted time on. |
 | linw1995's blog | https://linw1995.com/ | 三分热度三分收获 |
+| 蒋继发 (Thaddeus Jiang) | https://thaddeusjiang.com/welcome.html | 在日本开发 SaaS 产品，Love OSS |
 ## 置顶文章
 - [参加了《开源面对面》和《ByteTalk》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
 - [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
