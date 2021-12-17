@@ -61,3 +61,8 @@ query GetUsers {
 }
 
 ```
+
+---
+
+只有这个答案是对的。。
+https://stackoverflow.com/questions/34610705/git-windows-and-linux-line-endings
