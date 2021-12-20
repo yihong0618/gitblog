@@ -262,3 +262,9 @@ https://www.sitepoint.com/wsl2/
 
 fucking wsl2
 https://github.com/microsoft/WSL/issues/5068
+
+---
+
+用户
+
+https://www.digitalocean.com/community/questions/nothing-working-for-non-root-user
