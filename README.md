@@ -33,11 +33,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [二零二二的三个小目标](https://github.com/yihong0618/gitblog/issues/229)--2022-01-07
 - [经历了人生体验最棒的一次面试](https://github.com/yihong0618/gitblog/issues/228)--2021-12-06
 - [参加了《开源面对面》和《ByteTalk》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
 - [有趣与无趣](https://github.com/yihong0618/gitblog/issues/221)--2021-10-13
 - [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
-- [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--2021-09-27
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -93,6 +93,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [生存守则](https://github.com/yihong0618/gitblog/issues/204)--2021-01-27
 - [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
 - [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
+## 2022
+- [二零二二的三个小目标](https://github.com/yihong0618/gitblog/issues/229)--2022-01-07
 ## 一些计划
 - [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
 - [月跑 250 km计划](https://github.com/yihong0618/gitblog/issues/184)--2020-09-01
