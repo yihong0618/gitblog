@@ -49,7 +49,7 @@ jobs:
         run: |
           source venv/bin/activate
           python main.py ${{ secrets.G_T }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
-          curl -H "Content-Type:application/json" -X POST -d '{"inputs": {}, "ref":"main"}' https://api.github.com/repos/yihong0618/2021/actions/workflows/4756004/dispatches -H "Authorization: token ${{ secrets.G_T }}"
+          curl -H "Content-Type:application/json" -X POST -d '{"inputs": {}, "ref":"main"}' https://api.github.com/repos/yihong0618/2022/actions/workflows/17187634/dispatches -H "Authorization: token ${{ secrets.G_T }}"
 
       - name: Push README
         uses: github-actions-x/commit@v2.6
