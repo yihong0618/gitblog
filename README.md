@@ -14,7 +14,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | 二愣的闲谈杂鱼 | https://godruoyi.com | 生活总是这样，不能让人处处都满意，但我们还要热情地生活下去。 |
 | 彭宏豪的个人博客 | https://penghh.fun | 我的 Hexo 博客，分享一些软件或电脑的使用技巧 |
 | Yu Jinyan | https://blog.yujinyan.me/ | Web, JVM, Android. Kotlin enthusiast. |
-| Leeyom's Blog | https://blog.leeyom.top | 用于记录一些幼稚的想法和脑残的瞬间~ |
+| Leeyom's Blog | https://blog.leeyom.top | 用于记录一些幼稚的想法和脑残的瞬间 |
 | chaomai's blog | https://chaomai.github.io/ | A repository for the things I’ve learnt, built, and wasted time on. |
 | linw1995's blog | https://linw1995.com/ | 三分热度三分收获 |
 | 蒋继发 (Thaddeus Jiang) | https://thaddeusjiang.com/welcome.html | 在日本开发 SaaS 产品，Love OSS |
