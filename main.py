@@ -64,6 +64,18 @@ def _make_friend_table_string(s):
         return
 
 
+# help to covert xml vaild string
+def _valid_xml_char_ordinal(c):
+    codepoint = ord(c)
+    # conditions ordered by presumed frequency
+    return (
+        0x20 <= codepoint <= 0xD7FF
+        or codepoint in (0x9, 0xA, 0xD)
+        or 0xE000 <= codepoint <= 0xFFFD
+        or 0x10000 <= codepoint <= 0x10FFFF
+    )
+
+
 def format_time(time):
     return str(time)[:10]
 
@@ -239,7 +251,8 @@ def generate_rss_feed(repo, filename, me):
         item.published(issue.created_at.strftime("%Y-%m-%dT%H:%M:%SZ"))
         for label in issue.labels:
             item.category({"term": label.name})
-        item.content(CDATA(marko.convert(issue.body)), type="html")
+        body = "".join(c for c in issue.body if _valid_xml_char_ordinal(c))
+        item.content(CDATA(marko.convert(body)), type="html")
     generator.atom_file(filename)
 
 
