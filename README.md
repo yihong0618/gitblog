@@ -33,11 +33,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [运交华盖与何求](https://github.com/yihong0618/gitblog/issues/231)--2022-03-03
 - [年终岁尾](https://github.com/yihong0618/gitblog/issues/230)--2022-01-28
 - [二零二二的三个小目标](https://github.com/yihong0618/gitblog/issues/229)--2022-01-07
 - [经历了人生体验最棒的一次面试](https://github.com/yihong0618/gitblog/issues/228)--2021-12-06
 - [参加了《开源面对面》和《ByteTalk》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
-- [有趣与无趣](https://github.com/yihong0618/gitblog/issues/221)--2021-10-13
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -112,13 +112,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 一些记录
+- [运交华盖与何求](https://github.com/yihong0618/gitblog/issues/231)--2022-03-03
 - [参加了《开源面对面》和《ByteTalk》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
 - [张小龙的饭否](https://github.com/yihong0618/gitblog/issues/215)--2021-07-08
 - [推荐一些我一直关注的觉得不错的和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
 - [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
-- [做减法](https://github.com/yihong0618/gitblog/issues/148)--2020-04-16
 <details><summary>显示更多</summary>
 
+- [做减法](https://github.com/yihong0618/gitblog/issues/148)--2020-04-16
 - [少说，多做，](https://github.com/yihong0618/gitblog/issues/112)--2020-02-13
 - [刷完了《东京男子图鉴》](https://github.com/yihong0618/gitblog/issues/107)--2020-01-28
 - [蛋疼](https://github.com/yihong0618/gitblog/issues/55)--2019-10-04
