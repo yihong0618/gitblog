@@ -52,11 +52,9 @@ jobs:
           curl -H "Content-Type:application/json" -X POST -d '{"inputs": {}, "ref":"main"}' https://api.github.com/repos/yihong0618/2022/actions/workflows/17187634/dispatches -H "Authorization: token ${{ secrets.G_T }}"
 
       - name: Push README
-        uses: github-actions-x/commit@v2.6
-        with:
-          github-token: ${{ secrets.G_T }}
-          commit-message: "Refresh README AND BACK UP"
-          files: README.md feed.xml BACKUP/
-          rebase: "true"
-          name: ${{ env.GITHUB_NAME }}
-          email: ${{ env.GITHUB_EMAIL }}
+        run: |
+          git config --local user.email "${{ env.GITHUB_EMAIL }}"
+          git config --local user.name "${{ env.GITHUB_EMAIL }}"
+          git commit -a -m 'update new blog' || echo "nothing to commit"
+          git push || echo "nothing to push"
+
