@@ -33,11 +33,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [Postgres 中 GUC 的一些记录](https://github.com/yihong0618/gitblog/issues/233)--2022-04-21
 - [运交华盖与何求](https://github.com/yihong0618/gitblog/issues/231)--2022-03-03
 - [年终岁尾](https://github.com/yihong0618/gitblog/issues/230)--2022-01-28
 - [二零二二的三个小目标](https://github.com/yihong0618/gitblog/issues/229)--2022-01-07
 - [经历了人生体验最棒的一次面试](https://github.com/yihong0618/gitblog/issues/228)--2021-12-06
-- [参加了《开源面对面》和《ByteTalk》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -179,13 +179,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 技术文章
+- [Postgres 中 GUC 的一些记录](https://github.com/yihong0618/gitblog/issues/233)--2022-04-21
 - [从 Rich 作者的一个问题说起](https://github.com/yihong0618/gitblog/issues/212)--2021-06-21
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
 - [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
 - [如何获取 keep 跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
-- [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
 <details><summary>显示更多</summary>
 
+- [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
 - [程序员跑步指南](https://github.com/yihong0618/gitblog/issues/178)--2020-08-23
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [机器学习存档](https://github.com/yihong0618/gitblog/issues/158)--2020-05-21
