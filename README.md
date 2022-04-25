@@ -33,11 +33,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [Postgres 需要学的东西](https://github.com/yihong0618/gitblog/issues/234)--2022-04-25
 - [Postgres 中 GUC 的一些记录](https://github.com/yihong0618/gitblog/issues/233)--2022-04-21
 - [运交华盖与何求](https://github.com/yihong0618/gitblog/issues/231)--2022-03-03
 - [年终岁尾](https://github.com/yihong0618/gitblog/issues/230)--2022-01-28
 - [二零二二的三个小目标](https://github.com/yihong0618/gitblog/issues/229)--2022-01-07
-- [经历了人生体验最棒的一次面试](https://github.com/yihong0618/gitblog/issues/228)--2021-12-06
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -295,6 +295,26 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [《快乐的Linux命令行》读书笔记](https://github.com/yihong0618/gitblog/issues/23)--2019-08-12
 - [MySQL是怎样跑起来的读书笔记](https://github.com/yihong0618/gitblog/issues/13)--2019-08-01
 ## TODO
+TODO list from [Postgres 需要学的东西](https://github.com/yihong0618/gitblog/issues/234)--17 jobs to do--1 jobs done
+- [x] GUC
+- [ ] WAL
+- [ ] Locks
+- [ ] Shared memory
+- [ ] Page
+- [ ] LWLocks
+- [ ] IO
+- [ ] 协议
+- [ ] Diskquota
+- [ ] Tuple
+- [ ] FSM
+- [ ] Join
+- [ ] MVCC
+- [ ] BufferPool
+- [ ] 分布式
+- [ ] Btree & B+Tree
+- [ ] Hash
+- [ ] MmeoryContext
+
 TODO list from [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--2 jobs to do--5 jobs done
 - [x] running_page 一周年总结
 - [x] 机核文章
