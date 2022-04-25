@@ -295,14 +295,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [《快乐的Linux命令行》读书笔记](https://github.com/yihong0618/gitblog/issues/23)--2019-08-12
 - [MySQL是怎样跑起来的读书笔记](https://github.com/yihong0618/gitblog/issues/13)--2019-08-01
 ## TODO
-TODO list from [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--4 jobs to do--3 jobs done
+TODO list from [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--2 jobs to do--5 jobs done
 - [x] running_page 一周年总结
 - [x] 机核文章
+- [x] 我跑步听的播客
+- [x] 该离开了
 - [x] 选择
 - [ ] django shell 的运行原理
 - [ ] 推荐两个 YouTube 程序员
-- [ ] 我跑步听的播客
-- [ ] 该离开了
 
 TODO list from [学习生活上的计划](https://github.com/yihong0618/gitblog/issues/181)--3 jobs to do--1 jobs done
 - [x] 背标日初级下的单词
