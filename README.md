@@ -295,7 +295,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [《快乐的Linux命令行》读书笔记](https://github.com/yihong0618/gitblog/issues/23)--2019-08-12
 - [MySQL是怎样跑起来的读书笔记](https://github.com/yihong0618/gitblog/issues/13)--2019-08-01
 ## TODO
-TODO list from [Postgres 需要学的东西](https://github.com/yihong0618/gitblog/issues/234)--17 jobs to do--1 jobs done
+TODO list from [Postgres 需要学的东西](https://github.com/yihong0618/gitblog/issues/234)--18 jobs to do--1 jobs done
 - [x] GUC
 - [ ] WAL
 - [ ] Locks
@@ -314,6 +314,7 @@ TODO list from [Postgres 需要学的东西](https://github.com/yihong0618/gitbl
 - [ ] Btree & B+Tree
 - [ ] Hash
 - [ ] MmeoryContext
+- [ ] SPI
 
 TODO list from [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--2 jobs to do--5 jobs done
 - [x] running_page 一周年总结
