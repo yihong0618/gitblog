@@ -45,11 +45,10 @@ jobs:
           pip install -r requirements.txt
         if: steps.pip-cache.outputs.cache-hit != 'true'
 
-      - name: Generate new md # if you fork or clone this repo, please delete the curl line unless you know why
+      - name: Generate new md
         run: |
           source venv/bin/activate
           python main.py ${{ secrets.G_T }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
-          curl -H "Content-Type:application/json" -X POST -d '{"inputs": {}, "ref":"main"}' https://api.github.com/repos/yihong0618/2022/actions/workflows/17187634/dispatches -H "Authorization: token ${{ secrets.G_T }}"
 
       - name: Push README
         run: |
