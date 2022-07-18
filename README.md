@@ -5,7 +5,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 | 兔子鮮笙 | https://tuzi.moe | 20 岁的天才少年 |
-| FriendsA | https://blog.duanfei.org/ | 跑步的朋友 |
+| FriendsA | https://blog.duanfei.org/ | 友人A |
 | daya0576 | https://changchen.me/ | 喜欢 python 的大牙 |
 | kenlai | https://kenlai.me/ | 网络前辈 |
 | Frost Ming | https://frostming.com/ | 醉后不知天在水，满船清梦压星河 |
