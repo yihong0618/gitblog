@@ -19,6 +19,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | linw1995's blog | https://linw1995.com/ | 三分热度三分收获 |
 | 蒋继发 (Thaddeus Jiang) | https://thaddeusjiang.com/welcome.html | 在日本开发 SaaS 产品，Love OSS |
 ## 置顶文章
+- [今天的跑步电台](https://github.com/yihong0618/gitblog/issues/239)--2022-07-18
 - [经历了人生体验最棒的一次面试](https://github.com/yihong0618/gitblog/issues/228)--2021-12-06
 - [参加了《开源面对面》和《ByteTalk》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
 - [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
@@ -33,11 +34,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [今天的跑步电台](https://github.com/yihong0618/gitblog/issues/239)--2022-07-18
 - [LeetCode 是如何运行的--测试篇](https://github.com/yihong0618/gitblog/issues/237)--2022-07-01
 - [新冠纪元](https://github.com/yihong0618/gitblog/issues/235)--2022-04-26
 - [Postgres 需要学的东西](https://github.com/yihong0618/gitblog/issues/234)--2022-04-25
 - [Postgres 中 GUC 的一些记录](https://github.com/yihong0618/gitblog/issues/233)--2022-04-21
-- [运交华盖与何求](https://github.com/yihong0618/gitblog/issues/231)--2022-03-03
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -259,13 +260,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 生活
+- [今天的跑步电台](https://github.com/yihong0618/gitblog/issues/239)--2022-07-18
 - [新冠纪元](https://github.com/yihong0618/gitblog/issues/235)--2022-04-26
 - [年终岁尾](https://github.com/yihong0618/gitblog/issues/230)--2022-01-28
 - [一件小事](https://github.com/yihong0618/gitblog/issues/214)--2021-07-05
 - [逃离](https://github.com/yihong0618/gitblog/issues/208)--2021-05-12
-- [近况](https://github.com/yihong0618/gitblog/issues/207)--2021-03-25
 <details><summary>显示更多</summary>
 
+- [近况](https://github.com/yihong0618/gitblog/issues/207)--2021-03-25
 - [年过完了](https://github.com/yihong0618/gitblog/issues/206)--2021-02-22
 - [记住这一刻](https://github.com/yihong0618/gitblog/issues/199)--2020-12-29
 - [普通人和天才之间的巨大鸿沟](https://github.com/yihong0618/gitblog/issues/185)--2020-09-08
