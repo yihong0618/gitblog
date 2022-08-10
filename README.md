@@ -34,11 +34,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [反思](https://github.com/yihong0618/gitblog/issues/241)--2022-08-10
 - [今天的跑步电台](https://github.com/yihong0618/gitblog/issues/239)--2022-07-18
 - [LeetCode 是如何运行的--测试篇](https://github.com/yihong0618/gitblog/issues/237)--2022-07-01
 - [新冠纪元](https://github.com/yihong0618/gitblog/issues/235)--2022-04-26
 - [Postgres 需要学的东西](https://github.com/yihong0618/gitblog/issues/234)--2022-04-25
-- [Postgres 中 GUC 的一些记录](https://github.com/yihong0618/gitblog/issues/233)--2022-04-21
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -95,6 +95,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
 - [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
 ## 2022
+- [反思](https://github.com/yihong0618/gitblog/issues/241)--2022-08-10
 - [二零二二的三个小目标](https://github.com/yihong0618/gitblog/issues/229)--2022-01-07
 ## 一些计划
 - [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
@@ -138,7 +139,6 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [认真工作](https://github.com/yihong0618/gitblog/issues/161)--2020-05-29
 <details><summary>显示更多</summary>
 
-- [想要工资有些提升](https://github.com/yihong0618/gitblog/issues/155)--2020-05-12
 - [终于上班了，开心](https://github.com/yihong0618/gitblog/issues/153)--2020-05-06
 - [第一次团建](https://github.com/yihong0618/gitblog/issues/150)--2020-04-25
 - [复工第一天](https://github.com/yihong0618/gitblog/issues/128)--2020-03-04
