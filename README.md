@@ -320,7 +320,7 @@ TODO list from [Postgres 需要学的东西](https://github.com/yihong0618/gitbl
 - [ ] MmeoryContext
 - [ ] SPI
 
-TODO list from [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--2 jobs to do--5 jobs done
+TODO list from [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--3 jobs to do--5 jobs done
 - [x] running_page 一周年总结
 - [x] 机核文章
 - [x] 我跑步听的播客
@@ -328,6 +328,7 @@ TODO list from [接下来要写的东西](https://github.com/yihong0618/gitblog/
 - [x] 选择
 - [ ] django shell 的运行原理
 - [ ] 推荐两个 YouTube 程序员
+- [ ] 游戏行业科普
 
 TODO list from [学习生活上的计划](https://github.com/yihong0618/gitblog/issues/181)--3 jobs to do--1 jobs done
 - [x] 背标日初级下的单词
