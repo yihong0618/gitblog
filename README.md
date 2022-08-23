@@ -114,7 +114,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 一些记录
-- [运交华盖与何求](https://github.com/yihong0618/gitblog/issues/231)--2022-03-03
+- [运交华盖欲何求](https://github.com/yihong0618/gitblog/issues/231)--2022-03-03
 - [参加了《开源面对面》《ByteTalk》《枫言枫语》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
 - [张小龙的饭否](https://github.com/yihong0618/gitblog/issues/215)--2021-07-08
 - [推荐一些我一直关注的觉得不错的和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
