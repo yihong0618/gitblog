@@ -155,7 +155,7 @@ def add_md_top(repo, md, me):
 
 def add_md_firends(repo, md, me):
     s = FRIENDS_TABLE_HEAD
-    friends_issues = list(repo.get_issues(labels=FRIENDS_LABELS))
+    friends_issues = get_issues_from_lable(repo, FRIENDS_LABELS)
     for issue in friends_issues:
         for comment in issue.get_comments():
             if is_hearted_by_me(comment, me):
@@ -167,7 +167,12 @@ def add_md_firends(repo, md, me):
     with open(md, "a+", encoding="utf-8") as md:
         md.write("\n## 友情链接\n\n")
         md.write(s)
-        md.write("\n> 通过向[友情链接](https://github.com/HuJJ-NB/HuJJ-NB/issues/6)评论的形式，将博客加入友链列表\n")
+        if friend_issues.totalCount > 1:
+            md.write("\n> 通过向以下 issues 评论的形式，将您的博客加入友链列表\n")
+            for issue in friends_issues:
+                md.write("  [{issue.title}]({issue.html_url})\n")
+        else:
+            md.write("\n> 通过向 [{friends_issues[0].title}](friends_issues[0].html_url) 评论的形式，将您的博客加入友链列表\n")
 
 
 def add_md_recent(repo, md, me, limit=5):
@@ -291,7 +296,7 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
             f.write(f"\n{issue.body}\n")
         if issue.comments:
             for c in issue.get_comments():
-                f.write("\n---\n\n> [" + c.user.login + "](" + c.user.html_url + ")\n\n")
+                f.write("\n---\n\n> [{c.user.login}]({c.user.html_url})\n\n")
                 f.write(c.body)
                 f.write("\n")
 
