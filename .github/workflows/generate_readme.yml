@@ -15,6 +15,7 @@ on:
 env:
   GITHUB_NAME: yihong0618
   GITHUB_EMAIL: zouzou0208@gmail.com
+  BACKUP_BRANCH: backup
 
 jobs:
   sync:
@@ -22,39 +23,42 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:
+          path: main
+
+      - name: Checkout Blog
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ env.BACKUP_BRANCH }}
+          path: back
+
       - name: Set up Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v3
         with:
-          python-version: 3.6
+          python-version: 3.9
+          cache: 'pip'
 
-      - name: Configure pip cache
-        uses: actions/cache@v1
-        id: pip-cache
-        with:
-          path: venv
-          key: pip-1-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            pip-
-
-      - name: Install dependencies
+      - name: Get pip env
         run: |
           python -m pip install --upgrade pip
-          python -m venv venv
-          source venv/bin/activate
-          pip install -r requirements.txt
-        if: steps.pip-cache.outputs.cache-hit != 'true'
-
-      - name: Generate new md
-        run: |
-          source venv/bin/activate
-          python main.py ${{ secrets.G_T }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
+          pip install -r main/requirements.txt
+      - name: Generate new md # if you fork or clone this repo, please delete the curl line unless you know why
+        run: cd back && python ../main/main.py ${{ secrets.G_T }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
 
       - name: Push README
         run: |
+          cp back/README.md main/README.md
+          cp back/feed.xml main/feed.xml
+          cd main
           git config --local user.email "${{ env.GITHUB_EMAIL }}"
           git config --local user.name "${{ env.GITHUB_NAME }}"
-          git add BACKUP/*.md
-          git commit -a -m 'update new blog' || echo "nothing to commit"
-          git push || echo "nothing to push"
-
+          git add README.md
+          git commit --amend --no-edit
+          git push --force
+          cd ../back
+          git config --local user.email "${{ env.GITHUB_EMAIL }}"
+          git config --local user.name "${{ env.GITHUB_NAME }}"
+          git add .
+          git commit -m "update new blog"
+          git push

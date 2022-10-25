@@ -8,9 +8,17 @@ from github import Github
 from feedgen.feed import FeedGenerator
 from lxml.etree import CDATA
 
-MD_HEAD = """## Gitblog
-My personal blog using issues and GitHub Actions (随意转载，无需署名)
-[RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
+MD_HEAD = """# Gitblog
+
+My personal blog using issues and GitHub Actions（随意转载，无需署名）
+
+Subscribe to [RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
+"""
+
+MD_FOOT = """
+---
+
+Thanks for [yihong0618](https://github/com/yihong0618/gitblog)
 """
 
 BACKUP_DIR = "BACKUP"
@@ -20,8 +28,8 @@ TODO_ISSUES_LABELS = ["TODO"]
 FRIENDS_LABELS = ["Friends"]
 IGNORE_LABELS = FRIENDS_LABELS + TOP_ISSUES_LABELS + TODO_ISSUES_LABELS
 
-FRIENDS_TABLE_HEAD = "| Name | Link | Desc | \n | ---- | ---- | ---- |\n"
-FRIENDS_TABLE_TEMPLATE = "| {name} | {link} | {desc} |\n"
+FRIENDS_TABLE_HEAD = "| 名字 | 链接 | 描述 |\n| --- | --- | --- |\n"
+FRIENDS_TABLE_TEMPLATE = "| {name} | <{link}> | {desc} |\n"
 FRIENDS_INFO_DICT = {
     "名字": "",
     "链接": "",
@@ -90,13 +98,13 @@ def get_repo(user: Github, repo: str):
 
 def parse_TODO(issue):
     body = issue.body.splitlines()
-    todo_undone = [l for l in body if l.startswith("- [ ] ")]
-    todo_done = [l for l in body if l.startswith("- [x] ")]
+    todo_undone = [l.strip() for l in body if l.lstrip().startswith("- [ ] ")]
+    todo_done = [l.strip() for l in body if l.lstrip().startswith("- [x] ")]
     # just add info all done
     if not todo_undone:
         return f"[{issue.title}]({issue.html_url}) all done", []
     return (
-        f"[{issue.title}]({issue.html_url})--{len(todo_undone)} jobs to do--{len(todo_done)} jobs done",
+        f"[{issue.title}]({issue.html_url}) --{len(todo_done)} jobs done --{len(todo_undone)} jobs to do",
         todo_done + todo_undone,
     )
 
@@ -119,7 +127,7 @@ def get_issues_from_label(repo, label):
 
 def add_issue_info(issue, md):
     time = format_time(issue.created_at)
-    md.write(f"- [{issue.title}]({issue.html_url})--{time}\n")
+    md.write(f"- [{issue.title}]({issue.html_url}) --{time}\n")
 
 
 def add_md_todo(repo, md, me):
@@ -127,15 +135,14 @@ def add_md_todo(repo, md, me):
     if not TODO_ISSUES_LABELS or not todo_issues:
         return
     with open(md, "a+", encoding="utf-8") as md:
-        md.write("## TODO\n")
+        md.write("\n## TODO\n")
         for issue in todo_issues:
             if is_me(issue, me):
                 todo_title, todo_list = parse_TODO(issue)
-                md.write("TODO list from " + todo_title + "\n")
-                for t in todo_list:
-                    md.write(t + "\n")
-                # new line
-                md.write("\n")
+                if todo_list:
+                    md.write("\nTODO list from " + todo_title + "\n\n")
+                    for t in todo_list:
+                        md.write(t + "\n")
 
 
 def add_md_top(repo, md, me):
@@ -143,7 +150,7 @@ def add_md_top(repo, md, me):
     if not TOP_ISSUES_LABELS or not top_issues:
         return
     with open(md, "a+", encoding="utf-8") as md:
-        md.write("## 置顶文章\n")
+        md.write("\n## 置顶文章\n\n")
         for issue in top_issues:
             if is_me(issue, me):
                 add_issue_info(issue, md)
@@ -151,7 +158,9 @@ def add_md_top(repo, md, me):
 
 def add_md_firends(repo, md, me):
     s = FRIENDS_TABLE_HEAD
-    friends_issues = list(repo.get_issues(labels=FRIENDS_LABELS))
+    friends_issues = repo.get_issues(labels=FRIENDS_LABELS)
+    if not FRIENDS_LABELS or not friends_issues:
+        return
     for issue in friends_issues:
         for comment in issue.get_comments():
             if is_hearted_by_me(comment, me):
@@ -161,8 +170,11 @@ def add_md_firends(repo, md, me):
                     print(str(e))
                     pass
     with open(md, "a+", encoding="utf-8") as md:
-        md.write("## 友情链接\n")
+        md.write("\n## 友情链接\n\n")
         md.write(s)
+        md.write("\n> 通过向以下 issues 评论的形式，将您的博客加入友链列表\n> \n")
+        for issue in friends_issues:
+            md.write(f"> [{issue.title}]({issue.html_url})\n> \n")
 
 
 def add_md_recent(repo, md, me, limit=5):
@@ -170,7 +182,7 @@ def add_md_recent(repo, md, me, limit=5):
     with open(md, "a+", encoding="utf-8") as md:
         # one the issue that only one issue and delete (pyGitHub raise an exception)
         try:
-            md.write("## 最近更新\n")
+            md.write("\n## 最近更新\n\n")
             for issue in repo.get_issues():
                 if is_me(issue, me):
                     add_issue_info(issue, md)
@@ -185,33 +197,35 @@ def add_md_header(md, repo_name):
     with open(md, "w", encoding="utf-8") as md:
         md.write(MD_HEAD.format(repo_name=repo_name))
 
+def add_md_footer(md):
+    with open(md, "a+", encoding="utf-8") as md:
+        md.write(MD_FOOT)
 
 def add_md_label(repo, md, me):
     labels = get_repo_labels(repo)
     with open(md, "a+", encoding="utf-8") as md:
         for label in labels:
-
             # we don't need add top label again
             if label.name in IGNORE_LABELS:
                 continue
 
             issues = get_issues_from_label(repo, label)
             if issues.totalCount:
-                md.write("## " + label.name + "\n")
                 issues = sorted(issues, key=lambda x: x.created_at, reverse=True)
+
             i = 0
             for issue in issues:
                 if not issue:
                     continue
                 if is_me(issue, me):
+                    if i == 0:
+                        md.write("\n## " + label.name + "\n\n")
                     if i == ANCHOR_NUMBER:
-                        md.write("<details><summary>显示更多</summary>\n")
-                        md.write("\n")
+                        md.write("\n<details><summary>显示更多</summary>\n\n")
                     add_issue_info(issue, md)
                     i += 1
             if i > ANCHOR_NUMBER:
-                md.write("</details>\n")
-                md.write("\n")
+                md.write("\n</details>\n")
 
 
 def get_to_generate_issues(repo, dir_name, issue_number=None):
@@ -264,6 +278,7 @@ def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
     add_md_header("README.md", repo_name)
     for func in [add_md_firends, add_md_top, add_md_recent, add_md_label, add_md_todo]:
         func(repo, "README.md", me)
+    add_md_footer("README.md")
 
     generate_rss_feed(repo, "feed.xml", me)
     to_generate_issues = get_to_generate_issues(repo, dir_name, issue_number)
@@ -277,14 +292,15 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
     md_name = os.path.join(
         dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md"
     )
-    with open(md_name, "w") as f:
-        f.write(f"# [{issue.title}]({issue.html_url})\n\n")
-        f.write(issue.body)
+    with open(md_name, "w", encoding="utf-8") as f:
+        f.write(f"# [{issue.title}]({issue.html_url})\n")
+        if issue.body:
+            f.write(f"\n{issue.body}\n")
         if issue.comments:
             for c in issue.get_comments():
-                if is_me(c, me):
-                    f.write("\n\n---\n\n")
-                    f.write(c.body)
+                f.write("\n---\n\n> [{c.user.login}]({c.user.html_url})\n\n")
+                f.write(c.body)
+                f.write("\n")
 
 
 if __name__ == "__main__":
