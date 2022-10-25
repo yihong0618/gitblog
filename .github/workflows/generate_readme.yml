@@ -53,7 +53,7 @@ jobs:
           cd main
           git config --local user.email "${{ env.GITHUB_EMAIL }}"
           git config --local user.name "${{ env.GITHUB_NAME }}"
-          git add README.md
+          git add README.md feed.xml
           git commit --amend --no-edit
           git push --force
           cd ../back
