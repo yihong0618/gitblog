@@ -18,6 +18,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | chaomai's blog | https://chaomai.github.io/ | A repository for the things I’ve learnt, built, and wasted time on. |
 | linw1995's blog | https://linw1995.com/ | 三分热度三分收获 |
 | 蒋继发 (Thaddeus Jiang) | https://thaddeusjiang.com/welcome.html | 在日本开发 SaaS 产品，Love OSS |
+| Yisheng's blog | https://yishenggong.com/ | 把一些从未有过的故事带到这个世界上 |
 ## 置顶文章
 - [今天的跑步电台](https://github.com/yihong0618/gitblog/issues/239)--2022-07-18
 - [经历了人生体验最棒的一次面试](https://github.com/yihong0618/gitblog/issues/228)--2021-12-06
