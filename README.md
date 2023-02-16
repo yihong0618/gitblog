@@ -20,6 +20,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | 蒋继发 (Thaddeus Jiang) | https://thaddeusjiang.com/welcome.html | 在日本开发 SaaS 产品，Love OSS |
 | Yisheng's blog | https://yishenggong.com/ | 把一些从未有过的故事带到这个世界上 |
 ## 置顶文章
+- [不用 root 使用小爱同学和 ChatGPT 交互折腾记](https://github.com/yihong0618/gitblog/issues/258)--2023-02-16
 - [用 eBPF trace PostgreSQL 的几种姿势](https://github.com/yihong0618/gitblog/issues/257)--2023-01-28
 - [今天的跑步电台](https://github.com/yihong0618/gitblog/issues/239)--2022-07-18
 - [经历了人生体验最棒的一次面试](https://github.com/yihong0618/gitblog/issues/228)--2021-12-06
@@ -36,7 +37,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
-- [不用 root 使用小爱同学和 ChatGPT 折腾记](https://github.com/yihong0618/gitblog/issues/258)--2023-02-16
+- [不用 root 使用小爱同学和 ChatGPT 交互折腾记](https://github.com/yihong0618/gitblog/issues/258)--2023-02-16
 - [用 eBPF trace PostgreSQL 的几种姿势](https://github.com/yihong0618/gitblog/issues/257)--2023-01-28
 - [2022 失落的一年](https://github.com/yihong0618/gitblog/issues/255)--2022-12-19
 - [写诗吧](https://github.com/yihong0618/gitblog/issues/254)--2022-11-25
@@ -76,7 +77,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 一些记录
-- [不用 root 使用小爱同学和 ChatGPT 折腾记](https://github.com/yihong0618/gitblog/issues/258)--2023-02-16
+- [不用 root 使用小爱同学和 ChatGPT 交互折腾记](https://github.com/yihong0618/gitblog/issues/258)--2023-02-16
 - [写诗吧](https://github.com/yihong0618/gitblog/issues/254)--2022-11-25
 - [如果判断一个数字帐号来自中国大陆](https://github.com/yihong0618/gitblog/issues/248)--2022-10-25
 - [运交华盖欲何求](https://github.com/yihong0618/gitblog/issues/231)--2022-03-03
