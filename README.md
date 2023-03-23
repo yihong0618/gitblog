@@ -21,6 +21,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Yisheng's blog | https://yishenggong.com/ | 把一些从未有过的故事带到这个世界上 |
 | 混蛋的小窝 | https://goofegg.github.io/ | 中科大学士-诗歌爱好者-运维工程师 |
 ## 置顶文章
+- [开源四年的一些记录](https://github.com/yihong0618/gitblog/issues/259)--2023-03-21
 - [不用 root 使用小爱同学和 ChatGPT 交互折腾记](https://github.com/yihong0618/gitblog/issues/258)--2023-02-16
 - [用 eBPF trace PostgreSQL 的几种姿势](https://github.com/yihong0618/gitblog/issues/257)--2023-01-28
 - [今天的跑步电台](https://github.com/yihong0618/gitblog/issues/239)--2022-07-18
