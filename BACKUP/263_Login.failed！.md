@@ -34,3 +34,7 @@ Traceback (most recent call last):
   File "/app/.venv/lib/python3.10/site-packages/miservice/miaccount.py", line 150, in mi_request
     raise Exception(f"Error {url}: {resp}")
 Exception: Error https://api2.mina.mi.com/admin/v2/device_list?master=0&requestId=app_ios_qc8k61XlhJYdirN4jOGD2xPzQn3oby: Login failed
+
+---
+
+不好意思 请去该项目下留 issue
