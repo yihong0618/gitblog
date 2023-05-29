@@ -13,8 +13,8 @@ on:
       - main.py
 
 env:
-  GITHUB_NAME: yihong0618
-  GITHUB_EMAIL: zouzou0208@gmail.com
+  GITHUB_NAME: wjwever
+  GITHUB_EMAIL: 1216451203@qq.com
 
 jobs:
   sync:
