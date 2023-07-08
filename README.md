@@ -39,11 +39,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [如何写一个 PostgreSQL Extension](https://github.com/yihong0618/gitblog/issues/270)--2023-07-08
 - [五月病](https://github.com/yihong0618/gitblog/issues/268)--2023-06-02
 - [杂感](https://github.com/yihong0618/gitblog/issues/262)--2023-05-01
 - [vm.overcommit_memory 学习笔记](https://github.com/yihong0618/gitblog/issues/261)--2023-04-12
 - [开源四年的一些记录](https://github.com/yihong0618/gitblog/issues/259)--2023-03-21
-- [不用 root 使用小爱同学和 ChatGPT 交互折腾记](https://github.com/yihong0618/gitblog/issues/258)--2023-02-16
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -140,13 +140,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 技术文章
+- [如何写一个 PostgreSQL Extension](https://github.com/yihong0618/gitblog/issues/270)--2023-07-08
 - [用 eBPF trace PostgreSQL 的几种姿势](https://github.com/yihong0618/gitblog/issues/257)--2023-01-28
 - [利用 GitHubPoster 和 GitHub Actions 备份任意用户推特](https://github.com/yihong0618/gitblog/issues/252)--2022-11-19
 - [LeetCode 是如何运行的--测试篇](https://github.com/yihong0618/gitblog/issues/237)--2022-07-01
 - [Postgres 中 GUC 的一些记录](https://github.com/yihong0618/gitblog/issues/233)--2022-04-21
-- [从 Rich 作者的一个问题说起](https://github.com/yihong0618/gitblog/issues/212)--2021-06-21
 <details><summary>显示更多</summary>
 
+- [从 Rich 作者的一个问题说起](https://github.com/yihong0618/gitblog/issues/212)--2021-06-21
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
 - [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
 - [如何获取 keep 跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
