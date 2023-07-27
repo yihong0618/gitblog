@@ -3,6 +3,7 @@ import argparse
 import os
 import re
 
+import markdown
 from marko.ext.gfm import gfm as marko
 from github import Github
 from feedgen.feed import FeedGenerator
@@ -160,9 +161,11 @@ def add_md_firends(repo, md, me):
                 except Exception as e:
                     print(str(e))
                     pass
+    s = markdown.markdown(s,output_format='html', extensions=['extra']) 
     with open(md, "a+", encoding="utf-8") as md:
         md.write("## 友情链接\n")
         md.write(s)
+        md.write("\n\n")
 
 
 def add_md_recent(repo, md, me, limit=5):
@@ -184,6 +187,7 @@ def add_md_recent(repo, md, me, limit=5):
 def add_md_header(md, repo_name):
     with open(md, "w", encoding="utf-8") as md:
         md.write(MD_HEAD.format(repo_name=repo_name))
+        md.write("\n")
 
 
 def add_md_label(repo, md, me):
