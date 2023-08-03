@@ -22,20 +22,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Set up Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v4
         with:
           python-version: 3.8
-
-      - name: Configure pip cache
-        uses: actions/cache@v1
-        id: pip-cache
-        with:
-          path: venv
-          key: pip-1-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            pip-
+          cache: pip
+          cache-dependency-path: 'requirements.txt'
 
       - name: Install dependencies
         run: |
@@ -43,7 +36,6 @@ jobs:
           python -m venv venv
           source venv/bin/activate
           pip install -r requirements.txt
-        if: steps.pip-cache.outputs.cache-hit != 'true'
 
       - name: Generate new md
         run: |
@@ -57,4 +49,3 @@ jobs:
           git add BACKUP/*.md
           git commit -a -m 'update new blog' || echo "nothing to commit"
           git push || echo "nothing to push"
-
