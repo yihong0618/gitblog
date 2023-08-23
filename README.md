@@ -393,8 +393,9 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## TODO
-TODO list from [Postgres 需要学的东西](https://github.com/yihong0618/gitblog/issues/234)--18 jobs to do--1 jobs done
+TODO list from [Postgres 需要学的东西](https://github.com/yihong0618/gitblog/issues/234)--17 jobs to do--2 jobs done
 - [x] GUC
+- [x] Btree & B+Tree
 - [ ] WAL
 - [ ] Locks
 - [ ] Shared memory
@@ -409,7 +410,6 @@ TODO list from [Postgres 需要学的东西](https://github.com/yihong0618/gitbl
 - [ ] MVCC
 - [ ] BufferPool
 - [ ] 分布式
-- [ ] Btree & B+Tree
 - [ ] Hash
 - [ ] MmeoryContext
 - [ ] SPI
