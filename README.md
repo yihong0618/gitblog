@@ -15,7 +15,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 <tr>
 <td>兔子鮮笙</td>
 <td>https://tuzi.moe</td>
-<td>20 岁的天才少年</td>
+<td>22 岁的天才少年</td>
 </tr>
 <tr>
 <td>FriendsA</td>
