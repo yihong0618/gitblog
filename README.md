@@ -114,11 +114,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [微信好友](https://github.com/yihong0618/gitblog/issues/272)--2023-08-23
 - [如何写一个 PostgreSQL Extension](https://github.com/yihong0618/gitblog/issues/270)--2023-07-08
 - [五月病](https://github.com/yihong0618/gitblog/issues/268)--2023-06-02
 - [杂感](https://github.com/yihong0618/gitblog/issues/262)--2023-05-01
 - [vm.overcommit_memory 学习笔记](https://github.com/yihong0618/gitblog/issues/261)--2023-04-12
-- [开源四年的一些记录](https://github.com/yihong0618/gitblog/issues/259)--2023-03-21
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -364,13 +364,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 生活
+- [微信好友](https://github.com/yihong0618/gitblog/issues/272)--2023-08-23
 - [今天的跑步电台](https://github.com/yihong0618/gitblog/issues/239)--2022-07-18
 - [新冠纪元](https://github.com/yihong0618/gitblog/issues/235)--2022-04-26
 - [年终岁尾](https://github.com/yihong0618/gitblog/issues/230)--2022-01-28
 - [一件小事](https://github.com/yihong0618/gitblog/issues/214)--2021-07-05
-- [逃离](https://github.com/yihong0618/gitblog/issues/208)--2021-05-12
 <details><summary>显示更多</summary>
 
+- [逃离](https://github.com/yihong0618/gitblog/issues/208)--2021-05-12
 - [近况](https://github.com/yihong0618/gitblog/issues/207)--2021-03-25
 - [年过完了](https://github.com/yihong0618/gitblog/issues/206)--2021-02-22
 - [记住这一刻](https://github.com/yihong0618/gitblog/issues/199)--2020-12-29
