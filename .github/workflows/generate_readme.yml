@@ -12,10 +12,6 @@ on:
     paths:
       - main.py
 
-env:
-  GITHUB_NAME: yihong0618
-  GITHUB_EMAIL: zouzou0208@gmail.com
-
 jobs:
   sync:
     name: Generate README
@@ -28,7 +24,7 @@ jobs:
         with:
           python-version: 3.8
           cache: pip
-          cache-dependency-path: 'requirements.txt'
+          cache-dependency-path: "requirements.txt"
 
       - name: Install dependencies
         run: |
@@ -44,8 +40,8 @@ jobs:
 
       - name: Push README
         run: |
-          git config --local user.email "${{ env.GITHUB_EMAIL }}"
-          git config --local user.name "${{ env.GITHUB_NAME }}"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add BACKUP/*.md
           git commit -a -m 'update new blog' || echo "nothing to commit"
           git push || echo "nothing to push"
