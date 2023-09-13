@@ -4,10 +4,10 @@ import os
 import re
 
 import markdown
-from marko.ext.gfm import gfm as marko
-from github import Github
 from feedgen.feed import FeedGenerator
+from github import Github
 from lxml.etree import CDATA
+from marko.ext.gfm import gfm as marko
 
 MD_HEAD = """## Gitblog
 My personal blog using issues and GitHub Actions (随意转载，无需署名)
@@ -153,6 +153,7 @@ def add_md_top(repo, md, me):
 def add_md_firends(repo, md, me):
     s = FRIENDS_TABLE_HEAD
     friends_issues = list(repo.get_issues(labels=FRIENDS_LABELS))
+    friends_issue_number = friends_issues[0].issue_number
     for issue in friends_issues:
         for comment in issue.get_comments():
             if is_hearted_by_me(comment, me):
@@ -163,7 +164,9 @@ def add_md_firends(repo, md, me):
                     pass
     s = markdown.markdown(s, output_format="html", extensions=["extra"])
     with open(md, "a+", encoding="utf-8") as md:
-        md.write("## 友情链接\n")
+        md.write(
+            f"## [友情链接](https://github.com/{str(me)}/gitblog/{friends_issue_number})\n"
+        )
         md.write(s)
         md.write("\n\n")
 
