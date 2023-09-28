@@ -10,18 +10,18 @@ PS. 现在这游戏已经有 stream 版本
 
 ## 引
 
-如果你是个Roguelike游戏的爱好者
+如果你是个 rogue like游戏的爱好者
 如果你是个炉石传说或是地下城的爱好者
-如果你在找移动端不错的 Rogue like 游戏
+如果你在找移动端不错的 rogue like 游戏
 当然，如果你不是一个画面党
 我向你推荐这款游戏 ->《Dream Quest》
-相信我，这是你在移动端能玩到的最棒的 Roguelike 游戏，没有之一
+相信我，这是你在移动端能玩到的最棒的 rogue like 游戏，没有之一
 
 ## 首先说说作者
 
 熟悉炉石的朋友可能多少听过这个人——《炉石传说》卡拉赞之夜的主设计师之一。而作者加入这个团队也完全是因为这款《Dream Quest》。故事的发展很简单，整个炉石团队沉迷了这款游戏,惊叹其中的卡牌数值设计，本来低调的作者顺理成章的加入了炉石这个“小”团队。
 
-从领英上能查到的信息Peter Whalen 是毕业于乔治亚理工学院的博士，又在亚马逊当了一年算法工程师（游戏的数值设计如此精妙也不奇怪了）。在这期间他用Unity引擎加上Windows画图版做出了这款“特别”的游戏，之后加入了炉石团队。（2023 年补充，他现在创业去了）
+从领英上能查到的信息 Peter Whalen 是毕业于乔治亚理工学院的博士，又在亚马逊当了一年算法工程师（游戏的数值设计如此精妙也不奇怪了）。在这期间他用 Unity 引擎加上 Windows 画图版做出了这款“特别”的游戏，之后加入了炉石团队。（2023 年补充，他现在创业去了）
 ![image](https://github.com/yihong0618/gitblog/assets/15976103/8bb031c9-4d23-45e0-8250-d79f0b6b55ba)
 ![image](https://github.com/yihong0618/gitblog/assets/15976103/1dec1786-e256-440a-b4fe-6a78f0e32ac5)
 
@@ -71,7 +71,7 @@ PS. 现在这游戏已经有 stream 版本
 ![image](https://github.com/yihong0618/gitblog/assets/15976103/4608510c-d6f8-4a3e-8013-ed001a49e987)
 
 
-最终Boss, 相信最终 Boss 的美术会是你再一次视觉享受：
+最终 Boss, 相信最终 Boss 的美术会是你再一次视觉享受：
 ![image](https://github.com/yihong0618/gitblog/assets/15976103/a2ac791c-f262-433b-9de4-35a93ed44b4f)
 
 ## 2023 年的后记
