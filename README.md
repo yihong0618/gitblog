@@ -114,11 +114,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [聊聊读书](https://github.com/yihong0618/gitblog/issues/275)--2023-10-18
 - [旧文，移动端最好的游戏，《Dream Quest》以及其它](https://github.com/yihong0618/gitblog/issues/274)--2023-09-28
 - [微信好友](https://github.com/yihong0618/gitblog/issues/272)--2023-08-23
 - [如何写一个 PostgreSQL Extension](https://github.com/yihong0618/gitblog/issues/270)--2023-07-08
 - [五月病](https://github.com/yihong0618/gitblog/issues/268)--2023-06-02
-- [杂感](https://github.com/yihong0618/gitblog/issues/262)--2023-05-01
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -307,6 +307,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [一定要摆脱撞大运编程](https://github.com/yihong0618/gitblog/issues/78)--2019-11-15
 - [又要开始了](https://github.com/yihong0618/gitblog/issues/76)--2019-11-11
 ## 读书笔记
+- [聊聊读书](https://github.com/yihong0618/gitblog/issues/275)--2023-10-18
 - [《Vim实用技巧》读书笔记](https://github.com/yihong0618/gitblog/issues/74)--2019-11-05
 - [计算机组成要素读书笔记](https://github.com/yihong0618/gitblog/issues/52)--2019-10-04
 - [《快乐的Linux命令行》读书笔记](https://github.com/yihong0618/gitblog/issues/23)--2019-08-12
