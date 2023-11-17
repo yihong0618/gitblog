@@ -16,6 +16,7 @@ jobs:
   sync:
     name: Generate README
     runs-on: ubuntu-latest
+    if: github.repository_owner_id == github.envent.issue.user.id || github.envent_name == "push"
     steps:
       - name: Checkout
         uses: actions/checkout@v3
