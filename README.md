@@ -119,11 +119,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [开源值得么？](https://github.com/yihong0618/gitblog/issues/279)--2023-11-23
 - [聊聊读书](https://github.com/yihong0618/gitblog/issues/275)--2023-10-18
 - [旧文，移动端最好的游戏，《Dream Quest》以及其它](https://github.com/yihong0618/gitblog/issues/274)--2023-09-28
 - [微信好友](https://github.com/yihong0618/gitblog/issues/272)--2023-08-23
 - [如何写一个 PostgreSQL Extension](https://github.com/yihong0618/gitblog/issues/270)--2023-07-08
-- [五月病](https://github.com/yihong0618/gitblog/issues/268)--2023-06-02
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -371,13 +371,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 生活
+- [开源值得么？](https://github.com/yihong0618/gitblog/issues/279)--2023-11-23
 - [微信好友](https://github.com/yihong0618/gitblog/issues/272)--2023-08-23
 - [今天的跑步电台](https://github.com/yihong0618/gitblog/issues/239)--2022-07-18
 - [新冠纪元](https://github.com/yihong0618/gitblog/issues/235)--2022-04-26
 - [年终岁尾](https://github.com/yihong0618/gitblog/issues/230)--2022-01-28
-- [一件小事](https://github.com/yihong0618/gitblog/issues/214)--2021-07-05
 <details><summary>显示更多</summary>
 
+- [一件小事](https://github.com/yihong0618/gitblog/issues/214)--2021-07-05
 - [逃离](https://github.com/yihong0618/gitblog/issues/208)--2021-05-12
 - [近况](https://github.com/yihong0618/gitblog/issues/207)--2021-03-25
 - [年过完了](https://github.com/yihong0618/gitblog/issues/206)--2021-02-22
