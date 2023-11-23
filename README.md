@@ -88,11 +88,6 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 <td>把一些从未有过的故事带到这个世界上</td>
 </tr>
 <tr>
-<td>混蛋的小窝</td>
-<td>https://goofegg.github.io/</td>
-<td>中科大学士-诗歌爱好者-运维工程师</td>
-</tr>
-<tr>
 <td>卡瓦邦噶</td>
 <td>https://www.kawabangga.com/</td>
 <td>一个叫赖信涛的男人</td>
