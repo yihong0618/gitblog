@@ -92,6 +92,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 <td>https://www.kawabangga.com/</td>
 <td>一个叫赖信涛的男人</td>
 </tr>
+<tr>
+<td>猫四叔</td>
+<td>https://yuanj.top/</td>
+<td>记录生信小白的学习之路</td>
+</tr>
 </tbody>
 </table>
 
