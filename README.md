@@ -97,6 +97,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 <td>https://yuanj.top/</td>
 <td>记录生信小白的学习之路</td>
 </tr>
+<tr>
+<td>Nomango's Blog</td>
+<td>https://nomango.dev/</td>
+<td>值得去的地方都没有捷径</td>
+</tr>
 </tbody>
 </table>
 
