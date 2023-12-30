@@ -102,6 +102,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 <td>https://nomango.dev/</td>
 <td>值得去的地方都没有捷径</td>
 </tr>
+<tr>
+<td>scond的博客</td>
+<td>https://helloo2020.github.io</td>
+<td>一个读书，跑步，旅行的人</td>
+</tr>
 </tbody>
 </table>
 
