@@ -129,11 +129,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [用小爱加手指机器人实现传统开关语音关灯](https://github.com/yihong0618/gitblog/issues/281)--2024-01-29
 - [记忆碎片](https://github.com/yihong0618/gitblog/issues/280)--2023-12-24
 - [开源值得么？](https://github.com/yihong0618/gitblog/issues/279)--2023-11-23
 - [聊聊读书](https://github.com/yihong0618/gitblog/issues/275)--2023-10-18
 - [旧文，移动端最好的游戏，《Dream Quest》以及其它](https://github.com/yihong0618/gitblog/issues/274)--2023-09-28
-- [微信好友](https://github.com/yihong0618/gitblog/issues/272)--2023-08-23
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -231,13 +231,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 技术文章
+- [用小爱加手指机器人实现传统开关语音关灯](https://github.com/yihong0618/gitblog/issues/281)--2024-01-29
 - [如何写一个 PostgreSQL Extension](https://github.com/yihong0618/gitblog/issues/270)--2023-07-08
 - [用 eBPF trace PostgreSQL 的几种姿势](https://github.com/yihong0618/gitblog/issues/257)--2023-01-28
 - [利用 GitHubPoster 和 GitHub Actions 备份任意用户推特](https://github.com/yihong0618/gitblog/issues/252)--2022-11-19
 - [LeetCode 是如何运行的--测试篇](https://github.com/yihong0618/gitblog/issues/237)--2022-07-01
-- [Postgres 中 GUC 的一些记录](https://github.com/yihong0618/gitblog/issues/233)--2022-04-21
 <details><summary>显示更多</summary>
 
+- [Postgres 中 GUC 的一些记录](https://github.com/yihong0618/gitblog/issues/233)--2022-04-21
 - [从 Rich 作者的一个问题说起](https://github.com/yihong0618/gitblog/issues/212)--2021-06-21
 - [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
 - [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
