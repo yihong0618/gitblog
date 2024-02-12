@@ -176,7 +176,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [写诗吧](https://github.com/yihong0618/gitblog/issues/254)--2022-11-25
 <details><summary>显示更多</summary>
 
-- [如果判断一个数字帐号来自中国大陆](https://github.com/yihong0618/gitblog/issues/248)--2022-10-25
+- [如何判断一个数字帐号来自中国大陆](https://github.com/yihong0618/gitblog/issues/248)--2022-10-25
 - [运交华盖欲何求](https://github.com/yihong0618/gitblog/issues/231)--2022-03-03
 - [参加了《开源面对面》《ByteTalk》《枫言枫语》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
 - [张小龙的饭否](https://github.com/yihong0618/gitblog/issues/215)--2021-07-08
