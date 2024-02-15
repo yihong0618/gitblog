@@ -1,20 +1,39 @@
 ## Gitblog
 My personal blog using issues and GitHub Actions (随意转载，无需署名)
 [RSS Feed](https://raw.githubusercontent.com/jdzj/log/master/feed.xml)
-## 友情链接
-| Name | Link | Desc | 
- | ---- | ---- | ---- |
-| 微录阁 | https://weiluge.com/ | 一个博客 |
-| log | https://log.weiluge.com/ | log life |
+
+## [友情链接](https://github.com/jdzj/gitblog/issues/36)
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Link</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>微录阁</td>
+<td>https://weiluge.com/</td>
+<td>一个博客</td>
+</tr>
+<tr>
+<td>log</td>
+<td>https://log.weiluge.com/</td>
+<td>log life</td>
+</tr>
+</tbody>
+</table>
+
 ## 置顶文章
 - [2022年的碎碎念](https://github.com/jdzj/log/issues/29)--2022-01-25
 - [hello world!](https://github.com/jdzj/log/issues/1)--2021-05-28
 ## 最近更新
+- [2024了， 真快](https://github.com/jdzj/log/issues/44)--2024-02-15
 - [一段向社会大哥要账的故事](https://github.com/jdzj/log/issues/43)--2022-06-20
 - [小鱼池的建造](https://github.com/jdzj/log/issues/42)--2022-03-28
 - [不知道谁写的创业感悟](https://github.com/jdzj/log/issues/41)--2022-03-15
 - [儿子扭扭车车库](https://github.com/jdzj/log/issues/40)--2022-02-14
-- [家庭小事对孩子的影响](https://github.com/jdzj/log/issues/39)--2022-02-14
 ## 2020
 - [圣诞快乐，亲爱的孩子](https://github.com/jdzj/log/issues/18)--2021-06-02
 - [摔跤和涂口红](https://github.com/jdzj/log/issues/11)--2021-06-01
@@ -90,6 +109,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [推友lee的自述](https://github.com/jdzj/log/issues/4)--2021-05-28
 </details>
 
+## 2024
+- [2024了， 真快](https://github.com/jdzj/log/issues/44)--2024-02-15
 ## TODO
 TODO list from [2022年的目标](https://github.com/jdzj/log/issues/3)--7 jobs to do--0 jobs done
 - [ ] 养成跑步的习惯，逐步增加到5KM。
