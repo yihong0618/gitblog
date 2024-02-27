@@ -1,8 +1,10 @@
-## Gitblog
+## [Gitblog](https://yihong0618.github.io/gitblog/)
 My personal blog using issues and GitHub Actions (随意转载，无需署名)
 [RSS Feed](https://raw.githubusercontent.com/yihong0618/gitblog/master/feed.xml)
+[About Me](https://github.com/yihong0618/gitblog/issues/282)
 
 ## [友情链接](https://github.com/yihong0618/gitblog/issues/217)
+<details><summary>显示</summary>
 <table>
 <thead>
 <tr>
@@ -108,7 +110,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 <td>一个读书，跑步，旅行的人</td>
 </tr>
 </tbody>
-</table>
+</table></details>
+
 
 ## 置顶文章
 - [开源四年的一些记录](https://github.com/yihong0618/gitblog/issues/259)--2023-03-21
@@ -371,8 +374,6 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [生存守则](https://github.com/yihong0618/gitblog/issues/204)--2021-01-27
 - [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
 - [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
-## About
-- [About Me](https://github.com/yihong0618/gitblog/issues/282)--2024-02-27
 ## 开发笔记
 - [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
 - [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
