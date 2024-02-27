@@ -129,11 +129,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [About Me](https://github.com/yihong0618/gitblog/issues/282)--2024-02-27
 - [用小爱加手指机器人实现传统开关语音关灯](https://github.com/yihong0618/gitblog/issues/281)--2024-01-29
 - [记忆碎片](https://github.com/yihong0618/gitblog/issues/280)--2023-12-24
 - [开源值得么？](https://github.com/yihong0618/gitblog/issues/279)--2023-11-23
 - [聊聊读书](https://github.com/yihong0618/gitblog/issues/275)--2023-10-18
-- [旧文，移动端最好的游戏，《Dream Quest》以及其它](https://github.com/yihong0618/gitblog/issues/274)--2023-09-28
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -371,6 +371,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [生存守则](https://github.com/yihong0618/gitblog/issues/204)--2021-01-27
 - [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
 - [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
+## About
+- [About Me](https://github.com/yihong0618/gitblog/issues/282)--2024-02-27
 ## 开发笔记
 - [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
 - [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
@@ -443,22 +445,4 @@ TODO list from [接下来要写的东西](https://github.com/yihong0618/gitblog/
 - [ ] django shell 的运行原理
 - [ ] 推荐两个 YouTube 程序员
 - [ ] 游戏行业科普
-
-TODO list from [学习生活上的计划](https://github.com/yihong0618/gitblog/issues/181)--3 jobs to do--1 jobs done
-- [x] 背标日初级下的单词
-- [ ] 月跑量突破250 km
-- [ ] 瘦到130斤
-- [ ] 年底考个日语 3 级
-
-TODO list from [程序上新的计划](https://github.com/yihong0618/gitblog/issues/180)--2 jobs to do--8 jobs done
-- [x] 完善 gitblog 的 action 让用户更少更改
-- [x] 给 gitblog 这个增加todo list 功能(这个就是测试）
-- [x] 给 running page 增加排序
-- [x] 完善 runtastic 增加一个参数
-- [x] 尝试搞定 vscode-leetcode 的cn第三方登陆
-- [x] 研究自动截图发邮件功能（工作上）
-- [x] 把 running page 变得更通用(自动生成的js可以用gpx生成)
-- [x] 搞定 gcores 日历
-- [ ] 继续给大连咖啡做贡献
-- [ ] 学点底层
 
