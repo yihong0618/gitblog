@@ -55,3 +55,9 @@
 > 偶然发现和你在greenplum社区有一些交集，还是很开心能和优秀的人共同开源。有机会的话想多和你聊聊gpdb相关的内容 ^_^
 
 好的
+
+---
+
+> 偶然发现和你在greenplum社区有一些交集，还是很开心能和优秀的人共同开源。有机会的话想多和你聊聊gpdb相关的内容 ^_^
+
+email or tg(yihong0618)  ping me always my pleasure
