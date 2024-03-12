@@ -41,8 +41,8 @@ jobs:
 
       - name: Push README
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "big123@126.com"
+          git config --local user.name "yanjr"
           git add BACKUP/*.md
           git commit -a -m 'update new blog' || echo "nothing to commit"
           git push || echo "nothing to push"
