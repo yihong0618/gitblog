@@ -113,6 +113,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 <td>https://tianheg.co</td>
 <td>了解自己，认识世界 Knowing oneself, grasp the world</td>
 </tr>
+<tr>
+<td>higuoxing</td>
+<td>https://higuoxing.com</td>
+<td>@higuoxing's site</td>
+</tr>
 </tbody>
 </table></details>
 
