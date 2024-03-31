@@ -141,11 +141,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [三月](https://github.com/yihong0618/gitblog/issues/283)--2024-03-31
 - [About Me](https://github.com/yihong0618/gitblog/issues/282)--2024-02-27
 - [用小爱加手指机器人实现传统开关语音关灯](https://github.com/yihong0618/gitblog/issues/281)--2024-01-29
 - [记忆碎片](https://github.com/yihong0618/gitblog/issues/280)--2023-12-24
 - [开源值得么？](https://github.com/yihong0618/gitblog/issues/279)--2023-11-23
-- [聊聊读书](https://github.com/yihong0618/gitblog/issues/275)--2023-10-18
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
