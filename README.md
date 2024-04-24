@@ -118,6 +118,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 <td>https://higuoxing.com</td>
 <td>@higuoxing's site</td>
 </tr>
+<tr>
+<td>zhiqli</td>
+<td>https://zhiqli.github.io/</td>
+<td>热爱做饭、阅读和足球的中年程序员。</td>
+</tr>
 </tbody>
 </table></details>
 
