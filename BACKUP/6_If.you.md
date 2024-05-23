@@ -78,3 +78,19 @@ Getting 8 hours of sleep:
 ---
 
 5. Walk 10k Steps
+
+---
+
+6. Fix your Thinking
+
+---
+
+7. Keep journal
+
+---
+
+8. Focus on one thing
+
+---
+
+9. Procrastination
