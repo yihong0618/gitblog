@@ -101,7 +101,7 @@ Remember - the clearer you are, the clearer your mind will be.
 
 
 纠正你的思维方式
-你是你所想的人。你能搞定的。
+你是你所想的人。你能修正它。
 “我们在想象中比在现实中更痛苦”
 ~塞内加
 
