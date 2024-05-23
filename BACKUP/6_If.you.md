@@ -81,7 +81,41 @@ Getting 8 hours of sleep:
 
 ---
 
-6. Fix your Thinking
+**6. Fix your Thinking**
+
+You are what you think. You can correct it.
+"We suffer more in imagination than in reality"
+~ Seneca
+
+Here are the ways:
+
+- Read.
+- Stoicism.
+- Buddhism.
+- Meditation.
+- Mindfulness.
+- Shadow work.
+
+Remember - the clearer you are, the clearer your mind will be.
+
+
+
+纠正你的思维方式
+你是你所想的人。你能搞定的。
+“我们在想象中比在现实中更痛苦”
+~塞内加
+
+以下是方法:
+
+- 读
+- 恬淡寡欲
+- 佛教
+- 冥想
+- 正念
+- 影子工作
+
+记住——你越清醒，你的头脑就会越清醒。
+
 
 ---
 
