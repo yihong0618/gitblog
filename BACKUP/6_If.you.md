@@ -26,6 +26,21 @@ Keep going.
 你比99%的人都领先。
 继续。
 
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
 **1.  Fix your sleep**
 Poor sleep affects your mind,body and soul.
 Getting 8 hours of sleep:
@@ -35,16 +50,15 @@ Getting 8 hours of sleep:
 > Sharpens judgment.
 > Improves decision-making.
 > Regulates mood.
-> 
+
 
 **1. 改善睡眠**
 30%的成年人睡眠不足。
 睡眠不好会影响你的思想、身体和灵魂。
 
-> 保证8小时的睡眠:
+保证8小时的睡眠:
 > 镇静和恢复身体。
-> 提高浓度。
-> 提高判断。
-> 提高了决策。
+> 提高专注力。
+> 提高判断力。
+> 提高了决策力。
 > 调节情绪。
-
