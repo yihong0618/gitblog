@@ -62,3 +62,19 @@ Getting 8 hours of sleep:
 > 提高判断力。
 > 提高了决策力。
 > 调节情绪。
+
+---
+
+**2. Read Books**
+
+---
+
+3. Wake up early
+
+---
+
+4. Build rare Skills
+
+---
+
+5. Walk 10k Steps
