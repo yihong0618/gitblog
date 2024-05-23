@@ -89,7 +89,32 @@ Getting 8 hours of sleep:
 
 ---
 
-8. Focus on one thing
+**8. Focus on one thing**
+
+Society and corporate culture glorifies this.The reality is, multi tasking does not work.
+
+What to dot:
+
+- Pomodoro technique.
+- Choose a task.
+- Set a 25-minute timer.
+- Work on the task.
+- Take a short break.
+- Repeat.
+
+**8.专注于一件事**
+
+社会和企业文化美化了这一点。事实是，一心多用是行不通的。
+
+怎么做:
+
+- [ ] - 番茄汤技术。
+- [ ] - 选择一个任务。
+- [ ] - 设置一个25分钟的计时器。
+- [ ] - 完成任务。
+- [ ] - 休息一会儿。
+- [ ] - 重复。
+
 
 ---
 
