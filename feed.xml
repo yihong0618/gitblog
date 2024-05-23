@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/yanjr/gitblog</id><title>RSS feed of yanjr's gitblog</title><updated>2024-05-23T02:18:18.574952+00:00</updated><link href="https://github.com/yanjr/gitblog"/><link href="https://raw.githubusercontent.com/yanjr/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/yanjr/gitblog/issues/6</id><title>If you</title><updated>2024-05-23T02:18:18.797822+00:00</updated><content type="html"><![CDATA[<p>If you:</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/yanjr/gitblog</id><title>RSS feed of yanjr's gitblog</title><updated>2024-05-23T02:27:53.774528+00:00</updated><link href="https://github.com/yanjr/gitblog"/><link href="https://raw.githubusercontent.com/yanjr/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/yanjr/gitblog/issues/6</id><title>If you</title><updated>2024-05-23T02:27:54.028232+00:00</updated><content type="html"><![CDATA[<p>If you:</p>
 <ol>
 <li>Fix your sleep</li>
 <li>Read Books</li>
@@ -27,7 +27,28 @@ Keep going.</li>
 你比99%的人都领先。
 继续。</li>
 </ol>
-]]></content><link href="https://github.com/yanjr/gitblog/issues/6"/><category term="读书笔记"/><published>2024-05-23T02:17:54+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/5</id><title>男人，不能靠工资变富</title><updated>2024-05-23T02:18:18.912200+00:00</updated><content type="html"><![CDATA[<p>如果你想成为自己的老板，按照以下方式行动，你将在24小时内达到你的月薪水平...</p>
+<p><strong>1.  Fix your sleep</strong>
+Poor sleep affects your mind,body and soul.
+Getting 8 hours of sleep:</p>
+<blockquote>
+<p>Calms and restores the body.
+Improves concentration.
+Sharpens judgment.
+Improves decision-making.
+Regulates mood.</p>
+</blockquote>
+<p><strong>1. 改善睡眠</strong>
+30%的成年人睡眠不足。
+睡眠不好会影响你的思想、身体和灵魂。</p>
+<blockquote>
+<p>保证8小时的睡眠:
+镇静和恢复身体。
+提高浓度。
+提高判断。
+提高了决策。
+调节情绪。</p>
+</blockquote>
+]]></content><link href="https://github.com/yanjr/gitblog/issues/6"/><category term="读书笔记"/><published>2024-05-23T02:17:54+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/5</id><title>男人，不能靠工资变富</title><updated>2024-05-23T02:27:54.206205+00:00</updated><content type="html"><![CDATA[<p>如果你想成为自己的老板，按照以下方式行动，你将在24小时内达到你的月薪水平...</p>
 <ol>
 <li>学习一项高收入技能，每天投入2小时，没有干扰，建立在你可以利用的特定知识上。 以下是方法；选择一项技能，选择10-20个教授这一技能的YouTube频道，连续观看100天。掌握基础知识，然后扩展技能。</li>
 </ol>
@@ -66,11 +87,11 @@ Keep going.</li>
 <p>开始一项副业/业务，是学习如何建立一项副业大赢家的时候。获取Twitter的艺术，帮助你：
 建立业务，每天赚取100美元。创建一个Twitter账户，按照逐步指南进行操作。</p>
 <h2>来源于 <a href="https://twitter.com/laobaishare/status/1765529059256316043">老白（坚持每日分享✊）</a></h2>
-]]></content><link href="https://github.com/yanjr/gitblog/issues/5"/><category term="读书笔记"/><published>2024-03-11T09:54:01+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/4</id><title>还是测试</title><updated>2024-05-23T02:18:19.024119+00:00</updated><content type="html"><![CDATA[<p>还是测试还是测试还是测试。
+]]></content><link href="https://github.com/yanjr/gitblog/issues/5"/><category term="读书笔记"/><published>2024-03-11T09:54:01+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/4</id><title>还是测试</title><updated>2024-05-23T02:27:54.325790+00:00</updated><content type="html"><![CDATA[<p>还是测试还是测试还是测试。
 2024-03-12 测试。
 测试测试。
 还是测试。</p>
-]]></content><link href="https://github.com/yanjr/gitblog/issues/4"/><category term="Top"/><published>2023-03-07T08:36:19+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/3</id><title>Gitblog</title><updated>2024-05-23T02:18:19.137180+00:00</updated><content type="html"><![CDATA[<p>GitblogGitblogGitblogGitblogGitblog</p>
-]]></content><link href="https://github.com/yanjr/gitblog/issues/3"/><category term="Top"/><published>2023-03-07T06:49:44+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/2</id><title>Top</title><updated>2024-05-23T02:18:19.249139+00:00</updated><content type="html"><![CDATA[<p>测试Top</p>
-]]></content><link href="https://github.com/yanjr/gitblog/issues/2"/><category term="Top"/><published>2023-03-07T06:33:56+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/1</id><title>Test gitblog</title><updated>2024-05-23T02:18:19.369112+00:00</updated><content type="html"><![CDATA[<p>Test gitblog</p>
+]]></content><link href="https://github.com/yanjr/gitblog/issues/4"/><category term="Top"/><published>2023-03-07T08:36:19+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/3</id><title>Gitblog</title><updated>2024-05-23T02:27:54.434669+00:00</updated><content type="html"><![CDATA[<p>GitblogGitblogGitblogGitblogGitblog</p>
+]]></content><link href="https://github.com/yanjr/gitblog/issues/3"/><category term="Top"/><published>2023-03-07T06:49:44+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/2</id><title>Top</title><updated>2024-05-23T02:27:54.555113+00:00</updated><content type="html"><![CDATA[<p>测试Top</p>
+]]></content><link href="https://github.com/yanjr/gitblog/issues/2"/><category term="Top"/><published>2023-03-07T06:33:56+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/1</id><title>Test gitblog</title><updated>2024-05-23T02:27:54.676999+00:00</updated><content type="html"><![CDATA[<p>Test gitblog</p>
 ]]></content><link href="https://github.com/yanjr/gitblog/issues/1"/><category term="生活"/><published>2023-03-07T05:10:23+00:00</published></entry></feed>
