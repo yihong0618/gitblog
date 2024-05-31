@@ -128,6 +128,7 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 
 
 ## 置顶文章
+- [跑了 10000km 花了 13 年](https://github.com/yihong0618/gitblog/issues/289)--2024-05-31
 - [开源四年的一些记录](https://github.com/yihong0618/gitblog/issues/259)--2023-03-21
 - [不用 root 使用小爱同学和 ChatGPT 交互折腾记](https://github.com/yihong0618/gitblog/issues/258)--2023-02-16
 - [用 eBPF trace PostgreSQL 的几种姿势](https://github.com/yihong0618/gitblog/issues/257)--2023-01-28
@@ -146,11 +147,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [跑了 10000km 花了 13 年](https://github.com/yihong0618/gitblog/issues/289)--2024-05-31
 - [抉择](https://github.com/yihong0618/gitblog/issues/287)--2024-04-17
 - [三月](https://github.com/yihong0618/gitblog/issues/283)--2024-03-31
 - [About Me](https://github.com/yihong0618/gitblog/issues/282)--2024-02-27
 - [用小爱加手指机器人实现传统开关语音关灯](https://github.com/yihong0618/gitblog/issues/281)--2024-01-29
-- [记忆碎片](https://github.com/yihong0618/gitblog/issues/280)--2023-12-24
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -186,13 +187,14 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 </details>
 
 ## 一些记录
+- [跑了 10000km 花了 13 年](https://github.com/yihong0618/gitblog/issues/289)--2024-05-31
 - [三月](https://github.com/yihong0618/gitblog/issues/283)--2024-03-31
 - [旧文，移动端最好的游戏，《Dream Quest》以及其它](https://github.com/yihong0618/gitblog/issues/274)--2023-09-28
 - [杂感](https://github.com/yihong0618/gitblog/issues/262)--2023-05-01
 - [开源四年的一些记录](https://github.com/yihong0618/gitblog/issues/259)--2023-03-21
-- [不用 root 使用小爱同学和 ChatGPT 交互折腾记](https://github.com/yihong0618/gitblog/issues/258)--2023-02-16
 <details><summary>显示更多</summary>
 
+- [不用 root 使用小爱同学和 ChatGPT 交互折腾记](https://github.com/yihong0618/gitblog/issues/258)--2023-02-16
 - [写诗吧](https://github.com/yihong0618/gitblog/issues/254)--2022-11-25
 - [如何判断一个数字帐号来自中国大陆](https://github.com/yihong0618/gitblog/issues/248)--2022-10-25
 - [运交华盖欲何求](https://github.com/yihong0618/gitblog/issues/231)--2022-03-03
