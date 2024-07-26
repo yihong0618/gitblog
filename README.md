@@ -147,11 +147,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [这玩意不是就__](https://github.com/yihong0618/gitblog/issues/291)--2024-07-26
 - [六月](https://github.com/yihong0618/gitblog/issues/290)--2024-06-30
 - [跑了 10000km 花了 13 年](https://github.com/yihong0618/gitblog/issues/289)--2024-05-31
 - [抉择](https://github.com/yihong0618/gitblog/issues/287)--2024-04-17
 - [三月](https://github.com/yihong0618/gitblog/issues/283)--2024-03-31
-- [About Me](https://github.com/yihong0618/gitblog/issues/282)--2024-02-27
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -340,11 +340,16 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 </details>
 
 ## 精进计划
+- [这玩意不是就__](https://github.com/yihong0618/gitblog/issues/291)--2024-07-26
 - [修炼内功，最近在刷《SICP》](https://github.com/yihong0618/gitblog/issues/163)--2020-06-04
 - [人和人之家的差距太大了](https://github.com/yihong0618/gitblog/issues/147)--2020-04-13
 - [我不服输](https://github.com/yihong0618/gitblog/issues/79)--2019-11-16
 - [一定要摆脱撞大运编程](https://github.com/yihong0618/gitblog/issues/78)--2019-11-15
+<details><summary>显示更多</summary>
+
 - [又要开始了](https://github.com/yihong0618/gitblog/issues/76)--2019-11-11
+</details>
+
 ## 读书笔记
 - [聊聊读书](https://github.com/yihong0618/gitblog/issues/275)--2023-10-18
 - [《Vim实用技巧》读书笔记](https://github.com/yihong0618/gitblog/issues/74)--2019-11-05
