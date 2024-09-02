@@ -148,11 +148,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [一件趣事儿](https://github.com/yihong0618/gitblog/issues/292)--2024-09-02
 - [这玩意不是就__](https://github.com/yihong0618/gitblog/issues/291)--2024-07-26
 - [六月](https://github.com/yihong0618/gitblog/issues/290)--2024-06-30
 - [跑了 10000km 花了 13 年](https://github.com/yihong0618/gitblog/issues/289)--2024-05-31
 - [抉择](https://github.com/yihong0618/gitblog/issues/287)--2024-04-17
-- [三月](https://github.com/yihong0618/gitblog/issues/283)--2024-03-31
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -289,13 +289,14 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 </details>
 
 ## 日记
+- [一件趣事儿](https://github.com/yihong0618/gitblog/issues/292)--2024-09-02
 - [六月](https://github.com/yihong0618/gitblog/issues/290)--2024-06-30
 - [抉择](https://github.com/yihong0618/gitblog/issues/287)--2024-04-17
 - [记忆碎片](https://github.com/yihong0618/gitblog/issues/280)--2023-12-24
 - [五月病](https://github.com/yihong0618/gitblog/issues/268)--2023-06-02
-- [一杯敬月光](https://github.com/yihong0618/gitblog/issues/251)--2022-11-18
 <details><summary>显示更多</summary>
 
+- [一杯敬月光](https://github.com/yihong0618/gitblog/issues/251)--2022-11-18
 - [有趣与无趣](https://github.com/yihong0618/gitblog/issues/221)--2021-10-13
 - [一点思考](https://github.com/yihong0618/gitblog/issues/218)--2021-08-19
 - [朋友圈](https://github.com/yihong0618/gitblog/issues/216)--2021-08-03
