@@ -148,11 +148,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [能几日，又中秋](https://github.com/yihong0618/gitblog/issues/294)--2024-09-18
 - [第一次 AI 尝试，完全用 AI(MarsCode) 做个需求](https://github.com/yihong0618/gitblog/issues/293)--2024-09-10
 - [一件趣事儿](https://github.com/yihong0618/gitblog/issues/292)--2024-09-02
 - [这玩意不是就__](https://github.com/yihong0618/gitblog/issues/291)--2024-07-26
 - [六月](https://github.com/yihong0618/gitblog/issues/290)--2024-06-30
-- [跑了 10000km 花了 13 年](https://github.com/yihong0618/gitblog/issues/289)--2024-05-31
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -188,13 +188,14 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 </details>
 
 ## 一些记录
+- [能几日，又中秋](https://github.com/yihong0618/gitblog/issues/294)--2024-09-18
 - [跑了 10000km 花了 13 年](https://github.com/yihong0618/gitblog/issues/289)--2024-05-31
 - [三月](https://github.com/yihong0618/gitblog/issues/283)--2024-03-31
 - [旧文，移动端最好的游戏，《Dream Quest》以及其它](https://github.com/yihong0618/gitblog/issues/274)--2023-09-28
 - [杂感](https://github.com/yihong0618/gitblog/issues/262)--2023-05-01
-- [开源四年的一些记录](https://github.com/yihong0618/gitblog/issues/259)--2023-03-21
 <details><summary>显示更多</summary>
 
+- [开源四年的一些记录](https://github.com/yihong0618/gitblog/issues/259)--2023-03-21
 - [不用 root 使用小爱同学和 ChatGPT 交互折腾记](https://github.com/yihong0618/gitblog/issues/258)--2023-02-16
 - [写诗吧](https://github.com/yihong0618/gitblog/issues/254)--2022-11-25
 - [如何判断一个数字帐号来自中国大陆](https://github.com/yihong0618/gitblog/issues/248)--2022-10-25
