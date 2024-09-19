@@ -124,6 +124,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 <td>https://zhiqli.github.io/</td>
 <td>热爱做饭、阅读和足球的中年程序员。</td>
 </tr>
+<tr>
+<td>游山打猎</td>
+<td>https://horse.im</td>
+<td>每个人都闪耀独特光芒</td>
+</tr>
 </tbody>
 </table></details>
 
