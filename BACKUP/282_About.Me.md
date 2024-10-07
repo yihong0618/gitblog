@@ -34,6 +34,7 @@
 - 迷茫的时候会听 [Bad day](https://www.youtube.com/watch?v=gH476CxJxfg)
 - 0618 是 0.618 的意思，不是我生日，我也不是刘强东粉丝
 - 喜欢喝酒，酒量一般，但是家人不咋让喝了，痛风。
+- 跑了 [10000km](https://yihong.run/) 
 
 
 ---
