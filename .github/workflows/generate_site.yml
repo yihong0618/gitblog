@@ -30,7 +30,7 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
       ISITE_VERSION: v0.1.3
-      ZOLA_VERSION: v0.17.2
+      ZOLA_VERSION: v0.19.2
       USER: ${{ github.repository_owner }}
       REPO: ${{ github.event.repository.name }}
       BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
@@ -44,6 +44,7 @@ jobs:
           isite generate --user $USER --repo $REPO
           gh release download $ZOLA_VERSION --repo getzola/zola -p '*linux*' --output zola.tar.gz
           tar zxf zola.tar.gz && mv zola /usr/local/bin
+          cp config.toml output/config.toml
           cd output && zola build --base-url $BASE_URL
       - name: Setup Pages
         uses: actions/configure-pages@v4
