@@ -10,5 +10,6 @@ taxonomies = [
 even_title = "yihong0618's Blog"
 even_menu = [
     {url = "$BASE_URL", name = "Home"},
-    {url = "$BASE_URL/tags/yi-xie-ji-lu/", name = "一些记录"}
+    {url = "$BASE_URL/tags/top/", name = "置顶"},
+    {url = "$BASE_URL/issue-282/", name = "About"},
 ]
