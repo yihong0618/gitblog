@@ -134,6 +134,7 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 
 
 ## 置顶文章
+- [从给 RisingWave 提 PR 说起，聊聊怎么快速切入一个复杂的开源项目](https://github.com/yihong0618/gitblog/issues/296)--2024-10-11
 - [跑了 10000km 花了 13 年](https://github.com/yihong0618/gitblog/issues/289)--2024-05-31
 - [开源四年的一些记录](https://github.com/yihong0618/gitblog/issues/259)--2023-03-21
 - [不用 root 使用小爱同学和 ChatGPT 交互折腾记](https://github.com/yihong0618/gitblog/issues/258)--2023-02-16
