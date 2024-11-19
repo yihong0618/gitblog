@@ -17,7 +17,7 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 <tr>
 <td>兔子鮮笙</td>
 <td>https://tuzi.moe</td>
-<td>22 岁的天才少年</td>
+<td>天才少年</td>
 </tr>
 <tr>
 <td>FriendsA</td>
