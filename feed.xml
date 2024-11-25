@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/yanjr/gitblog</id><title>RSS feed of yanjr's gitblog</title><updated>2024-11-22T01:36:18.010572+00:00</updated><link href="https://github.com/yanjr/gitblog"/><link href="https://raw.githubusercontent.com/yanjr/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/yanjr/gitblog/issues/7</id><title>达梦数据库DM8客户端配置</title><updated>2024-11-22T01:36:18.294586+00:00</updated><content type="html"><![CDATA[<h3>名词</h3>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/yanjr/gitblog</id><title>RSS feed of yanjr's gitblog</title><updated>2024-11-25T06:30:16.457635+00:00</updated><link href="https://github.com/yanjr/gitblog"/><link href="https://raw.githubusercontent.com/yanjr/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/yanjr/gitblog/issues/7</id><title>达梦数据库DM8客户端配置</title><updated>2024-11-25T06:30:16.898458+00:00</updated><content type="html"><![CDATA[<h3>名词</h3>
 <p><a href="https://www.dameng.com/DM8.html">达梦DM8数据库</a>
 DBeaver</p>
 <h3>1、安装DBeaver</h3>
@@ -32,7 +32,7 @@ URL模板：jdbc:dm://{host}:{port}
 <p><strong>参考文档：</strong>
 <a href="https://blog.csdn.net/a772304419/article/details/132758790">https://blog.csdn.net/a772304419/article/details/132758790</a>
 <a href="https://eco.dameng.com/community/article/56885f5ce2c66511506f7c7968da84fe">https://eco.dameng.com/community/article/56885f5ce2c66511506f7c7968da84fe</a></p>
-]]></content><link href="https://github.com/yanjr/gitblog/issues/7"/><category term="技术文章"/><published>2024-06-27T14:13:17+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/6</id><title>If you</title><updated>2024-11-22T01:36:18.418709+00:00</updated><content type="html"><![CDATA[<p>If you:</p>
+]]></content><link href="https://github.com/yanjr/gitblog/issues/7"/><category term="技术文章"/><published>2024-06-27T14:13:17+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/6</id><title>If you</title><updated>2024-11-25T06:30:17.108175+00:00</updated><content type="html"><![CDATA[<p>If you:</p>
 <ol>
 <li>Fix your sleep</li>
 <li>Read Books</li>
@@ -60,7 +60,7 @@ Keep going.</li>
 你比99%的人都领先。
 继续。</li>
 </ol>
-]]></content><link href="https://github.com/yanjr/gitblog/issues/6"/><category term="读书笔记"/><published>2024-05-23T02:17:54+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/5</id><title>男人，不能靠工资变富</title><updated>2024-11-22T01:36:18.558608+00:00</updated><content type="html"><![CDATA[<p>如果你想成为自己的老板，按照以下方式行动，你将在24小时内达到你的月薪水平...</p>
+]]></content><link href="https://github.com/yanjr/gitblog/issues/6"/><category term="读书笔记"/><published>2024-05-23T02:17:54+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/5</id><title>男人，不能靠工资变富</title><updated>2024-11-25T06:30:17.345472+00:00</updated><content type="html"><![CDATA[<p>如果你想成为自己的老板，按照以下方式行动，你将在24小时内达到你的月薪水平...</p>
 <ol>
 <li>学习一项高收入技能，每天投入2小时，没有干扰，建立在你可以利用的特定知识上。 以下是方法；选择一项技能，选择10-20个教授这一技能的YouTube频道，连续观看100天。掌握基础知识，然后扩展技能。</li>
 </ol>
@@ -99,11 +99,11 @@ Keep going.</li>
 <p>开始一项副业/业务，是学习如何建立一项副业大赢家的时候。获取Twitter的艺术，帮助你：
 建立业务，每天赚取100美元。创建一个Twitter账户，按照逐步指南进行操作。</p>
 <h2>来源于 <a href="https://twitter.com/laobaishare/status/1765529059256316043">老白（坚持每日分享✊）</a></h2>
-]]></content><link href="https://github.com/yanjr/gitblog/issues/5"/><category term="读书笔记"/><published>2024-03-11T09:54:01+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/4</id><title>还是测试</title><updated>2024-11-22T01:36:18.748799+00:00</updated><content type="html"><![CDATA[<p>还是测试还是测试还是测试。
+]]></content><link href="https://github.com/yanjr/gitblog/issues/5"/><category term="读书笔记"/><published>2024-03-11T09:54:01+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/4</id><title>还是测试</title><updated>2024-11-25T06:30:17.536191+00:00</updated><content type="html"><![CDATA[<p>还是测试还是测试还是测试。
 2024-03-12 测试。
 测试测试。
 还是测试。</p>
-]]></content><link href="https://github.com/yanjr/gitblog/issues/4"/><category term="Top"/><published>2023-03-07T08:36:19+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/3</id><title>Gitblog</title><updated>2024-11-22T01:36:18.867509+00:00</updated><content type="html"><![CDATA[<p>GitblogGitblogGitblogGitblogGitblog</p>
-]]></content><link href="https://github.com/yanjr/gitblog/issues/3"/><category term="Top"/><published>2023-03-07T06:49:44+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/2</id><title>Top</title><updated>2024-11-22T01:36:18.999445+00:00</updated><content type="html"><![CDATA[<p>测试Top</p>
-]]></content><link href="https://github.com/yanjr/gitblog/issues/2"/><category term="Top"/><published>2023-03-07T06:33:56+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/1</id><title>Test gitblog</title><updated>2024-11-22T01:36:19.108260+00:00</updated><content type="html"><![CDATA[<p>Test gitblog</p>
+]]></content><link href="https://github.com/yanjr/gitblog/issues/4"/><category term="Top"/><published>2023-03-07T08:36:19+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/3</id><title>Gitblog</title><updated>2024-11-25T06:30:17.734777+00:00</updated><content type="html"><![CDATA[<p>GitblogGitblogGitblogGitblogGitblog</p>
+]]></content><link href="https://github.com/yanjr/gitblog/issues/3"/><category term="Top"/><published>2023-03-07T06:49:44+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/2</id><title>Top</title><updated>2024-11-25T06:30:17.928433+00:00</updated><content type="html"><![CDATA[<p>测试Top</p>
+]]></content><link href="https://github.com/yanjr/gitblog/issues/2"/><category term="Top"/><published>2023-03-07T06:33:56+00:00</published></entry><entry><id>https://github.com/yanjr/gitblog/issues/1</id><title>Test gitblog</title><updated>2024-11-25T06:30:18.110785+00:00</updated><content type="html"><![CDATA[<p>Test gitblog</p>
 ]]></content><link href="https://github.com/yanjr/gitblog/issues/1"/><category term="生活"/><published>2023-03-07T05:10:23+00:00</published></entry></feed>
