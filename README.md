@@ -154,11 +154,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [断章](https://github.com/yihong0618/gitblog/issues/301)--2024-12-01
 - [这两个月](https://github.com/yihong0618/gitblog/issues/299)--2024-11-05
 - [从给 RisingWave 提 PR 说起，聊聊怎么快速切入一个复杂的开源项目](https://github.com/yihong0618/gitblog/issues/296)--2024-10-11
 - [能几日，又中秋](https://github.com/yihong0618/gitblog/issues/294)--2024-09-18
 - [第一次 AI 尝试，完全用 AI(MarsCode) 做个需求](https://github.com/yihong0618/gitblog/issues/293)--2024-09-10
-- [一件趣事儿](https://github.com/yihong0618/gitblog/issues/292)--2024-09-02
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -298,13 +298,14 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 </details>
 
 ## 日记
+- [断章](https://github.com/yihong0618/gitblog/issues/301)--2024-12-01
 - [这两个月](https://github.com/yihong0618/gitblog/issues/299)--2024-11-05
 - [一件趣事儿](https://github.com/yihong0618/gitblog/issues/292)--2024-09-02
 - [六月](https://github.com/yihong0618/gitblog/issues/290)--2024-06-30
 - [抉择](https://github.com/yihong0618/gitblog/issues/287)--2024-04-17
-- [记忆碎片](https://github.com/yihong0618/gitblog/issues/280)--2023-12-24
 <details><summary>显示更多</summary>
 
+- [记忆碎片](https://github.com/yihong0618/gitblog/issues/280)--2023-12-24
 - [五月病](https://github.com/yihong0618/gitblog/issues/268)--2023-06-02
 - [一杯敬月光](https://github.com/yihong0618/gitblog/issues/251)--2022-11-18
 - [有趣与无趣](https://github.com/yihong0618/gitblog/issues/221)--2021-10-13
