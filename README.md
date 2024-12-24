@@ -134,6 +134,7 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 
 
 ## 置顶文章
+- [2020-2024 最喜欢的 10 篇文章和一张图](https://github.com/yihong0618/gitblog/issues/302)--2024-12-24
 - [从给 RisingWave 提 PR 说起，聊聊怎么快速切入一个复杂的开源项目](https://github.com/yihong0618/gitblog/issues/296)--2024-10-11
 - [跑了 10000km 花了 13 年](https://github.com/yihong0618/gitblog/issues/289)--2024-05-31
 - [开源四年的一些记录](https://github.com/yihong0618/gitblog/issues/259)--2023-03-21
@@ -154,11 +155,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [2020-2024 最喜欢的 10 篇文章和一张图](https://github.com/yihong0618/gitblog/issues/302)--2024-12-24
 - [断章](https://github.com/yihong0618/gitblog/issues/301)--2024-12-01
 - [这两个月](https://github.com/yihong0618/gitblog/issues/299)--2024-11-05
 - [从给 RisingWave 提 PR 说起，聊聊怎么快速切入一个复杂的开源项目](https://github.com/yihong0618/gitblog/issues/296)--2024-10-11
 - [能几日，又中秋](https://github.com/yihong0618/gitblog/issues/294)--2024-09-18
-- [第一次 AI 尝试，完全用 AI(MarsCode) 做个需求](https://github.com/yihong0618/gitblog/issues/293)--2024-09-10
 ## 2019
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
 - [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
@@ -423,13 +424,14 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 </details>
 
 ## 生活
+- [2020-2024 最喜欢的 10 篇文章和一张图](https://github.com/yihong0618/gitblog/issues/302)--2024-12-24
 - [六月](https://github.com/yihong0618/gitblog/issues/290)--2024-06-30
 - [开源值得么？](https://github.com/yihong0618/gitblog/issues/279)--2023-11-23
 - [微信好友](https://github.com/yihong0618/gitblog/issues/272)--2023-08-23
 - [今天的跑步电台](https://github.com/yihong0618/gitblog/issues/239)--2022-07-18
-- [新冠纪元](https://github.com/yihong0618/gitblog/issues/235)--2022-04-26
 <details><summary>显示更多</summary>
 
+- [新冠纪元](https://github.com/yihong0618/gitblog/issues/235)--2022-04-26
 - [年终岁尾](https://github.com/yihong0618/gitblog/issues/230)--2022-01-28
 - [一件小事](https://github.com/yihong0618/gitblog/issues/214)--2021-07-05
 - [逃离](https://github.com/yihong0618/gitblog/issues/208)--2021-05-12
