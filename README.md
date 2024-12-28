@@ -129,6 +129,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 <td>https://horse.im</td>
 <td>每个人都闪耀独特光芒</td>
 </tr>
+<tr>
+<td>我真的没有拼多多</td>
+<td>https://github.com/QiYongchuan/MyGitBlog</td>
+<td>从抓虫的农学生到抓虫子的程序员的故事。</td>
+</tr>
 </tbody>
 </table></details>
 
