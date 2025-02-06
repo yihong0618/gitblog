@@ -55,10 +55,10 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@main
         with:
+          name: pages-artifact
           path: 'output/public'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
         with:
           artifact_name: pages-artifact
-
