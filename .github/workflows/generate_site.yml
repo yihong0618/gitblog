@@ -29,6 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       id-token: write
+      pages: write
     env:
       GH_TOKEN: ${{ github.token }}
       ISITE_VERSION: v0.1.3
