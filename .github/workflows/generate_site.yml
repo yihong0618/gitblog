@@ -54,7 +54,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@main
+        uses: actions/upload-artifact@v4
         with:
           name: pages-artifact
           path: 'output/public'
