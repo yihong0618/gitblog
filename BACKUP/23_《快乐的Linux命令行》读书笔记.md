@@ -1,7 +1,7 @@
-# [《快乐的Linux命令行》读书笔记](https://github.com/yihong0618/gitblog/issues/23)
+# [《快乐的 Linux 命令行》读书笔记](https://github.com/yihong0618/gitblog/issues/23)
 
-新坑 2019.08.12开始
-地址：[快乐的Linux命令行](http://billie66.github.io/TLCL/book/)
+新坑 2019.08.12 开始
+地址：[快乐的 Linux 命令行](http://billie66.github.io/TLCL/book/)
 
 - [ ] 读完
 - [ ] 顺便记录一些英语单词
@@ -72,7 +72,7 @@ Drectory | Comments
 ---
 
 ## 2019.08.13
-### 到底什么是命令--命令可以是下面4种形式(用type判断类型)
+### 到底什么是命令--命令可以是下面 4 种形式 (用 type 判断类型)
 1. An executable program like all those files we saw in /usr/bin. Within this category, programs can be compiled binaries such as programs written in C and C++, or programs written in scripting languages such as the shell, perl, python, ruby, etc.
 
 2. A command built into the shell itself. bash supports a number of commands internally called shell builtins. The cd command, for example, is a shell builtin.
@@ -81,7 +81,7 @@ Drectory | Comments
 
 4. An alias. Commands that we can define ourselves, built from other commands.
 
-### IO命令
+### IO 命令
 - cat - Concatenate files
 - sort - Sort lines of text
 - uniq - Report or omit repeated lines
@@ -92,11 +92,11 @@ Drectory | Comments
 - tee - Read from standard input and write to standard output and files
 
 ### 标准输出重定向
-- I/O 重定向允许我们来重定义标准输出的地点。我们使用 “>” 重定向符后接文件名将标准输出重定向到除屏幕 以外的另一个文件。为什么我们要这样做呢？因为有时候把一个命令的运行结果存储到 一个文件很有用处。例如，我们可以告诉 shell 把 ls 命令的运行结果输送到文件 ls-output.txt 中去， 由文件代替屏幕。 （ > ls-output.txt 清空文件）
+- I/O 重定向允许我们来重定义标准输出的地点。我们使用“>”重定向符后接文件名将标准输出重定向到除屏幕 以外的另一个文件。为什么我们要这样做呢？因为有时候把一个命令的运行结果存储到 一个文件很有用处。例如，我们可以告诉 shell 把 ls 命令的运行结果输送到文件 ls-output.txt 中去，由文件代替屏幕。 （ > ls-output.txt 清空文件）
 -  追加用“>>”**ls -l /usr/bin >> ls-output.txt**
-- 标准错误重定向没有专用的重定向操作符。为了重定向标准错误，我们必须参考其文件描述符。 一个程序可以在几个编号的文件流中的任一个上产生输出。虽然我们已经将这些文件流的前 三个称作标准输入、输出和错误，shell 内部分别将其称为文件描述符0、1和2。shell 使用文件描述符提供 了一种表示法来重定向文件。因为标准错误和文件描述符2一样，我们用这种 表示法来重定向标准错误：**ls -l /bin/usr 2> ls-error.txt** 
+- 标准错误重定向没有专用的重定向操作符。为了重定向标准错误，我们必须参考其文件描述符。一个程序可以在几个编号的文件流中的任一个上产生输出。虽然我们已经将这些文件流的前 三个称作标准输入、输出和错误，shell 内部分别将其称为文件描述符 0、1 和 2。shell 使用文件描述符提供 了一种表示法来重定向文件。因为标准错误和文件描述符 2 一样，我们用这种 表示法来重定向标准错误：**ls -l /bin/usr 2> ls-error.txt** 
 - 重定向标准和错误 **ls -l /bin/usr &> ls-output.txt**
-- cat输入 **cat > lazy_dog.txt**
+- cat 输入 **cat > lazy_dog.txt**
 
 ---
 
@@ -104,12 +104,12 @@ Drectory | Comments
 1. echo [[:upper:]]*
 2. echo $((2 + 2)) --(表达式)--((expression))
 3. echo $(($((5**2)) * 3)) （嵌套）
-4. echo Front-{A,B,C}-Back （花括号展开）
-5. echo a{A{1,2},B{3,4}}b （花括号展开嵌套）
+4. echo Front-{A,B,C}-Back（花括号展开）
+5. echo a{A{1,2},B{3,4}}b（花括号展开嵌套）
 6. mkdir {2007..2009}-0{1..9} {2007..2009}-{10..12} （创建目录）
-7. printenv | less （变量列表）
-8. 双引号  （echo "$USER $((2+2)) $(cal)" 展开依然有效 echo "this is a    test"）
-9. 单引号 （禁止所有的展开，我们要使用单引号）
+7. printenv | less（变量列表）
+8. 双引号（echo "$USER $((2+2)) $(cal)" 展开依然有效 echo "this is a    test"）
+9. 单引号（禁止所有的展开，我们要使用单引号）
 10. 转义字符
 
 
@@ -118,4 +118,4 @@ Drectory | Comments
 ---
 
 2019.10.2
-好久没看了，下一步把这个看完顺便试试github hook
+好久没看了，下一步把这个看完顺便试试 github hook

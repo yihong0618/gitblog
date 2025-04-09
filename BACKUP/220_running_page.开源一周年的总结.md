@@ -97,4 +97,4 @@
 > 
 > yihong 老师建了微信群吗？想进😂
 
-没有微信群，有 telegram 群。 https://t.me/running_page
+没有微信群，有 telegram 群。https://t.me/running_page

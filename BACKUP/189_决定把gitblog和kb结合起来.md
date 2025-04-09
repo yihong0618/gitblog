@@ -1,10 +1,10 @@
-# [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)
+# [决定把 gitblog 和 kb 结合起来](https://github.com/yihong0618/gitblog/issues/189)
 
-最近trending上发现一个[小知识管理系统](https://github.com/gnebbia/kb)，深得我心。还贡献了下代码想了一下方案，貌似可行。
+最近 trending 上发现一个[小知识管理系统](https://github.com/gnebbia/kb)，深得我心。还贡献了下代码想了一下方案，貌似可行。
 
-1. 增加kb标签（可以加上其它标签）
-2. 给issue打kb标签
-3. 写评论，利用GitHub Actions触发，自动同步到kb中
+1. 增加 kb 标签（可以加上其它标签）
+2. 给 issue 打 kb 标签
+3. 写评论，利用 GitHub Actions 触发，自动同步到 kb 中
 4. 导出
 5. commit
 
@@ -14,9 +14,9 @@
 
 1. 需要增加直接写的功能
 2. 本地的怎么合并
-3. 是否需要提pr
+3. 是否需要提 pr
 4. 能否快速导出
-5. 每次评论都触发有必要么？是结合之前的action还是新写一个
+5. 每次评论都触发有必要么？是结合之前的 action 还是新写一个
 
 ---
 

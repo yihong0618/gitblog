@@ -1,10 +1,10 @@
-# [MongoDB存档](https://github.com/yihong0618/gitblog/issues/20)
+# [MongoDB 存档](https://github.com/yihong0618/gitblog/issues/20)
 
-### 为什么使用MongoDB
+### 为什么使用 MongoDB
 
 1. 宽松的数据形式非常灵活，易于拓展
-2. MongoDB的数据是用JSON(Javascript Object Notation)存储的(就是上面的这种key-value的形式)，而几乎所有的web应用都是基于Javascript的。因此，存储的数据和应用的数据的格式是高度一致的，不需经过转换。
-### 创建集合和删除集合（集合类似与table）
+2. MongoDB 的数据是用 JSON(Javascript Object Notation) 存储的 (就是上面的这种 key-value 的形式)，而几乎所有的 web 应用都是基于 Javascript 的。因此，存储的数据和应用的数据的格式是高度一致的，不需经过转换。
+### 创建集合和删除集合（集合类似与 table）
 1. use database 直接创建（如果没有）
 2. db.createCollection('author') 创建集合
 3. show collections
@@ -54,7 +54,7 @@
 4. db.movie.find({'likes':{$gt:500000}}).pretty()
 5. db.movie.findOne({'title':'Forrest Gump'})（一个结果）
 6. db.movie.find().limit(2).skip(1).pretty()
-### 局部查询（find的第二个参数）
+### 局部查询（find 的第二个参数）
 1. db.movie.find({'tags':'drama'},{'debut':1,'title':1}).pretty()
 ### 更新
 1. db.movie.update({title:'Seven'}, {$set:{likes:134371}})（第一个参数选择，第二个参数设置）

@@ -1,4 +1,4 @@
-# [vscode-gcores开发笔记2](https://github.com/yihong0618/gitblog/issues/111)
+# [vscode-gcores 开发笔记 2](https://github.com/yihong0618/gitblog/issues/111)
 
 昨天终于把这个项目 public 并上线了。目前还没有自然流量。。。
 一些心得:
