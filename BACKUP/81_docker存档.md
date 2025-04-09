@@ -1,4 +1,4 @@
-# [docker存档](https://github.com/yihong0618/gitblog/issues/81)
+# [docker 存档](https://github.com/yihong0618/gitblog/issues/81)
 
 docker 拷贝文件
 
@@ -18,9 +18,9 @@ cat backup.sql | docker exec -i CONTAINER /usr/bin/mysql -u root --password=root
 
 ---
 
-1. docker 可以update
+1. docker 可以 update
 https://docs.docker.com/engine/reference/commandline/update/
-2. docker update端口
+2. docker update 端口
 ```docker
 docker stop test01
 docker commit test01 test02
@@ -29,7 +29,7 @@ docker run -p 8080:8080 -td test02
 
 ---
 
-更改全部为restart-always
+更改全部为 restart-always
 ```shell
 docker container update --restart=always $(docker inspect -f "{{print .Config.Hostname ' ' .HostConfig.RestartPolicy }}" $(docker ps | awk '{print $1}' | xargs) | awk '/no/ {print substr($1,0,10)}' )
 ```
@@ -37,11 +37,11 @@ docker container update --restart=always $(docker inspect -f "{{print .Config.Ho
 ---
 
 https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-an-existing-docker-container 
-给已存在的container 增加一个端口映射
+给已存在的 container 增加一个端口映射
 
 ---
 
-傻逼 docker ！！！！
+傻逼 docker！！！！
 
 如何解决这个傻逼错误 https://github.com/docker/for-win/issues/4884
 

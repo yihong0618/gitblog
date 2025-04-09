@@ -1,10 +1,10 @@
-# [Linux存档](https://github.com/yihong0618/gitblog/issues/8)
+# [Linux 存档](https://github.com/yihong0618/gitblog/issues/8)
 
-停止多个相同images的docker 
+停止多个相同 images 的 docker 
 ```shell
 docker stop $(docker ps | grep python | awk 'NR > 1 {print $1}'|xargs)
 ```
-Find命令用法
+Find 命令用法
 ```powershell
 - 列出当前目录以及子目录下的所有文件
   find .
@@ -21,7 +21,7 @@ Find命令用法
 - 看下实际例子。删除当前目录下所有的js文件。用-ok的效果如下，删除前有二次确认
   find . -type f -name "*.js" -ok rm {} "rm ./1.js"? 
 ```
-mv配合grep移动
+mv 配合 grep 移动
 ```shell
 On OS X:
 ls file_* | xargs -J {} mv {} temp/
@@ -56,11 +56,11 @@ alias ls grep
 alias ls='ls --color=auto'
 alias ls='ls --color=never' grep='grep --color=never'
 ```
-直接在shell里设定的命令别名，在终端关闭或者系统重新启动后都会失效，如何才能永久有效呢？
+直接在 shell 里设定的命令别名，在终端关闭或者系统重新启动后都会失效，如何才能永久有效呢？
 
-使用编辑器打开~/.bashrc，在文件中加入别名设置，如：alias rm='rm -i'，保存后执行source ~/.bashrc，这样就可以永久保存命令的别名了。
+使用编辑器打开~/.bashrc，在文件中加入别名设置，如：alias rm='rm -i'，保存后执行 source ~/.bashrc，这样就可以永久保存命令的别名了。
 
-因为修改的是当前用户目录下的~/.bashrc文件，所以这样的方式只对当前用户有用。如果要对所有用户都有效，修改/etc/bashrc文件就可以了。
+因为修改的是当前用户目录下的~/.bashrc 文件，所以这样的方式只对当前用户有用。如果要对所有用户都有效，修改/etc/bashrc 文件就可以了。
 
 
 ---
@@ -118,13 +118,13 @@ $ chkconfig --list | grep myscript
 
 ---
 
-docker开启自动启动
+docker 开启自动启动
 
 systemctl enable docker
 
 ---
 
-Linux查看开机启动项
+Linux 查看开机启动项
 systemctl list-unit-files
 
 ---
@@ -164,13 +164,13 @@ who -b
 
 ---
 
-Ctrl+a跳到本行的行首，
-Ctrl+e则跳到页尾。
-Ctrl+u删除当前光标前面的文字
+Ctrl+a 跳到本行的行首，
+Ctrl+e 则跳到页尾。
+Ctrl+u 删除当前光标前面的文字
 ctrl+k-删除当前光标后面的文字
-Ctrl+w和Alt+d-对于当前的单词进行删除操作，w删除光标前面的单词的字符，d则删除后面的字符
+Ctrl+w 和 Alt+d-对于当前的单词进行删除操作，w 删除光标前面的单词的字符，d 则删除后面的字符
 Alt+Backsapce-删除当前光标后面的单词，
-如果删除错误，使用Ctrl+y进行恢复Ctrl+L进行清屏操作
+如果删除错误，使用 Ctrl+y 进行恢复 Ctrl+L 进行清屏操作
 
 ctrl+a:光标移到行首。
 ctrl+b:光标左移一个字母
@@ -179,16 +179,16 @@ ctrl+d:退出当前 Shell。
 ctrl+e:光标移到行尾。
 ctrl+h:删除光标前一个字符，同 backspace 键相同。
 ctrl+k:清除光标后至行尾的内容。
-ctrl+l:清屏，相当于clear。
-ctrl+r:搜索之前打过的命令。会有一个提示，根据你输入的关键字进行搜索bash的history
+ctrl+l:清屏，相当于 clear。
+ctrl+r:搜索之前打过的命令。会有一个提示，根据你输入的关键字进行搜索 bash 的 history
 ctrl+u: 清除光标前至行首间的所有内容。
 ctrl+w: 移除光标前的一个单词
 ctrl+t: 交换光标位置前的两个字符
 ctrl+y: 粘贴或者恢复上次的删除
-ctrl+d: 删除光标所在字母;注意和backspace以及ctrl+h的区别，这2个是删除光标前的字符
+ctrl+d: 删除光标所在字母;注意和 backspace 以及 ctrl+h 的区别，这 2 个是删除光标前的字符
 ctrl+f: 光标右移
-ctrl+z : 把当前进程转到后台运行，使用’ fg ‘命令恢复。比如top -d1 然后ctrl+z ，到后台，然后fg,重新恢复
-esc组合
+ctrl+z : 把当前进程转到后台运行，使用’fg‘命令恢复。比如 top -d1 然后 ctrl+z，到后台，然后 fg，重新恢复
+esc 组合
 esc+d: 删除光标后的一个词
 esc+f: 往右跳一个词
 esc+b: 往左跳一个词
@@ -219,7 +219,7 @@ cat > a.txt
 
 ---
 
-3步骤增加免密登录
+3 步骤增加免密登录
 https://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id/
 
 ---
@@ -248,7 +248,7 @@ grep -rl '#049fd9' django/ | xargs sed -i 's/#049fd9/rgba\(13, 39, 77, 1\)/g'
 
 ---
 
-wsl的一些相关命令
+wsl 的一些相关命令
 
 wsl --set-version Ubuntu 2
 网络

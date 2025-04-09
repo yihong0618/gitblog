@@ -5,7 +5,7 @@
 在数据库中运行需要的各种参数 --> GUC: Grand Unified Configuration. 当我们需要写 postgres 中相关的插件时，离不开 GUC 的处理，这篇文章对 GUC 做一些简单的记录。
 
 ## Postgres 中的不同 GUC
-而这些参数的可以有各种各样的来源，postgres 对每种来源的处理也不完全相同， 这些来源中有 pg 默认的，系统环境的，来自 user 的，来自 session 的等等等。。。一些基于 pg 的分布式数据库还会额外的增加 GUC 来源。
+而这些参数的可以有各种各样的来源，postgres 对每种来源的处理也不完全相同，这些来源中有 pg 默认的，系统环境的，来自 user 的，来自 session 的等等等。。。一些基于 pg 的分布式数据库还会额外的增加 GUC 来源。
 
 `postgres 9.4 guc file src/backend/utils/misc/guc.c`
 ```c
@@ -93,7 +93,7 @@ DefineCustomStringVariable(const char *name,
 
 如上 DefineCustomStringVariable 可以容易看出，每种类型的 GUC 可以添加 3 个不同的 hook, 这 3 个 hook 在 set 时候触发，分别是
 
-- bool check_hook: 验证数据有效性，返回 false or true, 如果 true 则设置成功， 此函数可以提供额外信息，比如弹出错误消息
+- bool check_hook: 验证数据有效性，返回 false or true, 如果 true 则设置成功，此函数可以提供额外信息，比如弹出错误消息
 - void assign_hook: 设置值时触发
 - const char *show_hook: 设置完 guc 后 show 命令时候展示用
 

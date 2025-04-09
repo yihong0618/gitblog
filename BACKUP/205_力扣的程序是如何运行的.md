@@ -7,7 +7,7 @@
 
 ### 起因：
 
-某天一位群友发了个问题，他有个地方 typo 把小写的 l 写成大写的 L, LeetCode 竟然能编译通过，代码如下:
+某天一位群友发了个问题，他有个地方 typo 把小写的 l 写成大写的 L, LeetCode 竟然能编译通过，代码如下：
 ```python
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
@@ -37,7 +37,7 @@ class Solution:
                     l = l + 1
         return res
 ```
-接下来有人回复，是因为 LeetCode 从 re 中 import * 导致了 L 是个全局变量，这个 L 的值是 4. 证明如下图:
+接下来有人回复，是因为 LeetCode 从 re 中 import * 导致了 L 是个全局变量，这个 L 的值是 4. 证明如下图：
 ![image](https://user-images.githubusercontent.com/15976103/106418536-88050d00-6491-11eb-9393-67745a910821.png)
 
 可见，这个 L 是 re 里的 re.LOCALE
@@ -67,7 +67,7 @@ class Solution:
 很好，破案了。
 ![image](https://user-images.githubusercontent.com/15976103/106420010-b89a7600-6494-11eb-88f6-e67510a25176.png)
 
-具体代码如下: 原来 LeetCode 看似神秘的程序运行构造也并不复杂。
+具体代码如下：原来 LeetCode 看似神秘的程序运行构造也并不复杂。
 ```python
 # coding: utf-8
 from string import *

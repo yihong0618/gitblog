@@ -1,24 +1,24 @@
 # [Git 存档](https://github.com/yihong0618/gitblog/issues/86)
 
-怎么修改git commit 信息
+怎么修改 git commit 信息
 1. git commit --amend 本地
 2. git commit --amend
-git push origin master --force 刚push
+git push origin master --force 刚 push
 3. git rebase -i HEAD~X X is the number of commits to go back
 Move to the line of your commit, change pick into edit,
 then change your commit message:
 git commit --amend
 Finish the rebase with:
-git rebase --continue 本地没push old
+git rebase --continue 本地没 push old
 
 ---
 
-撤销commit
+撤销 commit
 git reset --soft HEAD^
 
 ---
 
-checkout 正则git checkout -- '*.py'
+checkout 正则 git checkout -- '*.py'
 
 ---
 
@@ -27,7 +27,7 @@ git reset
 
 ---
 
-Git+Gerrit如何永久删除历史文件（大文件/私密文件）
+Git+Gerrit 如何永久删除历史文件（大文件/私密文件）
 https://www.jianshu.com/p/085552205f19
 
 ---

@@ -1,7 +1,7 @@
-# [Login failed！](https://github.com/yihong0618/gitblog/issues/263)
+# [Login failed!](https://github.com/yihong0618/gitblog/issues/263)
 
 你好，这个问题是小米开发者平台账号问题吗？
-我使用的小米账号登录的开发者平台 没有申请 注册企业组 。
+我使用的小米账号登录的开发者平台 没有申请 注册企业组。
 运行方式 docker  hardware=MDZ-25-DA 
 
 Exception on login 13********2: 'userId'

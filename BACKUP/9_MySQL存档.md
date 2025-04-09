@@ -1,4 +1,4 @@
-# [MySQL存档](https://github.com/yihong0618/gitblog/issues/9)
+# [MySQL 存档](https://github.com/yihong0618/gitblog/issues/9)
 
 1. 更改字段类型
 ``` MySQL
