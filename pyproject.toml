@@ -1,0 +1,8 @@
+
+[project]
+dependencies = ["PyGithub==1.59.1", "feedgen", "marko", "markdown"]
+requires-python = ">=3.13"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
