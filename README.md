@@ -1,5 +1,6 @@
 ## [Gitblog](https://yihong0618.github.io/gitblog/)
 My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) using issues and GitHub Actions (随意转载，无需署名)
+[Things I like](https://github.com/yihong0618/gitblog/issues/311)
 ![image](https://github.com/user-attachments/assets/a168bf11-661e-4566-b042-7fc9544de528)
 [RSS Feed](https://raw.githubusercontent.com/yihong0618/gitblog/master/feed.xml)
 
@@ -185,9 +186,6 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [Random Thoughts](https://github.com/yihong0618/gitblog/issues/242)--2022-08-31
 - [反思](https://github.com/yihong0618/gitblog/issues/241)--2022-08-10
 - [二零二二的三个小目标](https://github.com/yihong0618/gitblog/issues/229)--2022-01-07
-## Things
-
-- [Things I like](https://github.com/yihong0618/gitblog/issues/311)--2025-04-29
 ## 一些计划
 
 - [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
