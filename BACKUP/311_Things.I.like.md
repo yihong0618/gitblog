@@ -1,6 +1,7 @@
 # [Things I like](https://github.com/yihong0618/gitblog/issues/311)
 
 Things I like:
+Will continue to update...
 
 ## Articles
 
