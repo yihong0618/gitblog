@@ -160,11 +160,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [Things I like](https://github.com/yihong0618/gitblog/issues/311)--2025-04-29
 - [我的 35 岁](https://github.com/yihong0618/gitblog/issues/309)--2025-04-22
 - [连续跑了 365 天](https://github.com/yihong0618/gitblog/issues/306)--2025-03-12
 - [最近给开源项目贡献的记录](https://github.com/yihong0618/gitblog/issues/304)--2025-01-27
 - [2020-2024 最喜欢的 10 篇文章和一张图](https://github.com/yihong0618/gitblog/issues/302)--2024-12-24
-- [断章](https://github.com/yihong0618/gitblog/issues/301)--2024-12-01
 ## 2019
 
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
@@ -185,6 +185,9 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [Random Thoughts](https://github.com/yihong0618/gitblog/issues/242)--2022-08-31
 - [反思](https://github.com/yihong0618/gitblog/issues/241)--2022-08-10
 - [二零二二的三个小目标](https://github.com/yihong0618/gitblog/issues/229)--2022-01-07
+## Things
+
+- [Things I like](https://github.com/yihong0618/gitblog/issues/311)--2025-04-29
 ## 一些计划
 
 - [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
