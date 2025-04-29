@@ -11,6 +11,7 @@ from marko.ext.gfm import gfm as marko
 
 MD_HEAD = """## [Gitblog](https://yihong0618.github.io/gitblog/)
 My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) using issues and GitHub Actions (随意转载，无需署名)
+[Things I like](https://github.com/yihong0618/gitblog/issues/311)
 ![image](https://github.com/user-attachments/assets/a168bf11-661e-4566-b042-7fc9544de528)
 [RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
 """
@@ -21,7 +22,14 @@ TOP_ISSUES_LABELS = ["Top"]
 TODO_ISSUES_LABELS = ["TODO"]
 FRIENDS_LABELS = ["Friends"]
 ABOUT_LABELS = ["About"]
-IGNORE_LABELS = FRIENDS_LABELS + TOP_ISSUES_LABELS + TODO_ISSUES_LABELS + ABOUT_LABELS
+THINGS_LABELS = ["Things"]
+IGNORE_LABELS = (
+    FRIENDS_LABELS
+    + TOP_ISSUES_LABELS
+    + TODO_ISSUES_LABELS
+    + ABOUT_LABELS
+    + THINGS_LABELS
+)
 
 FRIENDS_TABLE_HEAD = "| Name | Link | Desc | \n | ---- | ---- | ---- |\n"
 FRIENDS_TABLE_TEMPLATE = "| {name} | {link} | {desc} |\n"
