@@ -72,6 +72,7 @@ Will continue to update...
 
 ## Hobbies
 
+- Drink
 - Run
 - Game
 - Read
@@ -84,6 +85,7 @@ Will continue to update...
 - My Son
 - My family
 - My Friends
+- Myself
 
 
 ---
