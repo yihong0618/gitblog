@@ -9,6 +9,7 @@ Will continue to update...
 - [关于 Yak Shaving](https://antfu.me/posts/about-yak-shaving-zh)
 - [My-Engineering-Practice](https://github.com/jschwinger233/jschwinger23.github.io/blob/master/_posts/2019-12-25-My-Engineering-Practice.md)
 - [我「接见」了诺奖得主](https://frostming.com/2024/meet-with-paul/)
+- [People Die, but Long Live GitHub](https://laike9m.com/blog/people-die-but-long-live-github,122/)
 
 ## Videos
 
