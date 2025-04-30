@@ -91,3 +91,9 @@ Will continue to update...
 ---
 
 会一直更新。
+
+---
+
+> 梵高的那期好多年了吧，我记得也是看到了你发的 tweet，才去听的，那期我也很喜欢。记得是 故事FM的。
+
+是的，how time flies
