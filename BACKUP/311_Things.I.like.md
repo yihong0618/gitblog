@@ -90,6 +90,14 @@ Will continue to update...
 - My Friends
 - Myself
 
+## Idols
+
+- [beeender](https://github.com/beeender)
+- [higuoxing](https://github.com/higuoxing)
+- [graymon](https://github.com/jschwinger233)
+- [Xuanwo](https://github.com/Xuanwo)
+- [zu1k](https://github.com/zu1k)
+- [andelf](https://github.com/andelf)
 
 ---
 
