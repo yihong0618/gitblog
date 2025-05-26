@@ -81,6 +81,7 @@ Will continue to update...
 - Read
 - Open Source
 - Twitter
+- Blog
 
 ## Love
 
