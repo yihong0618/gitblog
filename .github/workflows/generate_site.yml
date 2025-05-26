@@ -32,8 +32,8 @@ jobs:
       pages: write
     env:
       GH_TOKEN: ${{ github.token }}
-      ISITE_VERSION: v0.1.3
-      ZOLA_VERSION: v0.19.2
+      ISITE_VERSION: v0.2.0
+      ZOLA_VERSION: v0.20.0
       USER: ${{ github.repository_owner }}
       REPO: ${{ github.event.repository.name }}
       BASE_URL: https://blog.yihong0618.me # change to your own domain
@@ -47,12 +47,12 @@ jobs:
           gh release download $ISITE_VERSION --repo kemingy/isite -p '*Linux_x86_64*' --output isite.tar.gz
           tar zxf isite.tar.gz && mv isite /usr/local/bin
           isite generate --user $USER --repo $REPO
-          gh release download $ZOLA_VERSION --repo getzola/zola -p '*linux*' --output zola.tar.gz
+          gh release download $ZOLA_VERSION --repo getzola/zola -p '*x86_64-unknown-linux*' --output zola.tar.gz
           tar zxf zola.tar.gz && mv zola /usr/local/bin
           cp config.toml output/config.toml
           cd output && zola build --base-url $BASE_URL
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
