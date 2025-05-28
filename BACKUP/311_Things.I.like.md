@@ -40,6 +40,7 @@ Will continue to update...
 - The best is yet to come.
 - Why so serious.
 -  So create.
+- Fuck Broadcom.
 
 ## Games
 
