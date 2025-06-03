@@ -15,3 +15,9 @@ Random thoughts and random feeling and random notes
 - AI 已经改变了一切，在 ChatGPT 出现之前都可以称作 Good old days
 - 好像过了 35 岁就特别讨厌喝多，难受一天远大于喝酒带来的快乐
  
+
+---
+
+> 这个世界让人快乐的事情太少，远少于让人痛苦的事
+
+是的。。。难怪大家都喜欢失败学。
