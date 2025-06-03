@@ -431,6 +431,9 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [生存守则](https://github.com/yihong0618/gitblog/issues/204)--2021-01-27
 - [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
 - [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
+## Notes
+
+- [Notes on May](https://github.com/yihong0618/gitblog/issues/318)--2025-06-01
 ## 开发笔记
 
 - [最近给开源项目贡献的记录](https://github.com/yihong0618/gitblog/issues/304)--2025-01-27
