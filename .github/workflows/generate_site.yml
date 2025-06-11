@@ -9,6 +9,11 @@ on:
       - reopened
       - labeled
       - unlabeled
+  issue_comment:
+    types:
+      - created
+      - edited
+      - deleted
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
