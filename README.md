@@ -140,6 +140,7 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 
 
 ## 置顶文章
+- [从给 Greptime 贡献代码的过程中，我都学到了什么](https://github.com/yihong0618/gitblog/issues/320)--2025-07-22
 - [2020-2024 最喜欢的 10 篇文章和一张图](https://github.com/yihong0618/gitblog/issues/302)--2024-12-24
 - [从给 RisingWave 提 PR 说起，聊聊怎么快速切入一个复杂的开源项目](https://github.com/yihong0618/gitblog/issues/296)--2024-10-11
 - [跑了 10000km 花了 13 年](https://github.com/yihong0618/gitblog/issues/289)--2024-05-31
@@ -273,13 +274,14 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 
 ## 技术文章
 
+- [从给 Greptime 贡献代码的过程中，我都学到了什么](https://github.com/yihong0618/gitblog/issues/320)--2025-07-22
 - [从给 RisingWave 提 PR 说起，聊聊怎么快速切入一个复杂的开源项目](https://github.com/yihong0618/gitblog/issues/296)--2024-10-11
 - [第一次 AI 尝试，完全用 AI(MarsCode) 做个需求](https://github.com/yihong0618/gitblog/issues/293)--2024-09-10
 - [用小爱加手指机器人实现传统开关语音关灯](https://github.com/yihong0618/gitblog/issues/281)--2024-01-29
 - [如何写一个 PostgreSQL Extension](https://github.com/yihong0618/gitblog/issues/270)--2023-07-08
-- [用 eBPF trace PostgreSQL 的几种姿势](https://github.com/yihong0618/gitblog/issues/257)--2023-01-28
 <details><summary>显示更多</summary>
 
+- [用 eBPF trace PostgreSQL 的几种姿势](https://github.com/yihong0618/gitblog/issues/257)--2023-01-28
 - [利用 GitHubPoster 和 GitHub Actions 备份任意用户推特](https://github.com/yihong0618/gitblog/issues/252)--2022-11-19
 - [LeetCode 是如何运行的--测试篇](https://github.com/yihong0618/gitblog/issues/237)--2022-07-01
 - [Postgres 中 GUC 的一些记录](https://github.com/yihong0618/gitblog/issues/233)--2022-04-21
