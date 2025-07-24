@@ -33,6 +33,7 @@ Will continue to update...
 - [pdm](https://github.com/pdm-project/pdm)
 - [GpxTrackPoster](https://github.com/flopp/GpxTrackPoster)
 - [dify](https://github.com/langgenius/dify)
+- [greptimedb](https://github.com/GreptimeTeam/greptimedb)
 
 ## Quotes
 
@@ -49,6 +50,7 @@ Will continue to update...
 - [Dream Quest](https://store.steampowered.com/app/557410/Dream_Quest/)
 - [The Binding of Isaac](https://store.steampowered.com/app/113200/The_Binding_of_Isaac)
 - [Resident Evil](https://en.wikipedia.org/wiki/Resident_Evil)
+- [Sekiro: Shadows Die Twice ](https://zh.wikipedia.org/zh-hans/%E9%9A%BB%E7%8B%BC%EF%BC%9A%E6%9A%97%E5%BD%B1%E9%9B%99%E6%AD%BB)
 
 ## Movies
 
@@ -101,6 +103,7 @@ Will continue to update...
 - [zu1k](https://github.com/zu1k)
 - [andelf](https://github.com/andelf)
 - [frostming](https://github.com/frostming)
+- [sunng87](https://github.com/sunng87)
 
 ---
 
