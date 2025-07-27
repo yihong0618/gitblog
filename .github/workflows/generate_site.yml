@@ -41,7 +41,7 @@ jobs:
       ZOLA_VERSION: v0.20.0
       USER: ${{ github.repository_owner }}
       REPO: ${{ github.event.repository.name }}
-      BASE_URL: https://blog.yihong0618.me # change to your own domain
+      BASE_URL: https://imjuya.github.io/gitblog # change to your own domain
       # Change to below if you are using GitHub Pages
       # BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
     steps:
