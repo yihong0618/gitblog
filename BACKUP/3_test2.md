@@ -132,4 +132,4 @@ https://seed.bytedance.com/zh/seed_diffusion
 | `Veo 3 Fast` | **0.40美元** |
 | `Veo 3` (含图像到视频) | **0.75美元** |
 
-此外，有消息称`Veo 3 Fast`可能很快也会登陆**Google/
+此外，有消息称`Veo 3 Fast`可能很快也会登陆**Google
