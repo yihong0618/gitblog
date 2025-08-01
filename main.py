@@ -4,6 +4,7 @@ import os
 import re
 
 import markdown
+from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 from github import Github
 from lxml.etree import CDATA
@@ -286,7 +287,9 @@ def generate_rss_feed(repo, filename, me):
         for label in issue.labels:
             item.category({"term": label.name})
         body = "".join(c for c in issue.body if _valid_xml_char_ordinal(c))
-        item.content(CDATA(marko.convert(body)), type="html")
+        html_content = marko.convert(body)
+        sanitized_html = BeautifulSoup(html_content, "html.parser").prettify()
+        item.content(CDATA(sanitized_html), type="html")
     generator.atom_file(filename)
 
 
