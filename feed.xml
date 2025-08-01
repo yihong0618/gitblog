@@ -1,4 +1,122 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/imjuya/gitblog</id><title>RSS feed of imjuya's gitblog</title><updated>2025-07-27T10:03:24.214435+00:00</updated><link href="https://github.com/imjuya/gitblog"/><link href="https://raw.githubusercontent.com/imjuya/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/imjuya/gitblog/issues/2</id><title>test</title><updated>2025-07-27T10:03:24.604178+00:00</updated><content type="html"><![CDATA[<p>test</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/imjuya/gitblog</id><title>RSS feed of imjuya's gitblog</title><updated>2025-08-01T10:34:32.843048+00:00</updated><link href="https://github.com/imjuya/gitblog"/><link href="https://raw.githubusercontent.com/imjuya/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/imjuya/gitblog/issues/3</id><title>test2</title><updated>2025-08-01T10:34:33.083737+00:00</updated><content type="html"><![CDATA[<h1>橘鸦 AI 早报 2025-08-01</h1>
+<h2>概览</h2>
+<ul>
+<li>阶跃星辰正式开源321B多模态模型Step3</li>
+<li>千问发布Qwen3-Coder-30B-A3B-Instruct</li>
+<li>Black Forest Labs与Krea合作发布图像模型FLUX.1 Krea [dev]</li>
+<li>Cohere发布专为企业设计的112B多模态模型Command A Vision</li>
+<li>字节跳动发布实验性扩散语言模型Seed Diffusion Preview</li>
+<li>Veo 3 Fast 即将登陆 Google AI Studio</li>
+<li>Quora推出Poe API，提供对上百种AI模型的统一访问</li>
+<li>Gemini CLI更新，支持自定义斜杠命令及多项功能改进</li>
+<li>Google开源LangExtract：从非结构化文本中提取结构化信息的Python库</li>
+<li>Vercel发布AI SDK 5，全面革新全栈AI应用开发</li>
+<li>OpenAI在挪威启动Stargate数据中心项目</li>
+<li>国务院常务会议部署深入实施“人工智能+”行动</li>
+<li>AI行业动态与研究简讯</li>
+</ul>
+<h2>阶跃星辰正式开源321B多模态模型Step3</h2>
+<blockquote>
+<p><strong>阶跃星辰</strong>开源了其<strong>321B</strong>参数的<code>MoE</code>多模态大模型<code>Step3</code>，旨在通过创新的架构为企业提供高性价比的推理方案。</p>
+</blockquote>
+<p><strong>阶跃星辰</strong>宣布正式开源其最新一代基础大模型<code>Step3</code>。该模型采用专家混合（<code>MoE</code>）架构，总参数量为<strong>321B</strong>，激活参数量为<strong>38B</strong>，旨在为企业和开发者提供性能与成本极致均衡的推理方案。</p>
+<p><code>Step3</code>模型在设计上专注于多模态推理，通过端到端的设计最小化解码成本，在视觉语言推理任务中表现出色。技术上，模型采用了自研的<code>MFA</code>（Multi-matrix Factorization Attention）注意力机制和<code>AFD</code>（Attention-FFN Disaggregation）系统架构。<code>MFA</code>旨在降低KV缓存开销和计算消耗，而<code>AFD</code>则将Attention和FFN计算解耦为两个子系统，通过流水线并行调度提升吞吐效率。为支持<code>AFD</code>，<strong>阶跃星辰</strong>还开源了专用的通信库<code>StepMesh</code>，以实现跨卡的低延迟高带宽数据传输。</p>
+<p>在性能评测方面，<code>Step3</code>在<strong>MMMU</strong>、<strong>MathVision</strong>、<strong>AIME 2025</strong>等多个基准上，表现优于同类开源模型。在社区测试中，该模型也展现了不错的指令遵循和生成能力。<strong>vLLM</strong>项目宣布已支持<code>Step3</code>模型，并报告在<strong>Hopper GPU</strong>上实现了高达<strong>4,039 tok/sec/GPU</strong>的吞吐量。</p>
+<p><code>Step3</code>模型权重已在<strong>Hugging Face</strong>和<strong>魔搭社区</strong>发布，支持<code>bf16</code>和<code>block-fp8</code>格式。用户可以通过<strong>阶跃星辰开放平台</strong>访问其<code>OpenAI</code>兼容的API，上下文长度为<strong>64K</strong>。目前提供折扣价格，具体如下：</p>
+<div style="text-align:center;">
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">价格（每百万token）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">输入</td>
+<td align="left"><strong>1.5元</strong></td>
+</tr>
+<tr>
+<td align="left">输出</td>
+<td align="left"><strong>4元</strong></td>
+</tr>
+</tbody></table></div>
+<img src="https://static.stepfun.com/static/studio-doc/7dfddc5d-2bf0-495d-a843-ce30a9788e4e_1753967248524.jpeg" alt="Step3模型性能图" style="max-width:100%;height:auto;display:block;margin:16px 0;" />
+<pre><code>https://mp.weixin.qq.com/s/RKsSTgbzP1A-xC8ADmZ2kw
+https://huggingface.co/stepfun-ai/step3
+https://github.com/stepfun-ai/Step3
+</code></pre>
+<h2>千问发布Qwen3-Coder-30B-A3B-Instruct</h2>
+<blockquote>
+<p><strong>千问团队</strong>发布了采用<code>MoE</code>架构的<strong>30.5B</strong>编码模型<code>Qwen3-Coder-30B-A3B-Instruct</code>，该模型支持<strong>256K</strong>超长上下文并针对<code>Agentic</code>任务进行了优化。</p>
+</blockquote>
+<p><strong>千问团队</strong>发布了<code>Qwen3-Coder</code>系列的新模型——<code>Qwen3-Coder-30B-A3B-Instruct</code>。这是一款精简但性能强大的编码模型，采用专家混合（<code>MoE</code>）架构，总参数量为<strong>30.5B</strong>，激活参数量为<strong>3.3B</strong>。</p>
+<p>该模型在多个方面进行了关键增强。其在<code>Agentic</code>编码和<code>Agentic</code>浏览器使用等任务上表现出色，并支持为<code>Qwen Code</code>、<code>CLINE</code>等平台设计的特定函数调用格式。模型原生支持<strong>256K tokens</strong>的超长上下文，并可通过<code>Yarn</code>技术扩展至<strong>1M tokens</strong>，专为仓库级别的代码理解进行了优化。</p>
+<p>模型架构细节包括<strong>48</strong>个层、<strong>32</strong>个Q注意力头和<strong>4</strong>个KV注意力头，以及<strong>128</strong>个专家和<strong>8</strong>个激活专家。官方指出，新模型仅支持非思考模式。</p>
+<p><strong>Hugging Face</strong>页面提供了详细的快速上手代码示例，并建议在遇到内存不足问题时，可将上下文长度缩短至<strong>32,768</strong>。该模型也已获得<strong>Ollama</strong>、<strong>LMStudio</strong>、<strong>MLX-LM</strong>等本地应用的支持。</p>
+<img src="https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen3-Coder/qwen3-coder-30a3-main.jpg" alt="Qwen3-Coder模型" style="max-width:100%;height:auto;display:block;margin:16px 0;" />
+<pre><code>https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct
+</code></pre>
+<h2>Black Forest Labs与Krea合作发布图像模型FLUX.1 Krea [dev]</h2>
+<blockquote>
+<p><strong>Black Forest Labs</strong>与<strong>Krea</strong>合作发布了<strong>120亿</strong>参数的开放权重图像模型<code>FLUX.1 Krea [dev]</code>，该模型采用“修正流”技术，旨在生成具有独特美学和真实感的图像。</p>
+</blockquote>
+<p><strong>Black Forest Labs</strong>与<strong>Krea</strong>合作，发布了一款名为<code>FLUX.1 Krea [dev]</code>的开放权重模型。这是一个<strong>120亿</strong>参数的“修正流”（<code>rectified flow</code>）Transformer模型，专为生成具有独特美学和卓越真实感的摄影级图像而设计。</p>
+<p>该模型是<strong>Krea 1</strong>的开放权重版本，经过训练可以生成更加真实和多样化的图像，避免了过度饱和的纹理和常见的“AI感”。它通过指导蒸馏（<code>guidance distillation</code>）技术进行训练，提高了效率。官方称该模型为“有主见”的文生图模型，旨在为用户提供视觉上有趣的惊喜。</p>
+<p><code>FLUX.1 Krea [dev]</code>的权重已在<strong>Hugging Face</strong>上发布，并已集成到<strong>ComfyUI</strong>和<strong>Diffusers</strong>中。用户可以在<strong>ComfyUI</strong>中直接下载<code>safetensors</code>文件使用，或通过<strong>Diffusers</strong>的<code>FluxPipeline</code>进行调用。模型生成的输出可用于个人、科研和商业目的，但需遵守<code>FLUX.1 [dev]</code>非商业许可协议（<code>FluxDev Non-Commercial License Agreement</code>）和可接受使用政策。</p>
+<p>在安全方面，<strong>Black Forest Labs</strong>和<strong>Krea</strong>在发布前采取了多项措施，包括对预训练数据进行<code>NSFW</code>内容过滤，与<strong>互联网观察基金会</strong>（<strong>IWF</strong>）合作过滤已知的<code>CSAM</code>（儿童性虐待材料），以及进行多轮微调以抑制滥用。模型在对抗性测试中表现出高弹性，并包含了推理过滤器以防止生成非法内容。</p>
+<img src="https://pbs.twimg.com/amplify_video_thumb/1950920435035508739/img/aDfDCqXD4UQ30rnI.jpg" alt="FLUX.1 Krea [dev]生成图像示例" style="max-width:100%;height:auto;display:block;margin:16px 0;" />
+<pre><code>https://huggingface.co/black-forest-labs/FLUX.1-Krea-dev
+https://bfl.ai/announcements/flux-1-krea-dev
+</code></pre>
+<h2>Cohere发布专为企业设计的112B多模态模型Command A Vision</h2>
+<blockquote>
+<p><strong>Cohere</strong>发布了专为企业优化的<strong>1120亿</strong>参数多模态模型<code>Command A Vision</code>，该模型在保持低资源占用的同时，提供了卓越的图像理解和多语言处理能力。</p>
+</blockquote>
+<p><strong>Cohere</strong>发布了一款名为<code>Command A Vision</code>的全新多模态模型，该模型经过优化，旨在为企业提供卓越的图像理解能力，同时保持较低的计算资源占用。作为一个拥有<strong>1120亿</strong>参数的开放权重研究版本，<code>Command A Vision</code>在私有化部署时仅需<strong>两块</strong>或更少的GPU（如<strong>两块A100</strong>或<strong>一块H100</strong>），确保了企业级的可扩展性。</p>
+<p>模型架构方面，<code>Command A Vision</code>将基于<code>Command A</code>的语言模型与<strong>Google</strong>的<code>SigLIP2-patch16-512</code>视觉编码器通过一个多模态适配器相结合。它支持<strong>32k</strong>的上下文长度，并能处理<strong>英语</strong>、<strong>葡萄牙语</strong>、<strong>意大利语</strong>、<strong>法语</strong>、<strong>德语</strong>和<strong>西班牙语</strong>等多种语言。在图像处理上，该模型使用最多<strong>12个</strong> <strong>512x512</strong>像素的图像块和<strong>1个</strong>缩略图来编码单张图片，总计最多使用<strong>3328个</strong>视觉token，推荐处理最高分辨率为<strong>2048x1536</strong>（<strong>300万像素</strong>）的图像。</p>
+<p>在性能上，<strong>Cohere</strong>表示<code>Command A Vision</code>在多个关键多模态基准测试中超越了<strong>GPT-4.1</strong>、<strong>Llama 4 Maverick</strong>和<strong>Mistral Medium 3</strong>等同类模型。它特别擅长处理企业级的视觉任务，包括分析图表、图形、表格和技术图纸；通过<code>OCR</code>技术从发票、表单等文档中准确提取文本和结构化信息；以及理解现实世界的复杂场景，可用于工业风险检测和零售分析等应用。该模型结合了<code>Command A</code>的先进<code>RAG</code>与引用功能，并支持<code>JSON</code>模式以输出结构化数据。</p>
+<p><code>Command A Vision</code>目前已在<strong>Cohere平台</strong>和<strong>Hugging Face</strong>上提供，遵循<code>CC-BY-NC</code>非商业许可，并要求遵守<strong>Cohere Lab</strong>的可接受使用政策。对于商业用途，企业需联系<strong>Cohere</strong>的销售团队。</p>
+<img src="https://cohere.com/_next/image?url=https%3A%2F%2Fcohere-ai.ghost.io%2Fcontent%2Fimages%2F2025%2F07%2F250730_blog-image_CommandAVision_chart-detailed-benchmarks-2.png&w=3840&q=75" alt="Command A Vision性能对比图" style="max-width:100%;height:auto;display:block;margin:16px 0;" />
+<pre><code>https://cohere.com/blog/command-a-vision
+https://huggingface.co/CohereLabs/command-a-vision-07-2025
+</code></pre>
+<h2>字节跳动发布实验性扩散语言模型Seed Diffusion Preview</h2>
+<blockquote>
+<p><strong>字节跳动Seed团队</strong>发布了实验性扩散语言模型<code>Seed Diffusion Preview</code>，通过多项创新技术探索离散扩散在结构化代码生成领域的可行性，并实现了显著的推理速度提升。</p>
+</blockquote>
+<p><strong>字节跳动Seed团队</strong>发布了一款名为<code>Seed Diffusion Preview</code>的实验性扩散语言模型，旨在探索离散扩散技术在结构化代码生成领域的可行性。该模型的目标是验证扩散模型作为下一代语言模型基础框架的潜力。</p>
+<p>为实现这一目标，团队引入了多项关键技术。首先是“<code>两阶段课程学习</code>”，第一阶段通过标准的掩码填充任务训练模型掌握代码的局部上下文和模式，第二阶段则引入基于编辑距离的插入/删除操作，强制模型评估和修正全局代码的合理性。其次，团队提出了“<code>约束顺序扩散</code>”训练方法，通过从预训练模型合成并筛选偏好的生成轨迹进行蒸馏，让扩散模型学习代码中固有的因果依赖关系。</p>
+<p>为了提升解码效率，团队采用了“<code>同策略学习</code>”范式，通过优化一个旨在最小化生成步数同时保证输出质量的代理损失函数，让模型学会更直接、高效地收敛到高质量结果。在工程实现上，团队采用了块级并行扩散采样方案，并利用内部优化的基础设施框架支持高效推理。</p>
+<p>实验结果显示，<code>Seed Diffusion Preview</code>的代码推理速度可达<strong>2146 tokens/s</strong>，相比同等规模的自回归（<code>AR</code>）模型提升了<strong>5.4倍</strong>。同时，在多个核心代码基准测试中，其性能与优秀的<code>AR</code>模型相当，甚至在<code>CanItEdit</code>等代码修复任务上实现了超越。</p>
+<img src="https://lf3-static.bytednsdoc.com/obj/eden-cn/hyvsmeh7uhobf/img_v3_02om_0ade2e5d-5b89-4ea2-b89d-73954f083d4g.jpg" alt="Seed Diffusion模型架构图" style="max-width:100%;height:auto;display:block;margin:16px 0;" />
+<pre><code>https://seed.bytedance.com/zh/seed_diffusion
+</code></pre>
+<h2>Veo 3 Fast 即将登陆 Google AI Studio</h2>
+<blockquote>
+<p><strong>Google</strong>宣布推出专为速度和成本效益优化的视频模型<code>Veo 3 Fast</code>，并为<code>Veo 3</code>系列增加了图像到视频生成功能，这些更新已通过<code>Gemini API</code>提供。</p>
+</blockquote>
+<p><strong>Google</strong>宣布为其视频生成模型系列增添新成员<code>Veo 3 Fast</code>，并为<code>Veo 3</code>和<code>Veo 3 Fast</code>增加了图像到视频的生成能力。这些更新现已通过<code>Gemini API</code>以付费预览形式提供。</p>
+<p><code>Veo 3 Fast</code>是<code>Veo 3</code>模型的一个优化版本，专为追求速度和成本效益的开发者设计，使其能够更快地进行创意迭代。该模型支持文本到视频和图像到视频两种模式，非常适用于程序化广告、快速创意原型设计和大规模社交媒体内容生成等场景。</p>
+<p>新增的图像到视频功能允许开发者使用<code>Veo 3</code>和<code>Veo 3 Fast</code>从静态输入图像生成带有声音的高质量视频片段。用户只需提供一张图片和相应的文本提示，即可引导模型生成具有期望动作、叙事和音效的动态视频，并能保持与初始图像的风格一致性。</p>
+<table>
+<thead>
+<tr>
+<th align="left">模型/功能</th>
+<th align="left">定价（每秒视频，含音频）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>Veo 3 Fast</code></td>
+<td align="left"><strong>0.40美元</strong></td>
+</tr>
+<tr>
+<td align="left"><code>Veo 3</code> (含图像到视频)</td>
+<td align="left"><strong>0.75美元</strong></td>
+</tr>
+</tbody></table><p>此外，有消息称<code>Veo 3 Fast</code>可能很快也会登陆**Google/</p>
+]]></content><link href="https://github.com/imjuya/gitblog/issues/3"/><category term="THINGS"/><published>2025-08-01T10:34:19+00:00</published></entry><entry><id>https://github.com/imjuya/gitblog/issues/2</id><title>test</title><updated>2025-08-01T10:34:33.234094+00:00</updated><content type="html"><![CDATA[<p>test</p>
 <p><img src="https://github.com/user-attachments/assets/91c9e004-f487-4686-8a14-c243a12e6872" alt="Image" /></p>
 ]]></content><link href="https://github.com/imjuya/gitblog/issues/2"/><published>2025-07-27T10:03:07+00:00</published></entry></feed>
