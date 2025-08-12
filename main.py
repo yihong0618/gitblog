@@ -10,7 +10,9 @@ from lxml.etree import CDATA
 from marko.ext.gfm import gfm as marko
 
 MD_HEAD = """## [Gitblog](https://yihong0618.github.io/gitblog/)
-My personal blog using issues and GitHub Actions (随意转载，无需署名)
+My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) using issues and GitHub Actions (随意转载，无需署名)
+[Things I like](https://github.com/yihong0618/gitblog/issues/311)
+![image](https://github.com/user-attachments/assets/a168bf11-661e-4566-b042-7fc9544de528)
 [RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
 """
 
@@ -20,7 +22,14 @@ TOP_ISSUES_LABELS = ["Top"]
 TODO_ISSUES_LABELS = ["TODO"]
 FRIENDS_LABELS = ["Friends"]
 ABOUT_LABELS = ["About"]
-IGNORE_LABELS = FRIENDS_LABELS + TOP_ISSUES_LABELS + TODO_ISSUES_LABELS + ABOUT_LABELS
+THINGS_LABELS = ["Things"]
+IGNORE_LABELS = (
+    FRIENDS_LABELS
+    + TOP_ISSUES_LABELS
+    + TODO_ISSUES_LABELS
+    + ABOUT_LABELS
+    + THINGS_LABELS
+)
 
 FRIENDS_TABLE_HEAD = "| Name | Link | Desc | \n | ---- | ---- | ---- |\n"
 FRIENDS_TABLE_TEMPLATE = "| {name} | {link} | {desc} |\n"
@@ -183,7 +192,7 @@ def add_md_recent(repo, md, me, limit=5):
         # one the issue that only one issue and delete (pyGitHub raise an exception)
         try:
             md.write("## 最近更新\n")
-            for issue in repo.get_issues():
+            for issue in repo.get_issues(sort="created", direction="desc"):
                 if is_me(issue, me):
                     add_issue_info(issue, md)
                     count += 1
@@ -221,9 +230,9 @@ def add_md_label(repo, md, me):
                 continue
 
             issues = get_issues_from_label(repo, label)
-            if issues.totalCount:
-                md.write("## " + label.name + "\n")
-                issues = sorted(issues, key=lambda x: x.created_at, reverse=True)
+            issues = list(sorted(issues, key=lambda x: x.created_at, reverse=True))
+            if len(issues) != 0:
+                md.write("## " + label.name + "\n\n")
             i = 0
             for issue in issues:
                 if not issue:
