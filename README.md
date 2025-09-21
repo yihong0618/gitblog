@@ -163,11 +163,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [Notes on Pycon2025](https://github.com/yihong0618/gitblog/issues/327)--2025-09-21
 - [从错误中学习](https://github.com/yihong0618/gitblog/issues/326)--2025-09-08
 - [一次艰难的 cpython issue 排查过程，以及我学到了什么](https://github.com/yihong0618/gitblog/issues/325)--2025-09-04
 - [八月](https://github.com/yihong0618/gitblog/issues/324)--2025-08-28
 - [从给 Greptime 贡献代码的过程中，我都学到了什么](https://github.com/yihong0618/gitblog/issues/320)--2025-07-22
-- [Notes on May](https://github.com/yihong0618/gitblog/issues/318)--2025-06-01
 ## 2019
 
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
