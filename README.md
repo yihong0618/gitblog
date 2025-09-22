@@ -207,13 +207,14 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 
 ## 一些记录
 
+- [Notes on Pycon2025](https://github.com/yihong0618/gitblog/issues/327)--2025-09-21
 - [从错误中学习](https://github.com/yihong0618/gitblog/issues/326)--2025-09-08
 - [连续跑了 365 天](https://github.com/yihong0618/gitblog/issues/306)--2025-03-12
 - [能几日，又中秋](https://github.com/yihong0618/gitblog/issues/294)--2024-09-18
 - [跑了 10000km 花了 13 年](https://github.com/yihong0618/gitblog/issues/289)--2024-05-31
-- [三月](https://github.com/yihong0618/gitblog/issues/283)--2024-03-31
 <details><summary>显示更多</summary>
 
+- [三月](https://github.com/yihong0618/gitblog/issues/283)--2024-03-31
 - [旧文，移动端最好的游戏，《Dream Quest》以及其它](https://github.com/yihong0618/gitblog/issues/274)--2023-09-28
 - [杂感](https://github.com/yihong0618/gitblog/issues/262)--2023-05-01
 - [开源四年的一些记录](https://github.com/yihong0618/gitblog/issues/259)--2023-03-21
