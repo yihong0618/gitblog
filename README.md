@@ -163,11 +163,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [Things I don’t like](https://github.com/yihong0618/gitblog/issues/329)--2025-11-06
 - [Notes on Pycon2025](https://github.com/yihong0618/gitblog/issues/327)--2025-09-21
 - [从错误中学习](https://github.com/yihong0618/gitblog/issues/326)--2025-09-08
 - [一次艰难的 cpython issue 排查过程，以及我学到了什么](https://github.com/yihong0618/gitblog/issues/325)--2025-09-04
 - [八月](https://github.com/yihong0618/gitblog/issues/324)--2025-08-28
-- [从给 Greptime 贡献代码的过程中，我都学到了什么](https://github.com/yihong0618/gitblog/issues/320)--2025-07-22
 ## 2019
 
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
@@ -207,13 +207,14 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 
 ## 一些记录
 
+- [Things I don’t like](https://github.com/yihong0618/gitblog/issues/329)--2025-11-06
 - [Notes on Pycon2025](https://github.com/yihong0618/gitblog/issues/327)--2025-09-21
 - [从错误中学习](https://github.com/yihong0618/gitblog/issues/326)--2025-09-08
 - [连续跑了 365 天](https://github.com/yihong0618/gitblog/issues/306)--2025-03-12
 - [能几日，又中秋](https://github.com/yihong0618/gitblog/issues/294)--2024-09-18
-- [跑了 10000km 花了 13 年](https://github.com/yihong0618/gitblog/issues/289)--2024-05-31
 <details><summary>显示更多</summary>
 
+- [跑了 10000km 花了 13 年](https://github.com/yihong0618/gitblog/issues/289)--2024-05-31
 - [三月](https://github.com/yihong0618/gitblog/issues/283)--2024-03-31
 - [旧文，移动端最好的游戏，《Dream Quest》以及其它](https://github.com/yihong0618/gitblog/issues/274)--2023-09-28
 - [杂感](https://github.com/yihong0618/gitblog/issues/262)--2023-05-01
