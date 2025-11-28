@@ -37,7 +37,7 @@ jobs:
       pages: write
     env:
       GH_TOKEN: ${{ github.token }}
-      ISITE_VERSION: v0.2.2
+      ISITE_VERSION: v0.2.4
       ZOLA_VERSION: v0.20.0
       USER: ${{ github.repository_owner }}
       REPO: ${{ github.event.repository.name }}
@@ -49,7 +49,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Generate markdown
         run: |
-          gh release download $ISITE_VERSION --repo kemingy/isite -p '*Linux_x86_64*' --output isite.tar.gz
+          gh release download $ISITE_VERSION --repo kemingy/isite -p '*linux_amd64*' --output isite.tar.gz
           tar zxf isite.tar.gz && mv isite /usr/local/bin
           isite generate --user $USER --repo $REPO
           gh release download $ZOLA_VERSION --repo getzola/zola -p '*x86_64-unknown-linux*' --output zola.tar.gz
