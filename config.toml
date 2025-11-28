@@ -14,3 +14,6 @@ even_menu = [
     {url = "$BASE_URL/issue-282/", name = "About"},
     {url = "$BASE_URL/issue-311/", name = "Things I like"},
 ]
+[markdown]
+highlight_code = true
+render_emoji = true
