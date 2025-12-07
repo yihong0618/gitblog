@@ -130,6 +130,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 <td>https://github.com/QiYongchuan/MyGitBlog</td>
 <td>从抓虫的农学生到抓虫子的程序员的故事。</td>
 </tr>
+<tr>
+<td>赵忠鹤</td>
+<td>https://github.com/Zhonghe-zhao/DailyBlog</td>
+<td>你只管走，该来的总会来</td>
+</tr>
 </tbody>
 </table></details>
 
