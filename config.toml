@@ -13,6 +13,8 @@ even_menu = [
     {url = "$BASE_URL/tags/top/", name = "Top"},
     {url = "$BASE_URL/issue-282/", name = "About"},
     {url = "$BASE_URL/issue-311/", name = "Things I like"},
+    {url = "$BASE_URL/issue-329/", name = "Things I don’t like "},
+    {url = "$BASE_URL/issue-217/", name = "Friends"},
 ]
 [markdown]
 highlight_code = true
