@@ -135,6 +135,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 <td>https://github.com/Zhonghe-zhao/DailyBlog</td>
 <td>你只管走，该来的总会来</td>
 </tr>
+<tr>
+<td>Cyanide</td>
+<td>https://blog.mapotofu.org/</td>
+<td>悟已往之不谏，知来者之可追。</td>
+</tr>
 </tbody>
 </table></details>
 
