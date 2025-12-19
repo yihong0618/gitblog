@@ -98,6 +98,7 @@ Will continue to update...
 ## Idols
 
 - [beeender](https://github.com/beeender)
+- [yetone](https://github.com/yetone)
 - [higuoxing](https://github.com/higuoxing)
 - [graymon](https://github.com/jschwinger233)
 - [Xuanwo](https://github.com/Xuanwo)
