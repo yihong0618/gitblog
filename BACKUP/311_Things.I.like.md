@@ -15,6 +15,7 @@ Will continue to update...
 
 - [What if Rust was Worse than C](https://www.youtube.com/watch?v=5MIsMbFjvkw)
 - [领袖暮年——1976年的毛泽东](https://www.youtube.com/watch?v=OSsXCMf1-xg)
+- [Keynote - David Beazley](https://youtu.be/VUT386_GKI8)
 
 ## Audios
 
