@@ -70,7 +70,6 @@ Will continue to update...
 - [挪威的森林](https://zh.wikipedia.org/zh-hans/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97_(%E5%B0%8F%E8%AF%B4))
 - [黄金时代](https://zh.wikipedia.org/wiki/%E9%BB%83%E9%87%91%E6%99%82%E4%BB%A3_(%E5%B0%8F%E8%AA%AA))
 - [1984](https://en.wikipedia.org/wiki/Nineteen_Eighty-Four)
-- [天之下](https://weread.qq.com/web/bookDetail/4de326a0721770aa4de95f4)
 
 ## 相声
 
