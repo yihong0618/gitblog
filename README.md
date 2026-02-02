@@ -169,11 +169,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [确定性的丧失](https://github.com/yihong0618/gitblog/issues/336)--2026-02-02
 - [Something Boring or Interesting](https://github.com/yihong0618/gitblog/issues/335)--2026-01-20
 - [2025 年我提了 500 个 Pull Requests](https://github.com/yihong0618/gitblog/issues/334)--2025-12-26
 - [网友](https://github.com/yihong0618/gitblog/issues/333)--2025-12-18
 - [如何判断一个项目是个好的开源项目并且想贡献？](https://github.com/yihong0618/gitblog/issues/331)--2025-12-03
-- [Things I don’t like](https://github.com/yihong0618/gitblog/issues/329)--2025-11-06
 ## 2019
 
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
@@ -194,6 +194,9 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [Random Thoughts](https://github.com/yihong0618/gitblog/issues/242)--2022-08-31
 - [反思](https://github.com/yihong0618/gitblog/issues/241)--2022-08-10
 - [二零二二的三个小目标](https://github.com/yihong0618/gitblog/issues/229)--2022-01-07
+## 一些思考
+
+- [确定性的丧失](https://github.com/yihong0618/gitblog/issues/336)--2026-02-02
 ## 一些计划
 
 - [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
