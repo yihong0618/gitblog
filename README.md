@@ -169,7 +169,7 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
-- [偶得得佳句与 AI](https://github.com/yihong0618/gitblog/issues/337)--2026-02-11
+- [偶得的佳句与 AI](https://github.com/yihong0618/gitblog/issues/337)--2026-02-11
 - [确定性的丧失](https://github.com/yihong0618/gitblog/issues/336)--2026-02-02
 - [Something Boring or Interesting](https://github.com/yihong0618/gitblog/issues/335)--2026-01-20
 - [2025 年我提了 500 个 Pull Requests](https://github.com/yihong0618/gitblog/issues/334)--2025-12-26
@@ -216,7 +216,7 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 
 ## 一些记录
 
-- [偶得得佳句与 AI](https://github.com/yihong0618/gitblog/issues/337)--2026-02-11
+- [偶得的佳句与 AI](https://github.com/yihong0618/gitblog/issues/337)--2026-02-11
 - [Something Boring or Interesting](https://github.com/yihong0618/gitblog/issues/335)--2026-01-20
 - [2025 年我提了 500 个 Pull Requests](https://github.com/yihong0618/gitblog/issues/334)--2025-12-26
 - [网友](https://github.com/yihong0618/gitblog/issues/333)--2025-12-18
