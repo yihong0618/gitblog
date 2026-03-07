@@ -169,11 +169,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [Be a human, not a claw.](https://github.com/yihong0618/gitblog/issues/339)--2026-03-07
 - [新年快乐以及一些近况](https://github.com/yihong0618/gitblog/issues/338)--2026-02-19
 - [偶得的佳句与 AI](https://github.com/yihong0618/gitblog/issues/337)--2026-02-11
 - [确定性的丧失](https://github.com/yihong0618/gitblog/issues/336)--2026-02-02
 - [Something Boring or Interesting](https://github.com/yihong0618/gitblog/issues/335)--2026-01-20
-- [2025 年我提了 500 个 Pull Requests](https://github.com/yihong0618/gitblog/issues/334)--2025-12-26
 ## 2019
 
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
@@ -472,13 +472,14 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 
 ## 生活
 
+- [Be a human, not a claw.](https://github.com/yihong0618/gitblog/issues/339)--2026-03-07
 - [2020-2025 最喜欢的 12 篇文章和一张图](https://github.com/yihong0618/gitblog/issues/302)--2024-12-24
 - [六月](https://github.com/yihong0618/gitblog/issues/290)--2024-06-30
 - [开源值得么？](https://github.com/yihong0618/gitblog/issues/279)--2023-11-23
 - [微信好友](https://github.com/yihong0618/gitblog/issues/272)--2023-08-23
-- [今天的跑步电台](https://github.com/yihong0618/gitblog/issues/239)--2022-07-18
 <details><summary>显示更多</summary>
 
+- [今天的跑步电台](https://github.com/yihong0618/gitblog/issues/239)--2022-07-18
 - [新冠纪元](https://github.com/yihong0618/gitblog/issues/235)--2022-04-26
 - [年终岁尾](https://github.com/yihong0618/gitblog/issues/230)--2022-01-28
 - [一件小事](https://github.com/yihong0618/gitblog/issues/214)--2021-07-05
