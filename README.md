@@ -82,7 +82,7 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 </tr>
 <tr>
 <td>Yisheng's blog</td>
-<td>https://yishenggong.com/</td>
+<td>https://blog.yellowday.day/</td>
 <td>把一些从未有过的故事带到这个世界上</td>
 </tr>
 <tr>
@@ -174,11 +174,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [12 年过去了，你过得还好么？](https://github.com/yihong0618/gitblog/issues/341)--2026-03-18
 - [Be a human, not a claw.](https://github.com/yihong0618/gitblog/issues/339)--2026-03-07
 - [新年快乐以及一些近况](https://github.com/yihong0618/gitblog/issues/338)--2026-02-19
 - [偶得的佳句与 AI](https://github.com/yihong0618/gitblog/issues/337)--2026-02-11
 - [确定性的丧失](https://github.com/yihong0618/gitblog/issues/336)--2026-02-02
-- [Something Boring or Interesting](https://github.com/yihong0618/gitblog/issues/335)--2026-01-20
 ## 2019
 
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
@@ -296,6 +296,9 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [说说工作](https://github.com/yihong0618/gitblog/issues/7)--2019-07-25
 </details>
 
+## 循环
+
+- [12 年过去了，你过得还好么？](https://github.com/yihong0618/gitblog/issues/341)--2026-03-18
 ## 技术文章
 
 - [一次艰难的 cpython issue 排查过程，以及我学到了什么](https://github.com/yihong0618/gitblog/issues/325)--2025-09-04
