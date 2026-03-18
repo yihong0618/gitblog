@@ -140,6 +140,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 <td>https://blog.mapotofu.org/</td>
 <td>悟已往之不谏，知来者之可追。</td>
 </tr>
+<tr>
+<td>无用功</td>
+<td>https://weich22.github.io</td>
+<td>没有用功努力,不做没用的功</td>
+</tr>
 </tbody>
 </table></details>
 
