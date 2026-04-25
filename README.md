@@ -174,11 +174,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [那些幸福的瞬间](https://github.com/yihong0618/gitblog/issues/342)--2026-04-25
 - [12 年过去了，你过得还好么？](https://github.com/yihong0618/gitblog/issues/341)--2026-03-18
 - [Be a human, not a claw.](https://github.com/yihong0618/gitblog/issues/339)--2026-03-07
 - [新年快乐以及一些近况](https://github.com/yihong0618/gitblog/issues/338)--2026-02-19
 - [偶得的佳句与 AI](https://github.com/yihong0618/gitblog/issues/337)--2026-02-11
-- [确定性的丧失](https://github.com/yihong0618/gitblog/issues/336)--2026-02-02
 ## 2019
 
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
@@ -204,13 +204,14 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [确定性的丧失](https://github.com/yihong0618/gitblog/issues/336)--2026-02-02
 ## 一些计划
 
+- [那些幸福的瞬间](https://github.com/yihong0618/gitblog/issues/342)--2026-04-25
 - [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
 - [月跑 250 km计划](https://github.com/yihong0618/gitblog/issues/184)--2020-09-01
 - [自律，悔恨，逝去的日子，成长](https://github.com/yihong0618/gitblog/issues/174)--2020-08-12
 - [近期程序上的安排](https://github.com/yihong0618/gitblog/issues/168)--2020-07-06
-- [把事情做完，做一件事，爬也要爬完](https://github.com/yihong0618/gitblog/issues/167)--2020-06-23
 <details><summary>显示更多</summary>
 
+- [把事情做完，做一件事，爬也要爬完](https://github.com/yihong0618/gitblog/issues/167)--2020-06-23
 - [跑步数据找到同步方法了](https://github.com/yihong0618/gitblog/issues/164)--2020-06-06
 - [从今天起](https://github.com/yihong0618/gitblog/issues/126)--2020-03-01
 - [是时候开一个新坑了，跑步数据展示？](https://github.com/yihong0618/gitblog/issues/116)--2020-02-19
