@@ -204,14 +204,13 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [确定性的丧失](https://github.com/yihong0618/gitblog/issues/336)--2026-02-02
 ## 一些计划
 
-- [那些幸福的瞬间](https://github.com/yihong0618/gitblog/issues/342)--2026-04-25
 - [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
 - [月跑 250 km计划](https://github.com/yihong0618/gitblog/issues/184)--2020-09-01
 - [自律，悔恨，逝去的日子，成长](https://github.com/yihong0618/gitblog/issues/174)--2020-08-12
 - [近期程序上的安排](https://github.com/yihong0618/gitblog/issues/168)--2020-07-06
+- [把事情做完，做一件事，爬也要爬完](https://github.com/yihong0618/gitblog/issues/167)--2020-06-23
 <details><summary>显示更多</summary>
 
-- [把事情做完，做一件事，爬也要爬完](https://github.com/yihong0618/gitblog/issues/167)--2020-06-23
 - [跑步数据找到同步方法了](https://github.com/yihong0618/gitblog/issues/164)--2020-06-06
 - [从今天起](https://github.com/yihong0618/gitblog/issues/126)--2020-03-01
 - [是时候开一个新坑了，跑步数据展示？](https://github.com/yihong0618/gitblog/issues/116)--2020-02-19
@@ -222,13 +221,14 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 
 ## 一些记录
 
+- [那些幸福的瞬间](https://github.com/yihong0618/gitblog/issues/342)--2026-04-25
 - [新年快乐以及一些近况](https://github.com/yihong0618/gitblog/issues/338)--2026-02-19
 - [偶得的佳句与 AI](https://github.com/yihong0618/gitblog/issues/337)--2026-02-11
 - [Something Boring or Interesting](https://github.com/yihong0618/gitblog/issues/335)--2026-01-20
 - [2025 年我提了 500 个 Pull Requests](https://github.com/yihong0618/gitblog/issues/334)--2025-12-26
-- [网友](https://github.com/yihong0618/gitblog/issues/333)--2025-12-18
 <details><summary>显示更多</summary>
 
+- [网友](https://github.com/yihong0618/gitblog/issues/333)--2025-12-18
 - [如何判断一个项目是个好的开源项目并且想贡献？](https://github.com/yihong0618/gitblog/issues/331)--2025-12-03
 - [Things I don’t like](https://github.com/yihong0618/gitblog/issues/329)--2025-11-06
 - [Notes on Pycon2025](https://github.com/yihong0618/gitblog/issues/327)--2025-09-21
