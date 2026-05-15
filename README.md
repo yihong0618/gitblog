@@ -175,11 +175,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [不要自动化你的情感链接](https://github.com/yihong0618/gitblog/issues/343)--2026-05-15
 - [那些幸福的瞬间](https://github.com/yihong0618/gitblog/issues/342)--2026-04-25
 - [12 年过去了，你过得还好么？](https://github.com/yihong0618/gitblog/issues/341)--2026-03-18
 - [Be a human, not a claw.](https://github.com/yihong0618/gitblog/issues/339)--2026-03-07
 - [新年快乐以及一些近况](https://github.com/yihong0618/gitblog/issues/338)--2026-02-19
-- [偶得的佳句与 AI](https://github.com/yihong0618/gitblog/issues/337)--2026-02-11
 ## 2019
 
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
@@ -202,6 +202,7 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [二零二二的三个小目标](https://github.com/yihong0618/gitblog/issues/229)--2022-01-07
 ## 一些思考
 
+- [不要自动化你的情感链接](https://github.com/yihong0618/gitblog/issues/343)--2026-05-15
 - [确定性的丧失](https://github.com/yihong0618/gitblog/issues/336)--2026-02-02
 ## 一些计划
 
