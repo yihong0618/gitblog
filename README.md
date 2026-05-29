@@ -145,6 +145,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 <td>https://weich22.github.io</td>
 <td>没有用功努力,不做没用的功</td>
 </tr>
+<tr>
+<td>雾水</td>
+<td>https://a.minifog.org.cn/</td>
+<td>记录技术、AI 与生活 —— 丝滑科技感 + 文艺水墨</td>
+</tr>
 </tbody>
 </table></details>
 
