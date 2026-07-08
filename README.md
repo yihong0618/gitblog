@@ -180,11 +180,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [12 月，姥姥，以及大模型](https://github.com/yihong0618/gitblog/issues/344)--2026-07-08
 - [不要自动化你的情感链接](https://github.com/yihong0618/gitblog/issues/343)--2026-05-15
 - [那些幸福的瞬间](https://github.com/yihong0618/gitblog/issues/342)--2026-04-25
 - [12 年过去了，你过得还好么？](https://github.com/yihong0618/gitblog/issues/341)--2026-03-18
 - [Be a human, not a claw.](https://github.com/yihong0618/gitblog/issues/339)--2026-03-07
-- [新年快乐以及一些近况](https://github.com/yihong0618/gitblog/issues/338)--2026-02-19
 ## 2019
 
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
@@ -309,13 +309,14 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [12 年过去了，你过得还好么？](https://github.com/yihong0618/gitblog/issues/341)--2026-03-18
 ## 技术文章
 
+- [12 月，姥姥，以及大模型](https://github.com/yihong0618/gitblog/issues/344)--2026-07-08
 - [一次艰难的 cpython issue 排查过程，以及我学到了什么](https://github.com/yihong0618/gitblog/issues/325)--2025-09-04
 - [从给 Greptime 贡献代码的过程中，我都学到了什么](https://github.com/yihong0618/gitblog/issues/320)--2025-07-22
 - [从给 RisingWave 提 PR 说起，聊聊怎么快速切入一个复杂的开源项目](https://github.com/yihong0618/gitblog/issues/296)--2024-10-11
 - [第一次 AI 尝试，完全用 AI(MarsCode) 做个需求](https://github.com/yihong0618/gitblog/issues/293)--2024-09-10
-- [用小爱加手指机器人实现传统开关语音关灯](https://github.com/yihong0618/gitblog/issues/281)--2024-01-29
 <details><summary>显示更多</summary>
 
+- [用小爱加手指机器人实现传统开关语音关灯](https://github.com/yihong0618/gitblog/issues/281)--2024-01-29
 - [如何写一个 PostgreSQL Extension](https://github.com/yihong0618/gitblog/issues/270)--2023-07-08
 - [用 eBPF trace PostgreSQL 的几种姿势](https://github.com/yihong0618/gitblog/issues/257)--2023-01-28
 - [利用 GitHubPoster 和 GitHub Actions 备份任意用户推特](https://github.com/yihong0618/gitblog/issues/252)--2022-11-19
