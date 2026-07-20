@@ -75,9 +75,11 @@ jobs:
             --repo "$REPOSITORY_NAME" \
             --output output \
             --config config.toml \
-            --base-url "$BASE_URL"
+            --base-url "$BASE_URL" \
+            --feed
           npm install --prefix output --no-audit --no-fund
           npm run build --prefix output
+          test -s output/dist/rss.xml
       - name: Setup Pages
         uses: actions/configure-pages@v6
       - name: Upload artifact
