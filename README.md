@@ -180,11 +180,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [八次离职](https://github.com/yihong0618/gitblog/issues/345)--2026-07-23
 - [12 月，姥姥，以及大模型](https://github.com/yihong0618/gitblog/issues/344)--2026-07-08
 - [不要自动化你的情感链接](https://github.com/yihong0618/gitblog/issues/343)--2026-05-15
 - [那些幸福的瞬间](https://github.com/yihong0618/gitblog/issues/342)--2026-04-25
 - [12 年过去了，你过得还好么？](https://github.com/yihong0618/gitblog/issues/341)--2026-03-18
-- [Be a human, not a claw.](https://github.com/yihong0618/gitblog/issues/339)--2026-03-07
 ## 2019
 
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
@@ -267,13 +267,14 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 
 ## 工作
 
+- [八次离职](https://github.com/yihong0618/gitblog/issues/345)--2026-07-23
 - [vm.overcommit_memory 学习笔记](https://github.com/yihong0618/gitblog/issues/261)--2023-04-12
 - [经历了人生体验最棒的一次面试](https://github.com/yihong0618/gitblog/issues/228)--2021-12-06
 - [沮丧](https://github.com/yihong0618/gitblog/issues/203)--2021-01-25
 - [心情不是很好的。](https://github.com/yihong0618/gitblog/issues/176)--2020-08-19
-- [最近在家，状态很不好。](https://github.com/yihong0618/gitblog/issues/165)--2020-06-09
 <details><summary>显示更多</summary>
 
+- [最近在家，状态很不好。](https://github.com/yihong0618/gitblog/issues/165)--2020-06-09
 - [认真工作](https://github.com/yihong0618/gitblog/issues/161)--2020-05-29
 - [终于上班了，开心](https://github.com/yihong0618/gitblog/issues/153)--2020-05-06
 - [第一次团建](https://github.com/yihong0618/gitblog/issues/150)--2020-04-25
