@@ -48,11 +48,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
-      - name: Checkout isite fork
+      - name: Checkout isite
         uses: actions/checkout@v7
         with:
           repository: yihong0618/isite
-          ref: 123a35e42fcd68b3c128c59b9a38b6ba91219533
+          ref: 9daf44c760384cebcb4aa0914ad586d75490e90f
           path: .isite
       - name: Set up Go
         uses: actions/setup-go@v7
@@ -74,7 +74,7 @@ jobs:
             --user "$REPO_OWNER" \
             --repo "$REPOSITORY_NAME" \
             --output output \
-            --config config.toml \
+            --title "yihong0618's Blog" \
             --base-url "$BASE_URL" \
             --feed
           npm install --prefix output --no-audit --no-fund
