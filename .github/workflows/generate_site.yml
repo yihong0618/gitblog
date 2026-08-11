@@ -43,6 +43,8 @@ jobs:
       REPO_OWNER: ${{ github.repository_owner }}
       REPOSITORY_NAME: ${{ github.event.repository.name }}
       BASE_URL: https://blog.yihong0618.me # change to your own domain
+      SOCIAL_X_URL: https://x.com/yihong0618
+      SOCIAL_TELEGRAM_URL: https://t.me/hyi0618
       # Change to below if you are using GitHub Pages
       # BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
     steps:
@@ -77,9 +79,14 @@ jobs:
             --title "yihong0618's Blog" \
             --base-url "$BASE_URL" \
             --feed
+          node .github/scripts/customize_astro.mjs
           npm install --prefix output --no-audit --no-fund
           npm run build --prefix output
           test -s output/dist/rss.xml
+          node .github/scripts/check_rss_stability.mjs \
+            output/dist/rss.xml \
+            "$BASE_URL" \
+            "${{ github.event.issue.number }}"
       - name: Setup Pages
         uses: actions/configure-pages@v6
       - name: Upload artifact
