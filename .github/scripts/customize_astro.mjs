@@ -1,8 +1,9 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readdir, readFile, writeFile } from "node:fs/promises";
 
 const headerPath =
   process.argv[2] ?? "output/src/components/Header.astro";
 const configPath = process.argv[3] ?? "output/astro-paper.config.ts";
+const postsPath = process.argv[4] ?? "output/src/content/posts";
 const { SOCIAL_X_URL, SOCIAL_TELEGRAM_URL } = process.env;
 if (!SOCIAL_X_URL || !SOCIAL_TELEGRAM_URL) {
   throw new Error(
@@ -72,3 +73,27 @@ await writeFile(
   configPath,
   config.slice(0, socialsStart) + socialLinks + config.slice(shareLinksStart),
 );
+
+const generatedCommentsHeading =
+  /\n## Comments\n(?=\n### [^\n]+\n\n\[View comment\]\()/;
+const githubCommentsHeading = "\n## Comments from GitHub issue\n";
+let customizedCommentSections = 0;
+
+for (const entry of await readdir(postsPath, { withFileTypes: true })) {
+  if (!entry.isFile() || !entry.name.endsWith(".md")) continue;
+
+  const postPath = `${postsPath}/${entry.name}`;
+  const post = await readFile(postPath, "utf8");
+  const customizedPost = post.replace(
+    generatedCommentsHeading,
+    githubCommentsHeading,
+  );
+  if (customizedPost === post) continue;
+
+  await writeFile(postPath, customizedPost);
+  customizedCommentSections += 1;
+}
+
+if (customizedCommentSections === 0) {
+  throw new Error(`Could not find any generated comment sections in ${postsPath}`);
+}

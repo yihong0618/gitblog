@@ -14,6 +14,12 @@ on:
       - created
       - edited
       - deleted
+  push:
+    branches:
+      - master
+    paths:
+      - .github/scripts/**
+      - .github/workflows/generate_site.yml
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
