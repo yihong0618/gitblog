@@ -117,6 +117,7 @@ jobs:
       - name: Generate Astro site
         run: |
           cp -R .cache/astro-paper output
+          find output/src/content/posts -type f -delete
           "$RUNNER_TEMP/isite" generate \
             --engine astro \
             --user "$REPO_OWNER" \
