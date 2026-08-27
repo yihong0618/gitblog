@@ -51,6 +51,7 @@ jobs:
       BASE_URL: https://blog.yihong0618.me # change to your own domain
       SOCIAL_X_URL: https://x.com/yihong0618
       SOCIAL_TELEGRAM_URL: https://t.me/hyi0618
+      OG_CJK_FONT_PATH: .cache/fonts/NotoSansSC.ttf
       # Change to below if you are using GitHub Pages
       # BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
     steps:
@@ -75,8 +76,42 @@ jobs:
         working-directory: .isite
         run: |
           go build -trimpath -o "$RUNNER_TEMP/isite" ./cmd/isite
+      - name: Resolve AstroPaper revision
+        id: astro-paper
+        run: |
+          revision="$(git ls-remote https://github.com/satnaing/astro-paper.git refs/heads/main | cut -f1)"
+          test -n "$revision"
+          echo "revision=$revision" >> "$GITHUB_OUTPUT"
+      - name: Cache AstroPaper theme
+        id: cache-astro-paper
+        uses: actions/cache@v5
+        with:
+          path: .cache/astro-paper
+          key: astro-paper-${{ steps.astro-paper.outputs.revision }}
+      - name: Download AstroPaper theme
+        if: steps.cache-astro-paper.outputs.cache-hit != 'true'
+        run: |
+          git clone --depth 1 https://github.com/satnaing/astro-paper.git .cache/astro-paper
+      - name: Cache CJK OG font
+        id: cache-og-font
+        uses: actions/cache@v5
+        with:
+          path: .cache/fonts
+          key: noto-sans-sc-a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da
+      - name: Download CJK OG font
+        if: steps.cache-og-font.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p .cache/fonts
+          curl --fail --location --silent --show-error \
+            --output "$OG_CJK_FONT_PATH" \
+            'https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf'
+      - name: Verify CJK OG font
+        run: |
+          echo 'a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da  .cache/fonts/NotoSansSC.ttf' \
+            | sha256sum --check
       - name: Generate Astro site
         run: |
+          cp -R .cache/astro-paper output
           "$RUNNER_TEMP/isite" generate \
             --engine astro \
             --user "$REPO_OWNER" \
@@ -85,6 +120,14 @@ jobs:
             --title "yihong0618's Blog" \
             --base-url "$BASE_URL" \
             --feed
+      - name: Cache npm downloads
+        uses: actions/cache@v5
+        with:
+          path: ~/.npm
+          key: npm-${{ runner.os }}-${{ hashFiles('output/package.json') }}
+          restore-keys: npm-${{ runner.os }}-
+      - name: Customize and build Astro site
+        run: |
           node .github/scripts/customize_astro.mjs
           npm install --prefix output --no-audit --no-fund
           npm run build --prefix output

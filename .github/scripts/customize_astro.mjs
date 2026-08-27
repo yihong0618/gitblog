@@ -1,9 +1,17 @@
-import { readdir, readFile, writeFile } from "node:fs/promises";
+import { copyFile, mkdir, readdir, readFile, writeFile } from "node:fs/promises";
+import { dirname } from "node:path";
 
 const headerPath =
   process.argv[2] ?? "output/src/components/Header.astro";
 const configPath = process.argv[3] ?? "output/astro-paper.config.ts";
 const postsPath = process.argv[4] ?? "output/src/content/posts";
+const postOgPath =
+  process.argv[5] ?? "output/src/pages/posts/[...slug]/index.png.ts";
+const siteOgPath = process.argv[6] ?? "output/src/pages/og.png.ts";
+const ogFontSource =
+  process.env.OG_CJK_FONT_PATH ?? ".cache/fonts/NotoSansSC.ttf";
+const ogFontTarget =
+  process.argv[7] ?? "output/src/assets/fonts/NotoSansSC.ttf";
 const { SOCIAL_X_URL, SOCIAL_TELEGRAM_URL } = process.env;
 if (!SOCIAL_X_URL || !SOCIAL_TELEGRAM_URL) {
   throw new Error(
@@ -97,3 +105,73 @@ for (const entry of await readdir(postsPath, { withFileTypes: true })) {
 if (customizedCommentSections === 0) {
   throw new Error(`Could not find any generated comment sections in ${postsPath}`);
 }
+
+function replaceExactly(source, pattern, replacement, description, path) {
+  const matches = source.split(pattern).length - 1;
+  if (matches !== 1) {
+    throw new Error(
+      `Expected exactly one ${description} in ${path}, found ${matches}`,
+    );
+  }
+  return source.replace(pattern, replacement);
+}
+
+async function addCjkOgFont(path, fontRelativePath) {
+  let source = await readFile(path, "utf8");
+  const apiRouteImport = 'import type { APIRoute } from "astro";';
+  source = replaceExactly(
+    source,
+    apiRouteImport,
+    `${apiRouteImport}\nimport { readFile } from "node:fs/promises";`,
+    "Astro API route import",
+    path,
+  );
+
+  const fontLoadEnd = `  ]);\n\n  const svg = await satori(`;
+  source = replaceExactly(
+    source,
+    fontLoadEnd,
+    `  ]);\n  const cjkData = await readFile(\n    new URL(${JSON.stringify(fontRelativePath)}, import.meta.url),\n  );\n\n  const svg = await satori(`,
+    "OG font loading block",
+    path,
+  );
+
+  const rootStyle = `          display: "flex",\n          alignItems: "center",\n          justifyContent: "center",`;
+  const rootStyleWithFont = `${rootStyle}\n          fontFamily: "Google Sans Code, Noto Sans SC",`;
+  if (source.includes(`${rootStyle}\n          fontFamily: "Google Sans Code",`)) {
+    source = replaceExactly(
+      source,
+      `${rootStyle}\n          fontFamily: "Google Sans Code",`,
+      rootStyleWithFont,
+      "OG root font family",
+      path,
+    );
+  } else {
+    source = replaceExactly(
+      source,
+      rootStyle,
+      rootStyleWithFont,
+      "OG root style",
+      path,
+    );
+  }
+
+  const fontListEnd = `        {\n          name: "Google Sans Code",\n          data: boldData,\n          weight: 700,\n          style: "normal",\n        },\n      ],`;
+  const fontListWithCjk = `        {\n          name: "Google Sans Code",\n          data: boldData,\n          weight: 700,\n          style: "normal",\n        },\n        {\n          name: "Noto Sans SC",\n          data: cjkData,\n          weight: 400,\n          style: "normal",\n        },\n        {\n          name: "Noto Sans SC",\n          data: cjkData,\n          weight: 700,\n          style: "normal",\n        },\n      ],`;
+  source = replaceExactly(
+    source,
+    fontListEnd,
+    fontListWithCjk,
+    "OG font list",
+    path,
+  );
+
+  await writeFile(path, source);
+}
+
+await mkdir(dirname(ogFontTarget), { recursive: true });
+await copyFile(ogFontSource, ogFontTarget);
+await Promise.all([
+  addCjkOgFont(postOgPath, "../../../assets/fonts/NotoSansSC.ttf"),
+  addCjkOgFont(siteOgPath, "../assets/fonts/NotoSansSC.ttf"),
+]);
