@@ -116,13 +116,13 @@ function replaceExactly(source, pattern, replacement, description, path) {
   return source.replace(pattern, replacement);
 }
 
-async function addCjkOgFont(path, fontRelativePath) {
+async function addCjkOgFont(path, routeUrl) {
   let source = await readFile(path, "utf8");
   const apiRouteImport = 'import type { APIRoute } from "astro";';
   source = replaceExactly(
     source,
     apiRouteImport,
-    `${apiRouteImport}\nimport { readFile } from "node:fs/promises";`,
+    `${apiRouteImport}\nimport cjkFontPath from "@/assets/fonts/NotoSansSC.ttf?url";`,
     "Astro API route import",
     path,
   );
@@ -131,7 +131,7 @@ async function addCjkOgFont(path, fontRelativePath) {
   source = replaceExactly(
     source,
     fontLoadEnd,
-    `  ]);\n  const cjkData = await readFile(\n    new URL(${JSON.stringify(fontRelativePath)}, import.meta.url),\n  );\n\n  const svg = await satori(`,
+    `  ]);\n  const cjkData = await fetch(\n    experimental_getFontFileURL(cjkFontPath, ${routeUrl}),\n  ).then(res => res.arrayBuffer());\n\n  const svg = await satori(`,
     "OG font loading block",
     path,
   );
@@ -172,6 +172,6 @@ async function addCjkOgFont(path, fontRelativePath) {
 await mkdir(dirname(ogFontTarget), { recursive: true });
 await copyFile(ogFontSource, ogFontTarget);
 await Promise.all([
-  addCjkOgFont(postOgPath, "../../../assets/fonts/NotoSansSC.ttf"),
-  addCjkOgFont(siteOgPath, "../assets/fonts/NotoSansSC.ttf"),
+  addCjkOgFont(postOgPath, "url"),
+  addCjkOgFont(siteOgPath, "context.url"),
 ]);
