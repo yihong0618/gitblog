@@ -12,6 +12,7 @@ const ogFontSource =
   process.env.OG_CJK_FONT_PATH ?? ".cache/fonts/NotoSansSC.ttf";
 const ogFontTarget =
   process.argv[7] ?? "output/src/assets/fonts/NotoSansSC.ttf";
+const astroConfigPath = process.argv[8] ?? "output/astro.config.ts";
 const { SOCIAL_X_URL, SOCIAL_TELEGRAM_URL } = process.env;
 if (!SOCIAL_X_URL || !SOCIAL_TELEGRAM_URL) {
   throw new Error(
@@ -116,14 +117,46 @@ function replaceExactly(source, pattern, replacement, description, path) {
   return source.replace(pattern, replacement);
 }
 
-async function addCjkOgFont(path, routeUrl) {
+async function addCjkFontConfig(path) {
   let source = await readFile(path, "utf8");
-  const apiRouteImport = 'import type { APIRoute } from "astro";';
+  const fontsStart = `  fonts: [\n    {\n      name: "Google Sans Code",`;
+  const fontsWithCjk = `  fonts: [\n    {\n      name: "Noto Sans SC",\n      cssVariable: "--font-noto-sans-sc",\n      provider: fontProviders.local(),\n      options: {\n        variants: [\n          {\n            src: ["./src/assets/fonts/NotoSansSC.ttf"],\n            weight: 400,\n            style: "normal",\n          },\n          {\n            src: ["./src/assets/fonts/NotoSansSC.ttf"],\n            weight: 700,\n            style: "normal",\n          },\n        ],\n      },\n    },\n    {\n      name: "Google Sans Code",`;
   source = replaceExactly(
     source,
-    apiRouteImport,
-    `${apiRouteImport}\nimport cjkFontPath from "@/assets/fonts/NotoSansSC.ttf?url";`,
-    "Astro API route import",
+    fontsStart,
+    fontsWithCjk,
+    "Astro fonts configuration",
+    path,
+  );
+  await writeFile(path, source);
+}
+
+async function addCjkOgFont(path, routeUrl) {
+  let source = await readFile(path, "utf8");
+  const googleFonts = `  const fonts = fontData["--font-google-sans-code"];`;
+  source = replaceExactly(
+    source,
+    googleFonts,
+    `${googleFonts}\n  const cjkFonts = fontData["--font-noto-sans-sc"];`,
+    "Google font data lookup",
+    path,
+  );
+
+  const boldFontPath = `  const boldFontPath = getFontPathByWeight(fonts, 700);`;
+  source = replaceExactly(
+    source,
+    boldFontPath,
+    `${boldFontPath}\n  const cjkRegularFontPath = getFontPathByWeight(cjkFonts, 400);\n  const cjkBoldFontPath = getFontPathByWeight(cjkFonts, 700);`,
+    "Google font path lookup",
+    path,
+  );
+
+  const missingFontCheck = `  if (regularFontPath === undefined || boldFontPath === undefined) {`;
+  source = replaceExactly(
+    source,
+    missingFontCheck,
+    `  if (\n    regularFontPath === undefined ||\n    boldFontPath === undefined ||\n    cjkRegularFontPath === undefined ||\n    cjkBoldFontPath === undefined\n  ) {`,
+    "missing font check",
     path,
   );
 
@@ -131,7 +164,7 @@ async function addCjkOgFont(path, routeUrl) {
   source = replaceExactly(
     source,
     fontLoadEnd,
-    `  ]);\n  const cjkData = await fetch(\n    experimental_getFontFileURL(cjkFontPath, ${routeUrl}),\n  ).then(res => res.arrayBuffer());\n\n  const svg = await satori(`,
+    `  ]);\n  const [cjkRegularData, cjkBoldData] = await Promise.all([\n    fetch(experimental_getFontFileURL(cjkRegularFontPath, ${routeUrl})).then(\n      res => res.arrayBuffer()\n    ),\n    fetch(experimental_getFontFileURL(cjkBoldFontPath, ${routeUrl})).then(res =>\n      res.arrayBuffer()\n    ),\n  ]);\n\n  const svg = await satori(`,
     "OG font loading block",
     path,
   );
@@ -157,7 +190,7 @@ async function addCjkOgFont(path, routeUrl) {
   }
 
   const fontListEnd = `        {\n          name: "Google Sans Code",\n          data: boldData,\n          weight: 700,\n          style: "normal",\n        },\n      ],`;
-  const fontListWithCjk = `        {\n          name: "Google Sans Code",\n          data: boldData,\n          weight: 700,\n          style: "normal",\n        },\n        {\n          name: "Noto Sans SC",\n          data: cjkData,\n          weight: 400,\n          style: "normal",\n        },\n        {\n          name: "Noto Sans SC",\n          data: cjkData,\n          weight: 700,\n          style: "normal",\n        },\n      ],`;
+  const fontListWithCjk = `        {\n          name: "Google Sans Code",\n          data: boldData,\n          weight: 700,\n          style: "normal",\n        },\n        {\n          name: "Noto Sans SC",\n          data: cjkRegularData,\n          weight: 400,\n          style: "normal",\n        },\n        {\n          name: "Noto Sans SC",\n          data: cjkBoldData,\n          weight: 700,\n          style: "normal",\n        },\n      ],`;
   source = replaceExactly(
     source,
     fontListEnd,
@@ -171,6 +204,7 @@ async function addCjkOgFont(path, routeUrl) {
 
 await mkdir(dirname(ogFontTarget), { recursive: true });
 await copyFile(ogFontSource, ogFontTarget);
+await addCjkFontConfig(astroConfigPath);
 await Promise.all([
   addCjkOgFont(postOgPath, "url"),
   addCjkOgFont(siteOgPath, "context.url"),
