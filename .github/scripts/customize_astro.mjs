@@ -10,6 +10,8 @@ const siteOgPath = process.argv[6] ?? "output/src/pages/og.png.ts";
 const ogFontSourceDir = process.env.OG_CJK_FONT_DIR ?? ".cache/fonts";
 const ogFontTargetDir = process.argv[7] ?? "output/src/assets/fonts";
 const astroConfigPath = process.argv[8] ?? "output/astro.config.ts";
+const postPagePath =
+  process.argv[9] ?? "output/src/pages/posts/[...slug]/index.astro";
 const { SOCIAL_X_URL, SOCIAL_TELEGRAM_URL } = process.env;
 if (!SOCIAL_X_URL || !SOCIAL_TELEGRAM_URL) {
   throw new Error(
@@ -199,6 +201,21 @@ async function addCjkOgFont(path, routeUrl) {
   await writeFile(path, source);
 }
 
+async function addOgCacheVersion(path) {
+  let source = await readFile(path, "utf8");
+  const ogImageAssignment = '  ogImageUrl = `${postUrl}/index.png`;';
+  const versionedOgImageAssignment =
+    '  ogImageUrl = `${postUrl}/index.png?v=${import.meta.env.PUBLIC_OG_IMAGE_VERSION ?? "local"}`;';
+  source = replaceExactly(
+    source,
+    ogImageAssignment,
+    versionedOgImageAssignment,
+    "dynamic OG image assignment",
+    path,
+  );
+  await writeFile(path, source);
+}
+
 await mkdir(ogFontTargetDir, { recursive: true });
 await Promise.all([
   copyFile(
@@ -211,6 +228,7 @@ await Promise.all([
   ),
 ]);
 await addCjkFontConfig(astroConfigPath);
+await addOgCacheVersion(postPagePath);
 await Promise.all([
   addCjkOgFont(postOgPath, "url"),
   addCjkOgFont(siteOgPath, "context.url"),

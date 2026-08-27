@@ -52,6 +52,7 @@ jobs:
       SOCIAL_X_URL: https://x.com/yihong0618
       SOCIAL_TELEGRAM_URL: https://t.me/hyi0618
       OG_CJK_FONT_DIR: .cache/fonts
+      PUBLIC_OG_IMAGE_VERSION: ${{ github.run_id }}
       # Change to below if you are using GitHub Pages
       # BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
     steps:
