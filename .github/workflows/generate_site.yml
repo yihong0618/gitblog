@@ -51,7 +51,7 @@ jobs:
       BASE_URL: https://blog.yihong0618.me # change to your own domain
       SOCIAL_X_URL: https://x.com/yihong0618
       SOCIAL_TELEGRAM_URL: https://t.me/hyi0618
-      OG_CJK_FONT_PATH: .cache/fonts/NotoSansSC.ttf
+      OG_CJK_FONT_DIR: .cache/fonts
       # Change to below if you are using GitHub Pages
       # BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
     steps:
@@ -97,17 +97,22 @@ jobs:
         uses: actions/cache@v5
         with:
           path: .cache/fonts
-          key: noto-sans-sc-a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da
+          key: noto-sans-cjk-sc-static-2c76254f-b5f0d1a1
       - name: Download CJK OG font
         if: steps.cache-og-font.outputs.cache-hit != 'true'
         run: |
           mkdir -p .cache/fonts
-          curl --fail --location --silent --show-error \
-            --output "$OG_CJK_FONT_PATH" \
-            'https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf'
+          curl --fail --location --silent --show-error --retry 4 --retry-all-errors \
+            --output "$OG_CJK_FONT_DIR/NotoSansCJKsc-Regular.otf" \
+            'https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf'
+          curl --fail --location --silent --show-error --retry 4 --retry-all-errors \
+            --output "$OG_CJK_FONT_DIR/NotoSansCJKsc-Bold.otf" \
+            'https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Bold.otf'
       - name: Verify CJK OG font
         run: |
-          echo 'a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da  .cache/fonts/NotoSansSC.ttf' \
+          echo '2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b  .cache/fonts/NotoSansCJKsc-Regular.otf' \
+            | sha256sum --check
+          echo 'b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a  .cache/fonts/NotoSansCJKsc-Bold.otf' \
             | sha256sum --check
       - name: Generate Astro site
         run: |
