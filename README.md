@@ -150,6 +150,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 <td>https://a.minifog.org.cn/</td>
 <td>记录技术、AI 与生活 —— 丝滑科技感 + 文艺水墨</td>
 </tr>
+<tr>
+<td>流动</td>
+<td>https://liudon.com</td>
+<td>生活就是一个流动的过程。</td>
+</tr>
 </tbody>
 </table></details>
 
