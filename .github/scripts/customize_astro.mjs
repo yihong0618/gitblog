@@ -86,6 +86,8 @@ await writeFile(
 const generatedCommentsHeading =
   /\n## Comments\n(?=\n### [^\n]+\n\n\[View comment\]\()/;
 const githubCommentsHeading = "\n## Comments from GitHub issue\n";
+const generatedIssueAttribution =
+  /^> Originally published as \[GitHub issue #\d+\]\((https:\/\/github\.com\/[\w.-]+\/[\w.-]+\/issues\/\d+)\)\.\r?\n(?:\r?\n)?/m;
 let customizedCommentSections = 0;
 
 for (const entry of await readdir(postsPath, { withFileTypes: true })) {
@@ -93,14 +95,21 @@ for (const entry of await readdir(postsPath, { withFileTypes: true })) {
 
   const postPath = `${postsPath}/${entry.name}`;
   const post = await readFile(postPath, "utf8");
-  const customizedPost = post.replace(
+  const issueUrl = post.match(generatedIssueAttribution)?.[1];
+  const postWithoutAttribution = post.replace(generatedIssueAttribution, "");
+  let customizedPost = postWithoutAttribution.replace(
     generatedCommentsHeading,
     githubCommentsHeading,
   );
+  if (customizedPost !== postWithoutAttribution) customizedCommentSections += 1;
+  if (issueUrl) {
+    customizedPost = `${customizedPost.trimEnd()}\n\n<div class="not-prose" style="margin-top: 2rem;">
+  <a href="${issueUrl}#new_comment_field" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0.5rem 1rem; border: 1px solid currentColor; border-radius: 0.375rem; color: var(--color-accent, inherit); font-weight: 600; text-decoration: none;">Add comment</a>
+</div>\n`;
+  }
   if (customizedPost === post) continue;
 
   await writeFile(postPath, customizedPost);
-  customizedCommentSections += 1;
 }
 
 if (customizedCommentSections === 0) {
