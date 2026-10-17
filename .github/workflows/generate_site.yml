@@ -17,9 +17,6 @@ on:
   push:
     branches:
       - master
-    paths:
-      - .github/scripts/**
-      - .github/workflows/generate_site.yml
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -53,30 +50,41 @@ jobs:
       SOCIAL_TELEGRAM_URL: https://t.me/hyi0618
       OG_CJK_FONT_DIR: .cache/fonts
       PUBLIC_OG_IMAGE_VERSION: ${{ github.run_id }}
+      ISITE_REVISION: 9daf44c760384cebcb4aa0914ad586d75490e90f
       # Change to below if you are using GitHub Pages
       # BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+      - name: Cache isite binary
+        id: cache-isite
+        uses: actions/cache@v5
+        with:
+          path: ${{ runner.temp }}/isite
+          key: isite-v1-${{ runner.os }}-${{ runner.arch }}-${{ env.ISITE_REVISION }}
       - name: Checkout isite
+        if: steps.cache-isite.outputs.cache-hit != 'true'
         uses: actions/checkout@v7
         with:
           repository: yihong0618/isite
-          ref: 9daf44c760384cebcb4aa0914ad586d75490e90f
+          ref: ${{ env.ISITE_REVISION }}
           path: .isite
       - name: Set up Go
+        if: steps.cache-isite.outputs.cache-hit != 'true'
         uses: actions/setup-go@v7
         with:
           go-version-file: .isite/go.mod
           cache-dependency-path: .isite/go.sum
       - name: Set up Node.js
+        id: node
         uses: actions/setup-node@v7
         with:
           node-version: 22
       - name: Build isite
+        if: steps.cache-isite.outputs.cache-hit != 'true'
         working-directory: .isite
         run: |
-          go build -trimpath -o "$RUNNER_TEMP/isite" ./cmd/isite
+          CGO_ENABLED=0 go build -trimpath -o "$RUNNER_TEMP/isite" ./cmd/isite
       - name: Resolve AstroPaper revision
         id: astro-paper
         run: |
@@ -127,17 +135,30 @@ jobs:
             --title "yihong0618's Blog" \
             --base-url "$BASE_URL" \
             --feed
+      - name: Cache installed Astro dependencies
+        id: cache-node-modules
+        uses: actions/cache@v5
+        with:
+          path: |
+            output/node_modules
+            output/package-lock.json
+          key: astro-deps-v1-${{ runner.os }}-${{ runner.arch }}-${{ steps.node.outputs.node-version }}-${{ hashFiles('output/package.json', 'output/package-lock.json', 'output/.npmrc') }}
       - name: Cache npm downloads
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
         uses: actions/cache@v5
         with:
           path: ~/.npm
           key: npm-${{ runner.os }}-${{ hashFiles('output/package.json') }}
           restore-keys: npm-${{ runner.os }}-
-      - name: Customize and build Astro site
+      - name: Install Astro dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: npm install --prefix output --prefer-offline --no-audit --no-fund
+      - name: Customize Astro site
+        run: node .github/scripts/customize_astro.mjs
+      - name: Build Astro site
+        run: npm run build --prefix output
+      - name: Verify RSS
         run: |
-          node .github/scripts/customize_astro.mjs
-          npm install --prefix output --no-audit --no-fund
-          npm run build --prefix output
           test -s output/dist/rss.xml
           node .github/scripts/check_rss_stability.mjs \
             output/dist/rss.xml \

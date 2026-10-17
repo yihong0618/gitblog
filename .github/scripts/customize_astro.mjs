@@ -12,6 +12,7 @@ const ogFontTargetDir = process.argv[7] ?? "output/src/assets/fonts";
 const astroConfigPath = process.argv[8] ?? "output/astro.config.ts";
 const postPagePath =
   process.argv[9] ?? "output/src/pages/posts/[...slug]/index.astro";
+const homePagePath = process.argv[10] ?? "output/src/pages/index.astro";
 const { SOCIAL_X_URL, SOCIAL_TELEGRAM_URL } = process.env;
 if (!SOCIAL_X_URL || !SOCIAL_TELEGRAM_URL) {
   throw new Error(
@@ -130,6 +131,21 @@ async function addCjkFontConfig(path) {
   await writeFile(path, source);
 }
 
+async function sortHomePostsByPublishDate(path) {
+  const source = await readFile(path, "utf8");
+  const customizedSource = replaceExactly(
+    source,
+    "const sortedPosts = getSortedPosts(posts);",
+    `// Keep the theme's draft/scheduled-post filtering, then order by publication.
+const sortedPosts = getSortedPosts(posts).sort(
+  (a, b) => b.data.pubDatetime.getTime() - a.data.pubDatetime.getTime()
+);`,
+    "homepage post sorting",
+    path,
+  );
+  await writeFile(path, customizedSource);
+}
+
 async function addCjkOgFont(path, routeUrl) {
   let source = await readFile(path, "utf8");
   const googleFonts = `  const fonts = fontData["--font-google-sans-code"];`;
@@ -229,6 +245,7 @@ await Promise.all([
 ]);
 await addCjkFontConfig(astroConfigPath);
 await addOgCacheVersion(postPagePath);
+await sortHomePostsByPublishDate(homePagePath);
 await Promise.all([
   addCjkOgFont(postOgPath, "url"),
   addCjkOgFont(siteOgPath, "context.url"),
