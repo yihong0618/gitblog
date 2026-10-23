@@ -185,11 +185,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
 - [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
 ## 最近更新
+- [xintao](https://github.com/yihong0618/gitblog/issues/349)--2026-10-23
 - [来 DOTA](https://github.com/yihong0618/gitblog/issues/348)--2026-10-08
 - [新生代 VS 老欧洲](https://github.com/yihong0618/gitblog/issues/347)--2026-08-27
 - [来，喝一杯](https://github.com/yihong0618/gitblog/issues/346)--2026-08-18
 - [八次离职](https://github.com/yihong0618/gitblog/issues/345)--2026-07-23
-- [12 月，姥姥，以及大模型](https://github.com/yihong0618/gitblog/issues/344)--2026-07-08
 ## 2019
 
 - [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
