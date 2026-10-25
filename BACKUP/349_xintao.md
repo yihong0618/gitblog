@@ -40,3 +40,10 @@ maybe tihs year or next year
 > 6\. 我什么时候出现在大哥的标题里.jpg
 
 哈哈哈哈今年！
+
+---
+
+> 游戏mark了，谢谢大哥。
+> 程序员沉浸式体验游戏我也推荐一个，shenzhen io和hacknet，简直就是我嵌入式和bash的启蒙，io那个还建议你把文档先打下来，看着方便。这两个完全可以写爽了（下了班再玩程序员模拟器！
+
+我在 10 年前跟你做过同样的事儿：https://www.gcores.com/articles/20903
